@@ -143,22 +143,8 @@ text-align: center;
 font-style: normal;
 font-size: 1.2em;
 }
-.pb{
-position: absolute;
-margin-left: 48%;
-margin-right: 48%;
-padding: 2px 5px;
-color: #2A2B2F;
-background: #ddf7d4;
-font-size: 12px;
-font-style: normal;
-text-indent: 0;
-}
+
 p a.pb_orig{
-position: relative;
-float: right;
-margin-left: 3px;
-margin-right: -36px;
 padding: 2px 5px;
 color: #2A2B2F;
 background: #e78888;
@@ -167,10 +153,6 @@ font-style: normal;
 text-indent: 0;
 }
 a.pb_orig{
-position: relative;
-float: right;
-margin-left: 3px;
-margin-right: -15px;
 padding: 2px 5px;
 color: #2A2B2F;
 background: #e78888;
@@ -179,10 +161,6 @@ font-style: normal;
 text-indent: 0;
 }
 p a.pb_reg{
-position: relative;
-float: left;
-margin-right: 3px;
-margin-left: -36px;
 padding: 2px 5px;
 color: #2A2B2F;
 background: #44ac20;
@@ -191,10 +169,6 @@ font-style: normal;
 text-indent: 0;
 }
 a.pb_reg{
-position: relative;
-float: left;
-margin-right: 3px;
-margin-left: -15px;
 padding: 2px 5px;
 color: #2A2B2F;
 background: #44ac20;
@@ -203,10 +177,6 @@ font-style: normal;
 text-indent: 0;
 }
 a.pb{
-position: relative;
-float: right;
-margin-left: 3px;
-margin-right: -36px;
 padding: 2px 5px;
 color: #2A2B2F;
 background: #CEF6E3;;
