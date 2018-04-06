@@ -14,7 +14,7 @@
             <xsl:apply-templates/>
         </xsl:template>
         
-        <xsl:template match="tei:p | tei:div | tei:q | tei:quote | tei:closer | tei:salute | tei:l | tei:lb | tei:dateline| tei:head">
+        <xsl:template match="tei:p | tei:div | tei:q | tei:quote | tei:closer | tei:salute | tei:l | tei:lb | tei:dateline| tei:head|tei:titlePart|tei:docAuthor">
             <xsl:apply-templates/><xsl:text>
 </xsl:text>
         </xsl:template>
@@ -23,12 +23,8 @@
         </xsl:template>
         
         <xsl:template match="tei:pb">
-            <xsl:text>
-[</xsl:text><xsl:value-of select="@n"/>]<xsl:text>
-</xsl:text>
+            <xsl:text>[</xsl:text><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
         </xsl:template>
         <xsl:template match="tei:teiHeader"/>
-        <xsl:template match="tei:note">
-            <xsl:text> [NOTE : </xsl:text><xsl:apply-templates/><xsl:text>] </xsl:text>
-        </xsl:template>
+        <xsl:template match="tei:note"/>
 </xsl:stylesheet>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -107,9 +106,7 @@
                     </choice> refusa constamment les places lucratives que lui fit offrir l’empereur
                     Napoléon. Invariable dans sa religion aristocratique, il en avait aveuglément
                     suivi les maximes quand il jugea convenable de se choisir une compagne.<pb
-                        n="ill." xml:id="p84a"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> Malgré les séductions d’un riche parvenu révolutionnaire qui mettait
+                        n="ill." xml:id="p84a"/> Malgré les séductions d’un riche parvenu révolutionnaire qui mettait
                     cette alliance à haut prix, il épousa une demoiselle de Kergarouët sans fortune,
                     mais dont la famille est une des plus vieilles de la Bretagne.</p>
                 <p>La Restauration surprit monsieur de Fontaine chargé d’une nombreuse famille.
@@ -119,9 +116,7 @@
                         <orig>,</orig>
                     </choice> dont le revenu modique suffisait à peine aux besoins de ses enfants,
                     et vint à Paris. Contristé de l’avidité avec laquelle ses anciens camarades
-                    faisaient curée des<pb n="86" xml:id="p86"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> places et des dignités constitutionnelles, il allait retourner à sa
+                    faisaient curée des<pb n="86" xml:id="p86"/> places et des dignités constitutionnelles, il allait retourner à sa
                     terre, lorsqu’il reçut une lettre ministérielle, par laquelle une Excellence
                     assez connue lui annonçait sa nomination au grade de maréchal-de-camp, en vertu
                     de l’ordonnance qui permettait aux officiers des armées catholiques de compter
@@ -165,9 +160,7 @@
                         famille<choice ana="remplacement">
                         <orig>. Puis</orig>
                         <reg> ; puis</reg>
-                    </choice>, après avoir,<pb n="87" xml:id="p87"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> non sans peine, dégagé son épée parmi les jambes grêles où elle
+                    </choice>, après avoir,<pb n="87" xml:id="p87"/> non sans peine, dégagé son épée parmi les jambes grêles où elle
                     s’était engagée, il regagna pédestrement à travers la cour des Tuileries le
                     fiacre qu’il avait laissé sur le quai. Avec cet esprit rétif qui distingue la
                     noblesse de vieille roche chez laquelle le souvenir de la Ligue et des
@@ -207,16 +200,11 @@
                     les braves qui, jadis, avaient protesté, les armes à la main, contre
                     l’établissement de la république, peut-être espéra-t-il trouver dans ce voyage à
                     l’étranger plus de profit que dans un service actif et périlleux à l’intérieur.
-                        Ses<pb n="88" xml:id="p88"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>calculs de courtisan ne furent pas une de ces vaines spéculations qui
+                        Ses<pb n="88" xml:id="p88"/>calculs de courtisan ne furent pas une de ces vaines spéculations qui
                     promettent sur le papier des résultats superbes, et ruinent par leur exécution.
                     Il fut donc, selon le mot du plus spirituel et du plus habile de nos diplomates,
                     un des cinq cents fidèles serviteurs qui partagèrent l’exil de la cour à Gand,
-                    et l’un des cinquante mille qui en revinrent.<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
+                    et l’un des cinquante mille qui en revinrent.</p>
                 <p resp="orig"> Pendant cette courte absence de la royauté, monsieur de Fontaine eut
                     le bonheur d’être employé par Louis XVIII, et rencontra plus d’une occasion de
                     donner au roi les preuves d’une grande probité politique et d’un attachement
@@ -238,10 +226,7 @@
                     parla peu, écouta beaucoup, et changea considérablement d’opinion. Quelques
                     circonstances, inconnues aux biographes, le firent entrer assez avant dans
                     l’intimité du prince, pour qu’un jour le malicieux monarque l’interpellât ainsi
-                    en le voyant entrer :<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
+                    en le voyant entrer :</p>
                 <p resp="orig"> – Mon ami Fontaine, je ne m’aviserais pas de vous nommer
                     directeur-général ni ministre ! Ni vous ni moi, si nous étions<hi rend="i"
                         >employés</hi>, ne resterions en place, à cause de nos opinions. Le
@@ -288,9 +273,7 @@
                     à son auguste maître qu’il comprenait aussi bien que lui l’esprit et les
                     ressources du<hi rend="i">représentatif</hi>. Cependant, malgré la sécurité des
                     carrières ouvertes à ses trois fils, malgré les avantages<pb n="90" xml:id="p90"
-                        /><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>pécuniaires qui résultaient du cumul de quatre places, monsieur de
+                        />pécuniaires qui résultaient du cumul de quatre places, monsieur de
                     Fontaine se trouvait à la tête d’une famille trop nombreuse pour pouvoir
                     promptement et facilement rétablir sa fortune. Ses trois fils étaient riches
                     d’avenir, de faveur et de talent ; mais il avait trois filles, et craignait de
@@ -338,9 +321,7 @@
                         <reg>souhaits</reg>
                     </choice> y étaient des lois pour ses sœurs, pour ses frères, pour sa mère, et
                     même pour son père. Tous ses parents raffolaient d’elle. Arrivée à l’âge de
-                        raison,<pb n="91" xml:id="p91"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> précisément au moment où sa famille fut comblée des faveurs de la
+                        raison,<pb n="91" xml:id="p91"/> précisément au moment où sa famille fut comblée des faveurs de la
                     fortune, l’enchantement de sa vie continua. Le luxe de Paris lui sembla tout
                     aussi naturel que la richesse en fleurs ou en fruits, et que cette opulence
                     champêtre qui firent le bonheur de ses premières années. De même qu’elle n’avait
@@ -380,9 +361,7 @@
                     faisait ressortir avec une cruelle grâce d’esprit les défauts d’un ouvrage. La
                     plus simple de ses phrases était reçue par la foule idolâtre, comme par les
                     Turcs un<hi rend="i">fetfa</hi>du Sultan. Elle éblouissait<pb n="92"
-                        xml:id="p92"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>ainsi les gens superficiels ; quant aux gens profonds, son tact naturel
+                        xml:id="p92"/>ainsi les gens superficiels ; quant aux gens profonds, son tact naturel
                     l’aidait à les reconnaître ; et pour eux, elle déployait tant de coquetterie,
                     qu’à la faveur de ses séductions, elle pouvait échapper à leur examen. Ce vernis
                     séduisant couvrait un cœur insouciant, l’opinion commune à beaucoup de jeunes
@@ -421,9 +400,7 @@
                     l’empire, en contenant le clergé, que le premier des Napoléon fut jaloux
                     d’attirer auprès de lui les grands seigneurs ou de doter l’église. Confident des
                     royales pensées, le Conseiller d’État était insensiblement devenu<pb n="93"
-                        xml:id="p93"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> l’un des chefs les plus influents et les plus sages de ce parti modéré
+                        xml:id="p93"/> l’un des chefs les plus influents et les plus sages de ce parti modéré
                     qui désirait vivement, au nom de l’intérêt national, la fusion des opinions. Il
                     prêchait les coûteux principes du gouvernement constitutionnel et secondait de
                     toute sa puissance les jeux de la bascule politique qui permettait à son maître
@@ -462,9 +439,7 @@
                     Fontaine démontra froidement à sa femme, par d’exacts calculs, que le séjour de
                     Paris, l’obligation d’y représenter, la splendeur de sa maison qui les
                     dédommageait des privations si courageusement partagées au fond de<pb n="94"
-                        xml:id="p94"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>la Vendée, les dépenses faites pour leurs fils absorbaient la plus
+                        xml:id="p94"/>la Vendée, les dépenses faites pour leurs fils absorbaient la plus
                     grande partie de leur revenu budgétaire. Il fallait donc saisir, comme une
                     faveur céleste, l’occasion qui se présentait pour eux d’établir si richement
                     leurs filles. Ne devaient-elles pas jouir un jour de soixante<choice
@@ -527,9 +502,7 @@
                     Kergarouët, et prétendait que cent bonnes mille livres de rente lui donnaient le
                     droit d’être aussi impertinente que sa belle-sœur Émilie à laquelle elle
                     souhaitait parfois avec ironie un mariage heureux, en annonçant que la fille de
-                    tel pair<pb n="95" xml:id="p95"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> venait d’épouser monsieur un tel, tout court. La femme du vicomte de
+                    tel pair<pb n="95" xml:id="p95"/> venait d’épouser monsieur un tel, tout court. La femme du vicomte de
                     Fontaine s’amusait à éclipser Émilie par le bon goût et par la richesse qui se
                     faisaient remarquer dans ses toilettes, dans ses ameublements et ses équipages.
                     L’air moqueur avec lequel les belles-sœurs et les deux beaux-frères
@@ -583,10 +556,7 @@
                         <orig>tourmenter tous les jeunes gens, à </orig>
                     </choice>exciter<choice ana="supression">
                         <orig> avec une coquetterie instinctive</orig>
-                    </choice> des demandes qu’elle rejetait toujours.<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
+                    </choice> des demandes qu’elle rejetait toujours.</p>
                 <p resp="orig"> La nature lui avait donné en profusion les avantages nécessaires
                         <choice ana="remplacement">
                         <orig>au</orig>
@@ -692,9 +662,7 @@
                     folie. Cette aberration était assez explicable : rien n’est plus commun que
                     cette secrète fierté née au cœur des jeunes personnes qui appartiennent à des
                     familles haut placées sur l’échelle sociale, et que la nature a douées<pb n="98"
-                        xml:id="p98"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> d’une grande beauté. Presque toutes sont persuadées que leurs mères,
+                        xml:id="p98"/> d’une grande beauté. Presque toutes sont persuadées que leurs mères,
                     arrivées à l’âge de quarante ou cinquante ans, ne peuvent plus ni sympathiser
                     avec leurs jeunes âmes, ni en concevoir les fantaisies. Elles s’imaginent que la
                     plupart des mères, jalouses de leurs filles, veulent les habiller à leur mode
@@ -737,9 +705,7 @@
                     pas svelte. La maigreur, cette grâce du corps, quelque fugitive qu’elle pût
                     être, surtout dans un gouvernement représentatif, était une clause de rigueur.
                     Mademoiselle de Fontaine avait une certaine mesure idéale qui lui servait de<pb
-                        n="99" xml:id="p99"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>modèle. Le jeune homme qui, au premier coup d’œil, ne remplissait pas
+                        n="99" xml:id="p99"/>modèle. Le jeune homme qui, au premier coup d’œil, ne remplissait pas
                     les conditions voulues, n’obtenait même pas un second regard.</p>
                 <p>– Oh<choice ana="remplacement">
                         <orig>,</orig>
@@ -786,9 +752,7 @@
                     éclatante faveur. Peut-être trouva-t-il quelque avantage secret à vendre deux
                     fois ses truffes. Cette accusation due à certains libéraux railleurs qui
                     compensaient, par l’abondance de leurs paroles, la rareté de leurs adhérents<pb
-                        n="100" xml:id="p100"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>dans la chambre, n’eut<note place="bottom">Erreur du Furne : « n’eût »
+                        n="100" xml:id="p100"/>dans la chambre, n’eut<note place="bottom">Erreur du Furne : « n’eût »
                         au lieu de « n’eut »</note> aucun succès. La conduite du gentilhomme
                     poitevin était en général si noble et si honorable, qu’il ne reçut pas une seule
                     de ces épigrammes par lesquelles les malins journaux de cette époque
@@ -832,9 +796,7 @@
                     par leurs couleurs une sorte de poésie bureaucratique, il s’arrêta au milieu du
                     dédale des paperasses étalées en quelques endroits jusque sur le tapis, il
                     s’admira lui-même un moment, hocha la tête et sortit.</p>
-                <p><pb n="101" xml:id="p101"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>Le pauvre sinécuriste ne partagea pas la bonne opinion de son
+                <p><pb n="101" xml:id="p101"/>Le pauvre sinécuriste ne partagea pas la bonne opinion de son
                     serviteur. Avant de s’asseoir dans son immense fauteuil à oreilles, il jeta un
                     regard de méfiance autour de lui, examina d’un air hostile sa robe de chambre,
                     en chassa quelques grains de tabac, s’essuya soigneusement le nez, rangea les
@@ -852,9 +814,7 @@
                     paternelle. Il prit délicatement une prise de tabac, et toussa deux ou trois
                     fois comme s’il se disposait à demander l’appel nominal : il entendait le pas
                     léger de sa fille, qui entra en fredonnant un air d’<hi rend="i">il
-                        Barbiere</hi>.<choice ana="supression">
-                        <orig> </orig>
-                    </choice></p>
+                        Barbiere</hi>.</p>
                 <p>– Bonjour, mon père. Que me voulez-vous donc si matin ?</p>
                 <p>Après ces paroles jetées comme la ritournelle de l’air qu’elle chantait, elle
                     embrassa le comte, non pas avec cette tendresse familière qui rend le sentiment
@@ -872,9 +832,7 @@
                     coupable d’ingratitude que d’accueillir légèrement les marques d’intérêt que je
                     ne suis pas seul à te prodiguer.</p>
                 <p>En entendant ces paroles et après avoir lancé un regard<pb n="102" xml:id="p102"
-                        /><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> malicieusement investigateur sur les meubles du cabinet paternel, la
+                        /> malicieusement investigateur sur les meubles du cabinet paternel, la
                     jeune fille alla prendre celui des fauteuils qui paraissait avoir le moins servi
                     aux solliciteurs, l’apporta elle-même de l’autre côté de la cheminée, de manière
                     à se placer en face de son père, prit une attitude si grave qu’il était
@@ -951,9 +909,7 @@
                     obligations paternelles. Je ne sais pas si long-temps encore tu entendras une
                     voix qui, par malheur, n’a jamais été sévère ; mais souviens-toi que le bonheur
                     conjugal ne se fonde pas tant sur des qualités brillantes et<pb n="104"
-                        xml:id="p104"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>sur la fortune, que sur une estime réciproque. Cette félicité est, de
+                        xml:id="p104"/>sur la fortune, que sur une estime réciproque. Cette félicité est, de
                     sa nature, modeste et sans éclat. Va, ma fille, mon aveu est acquis à celui que
                     tu me présenteras pour gendre ; mais si tu devenais malheureuse, songe que tu
                     n’auras pas le droit d’accuser ton père. Je ne me refuserai pas à faire des
@@ -990,9 +946,7 @@
                     d’abord la facilité de reconnaître les vertus dans le plus ou le moins de volume
                     que prennent les corps ? ce n’est pas un petit mérite. Aussi n’ai-je pas besoin
                     de prévenir une personne aussi sage que toi de toutes les difficultés de<pb
-                        n="105" xml:id="p105"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>l’entreprise. Je suis certain que tu ne supposeras jamais à un inconnu
+                        n="105" xml:id="p105"/>l’entreprise. Je suis certain que tu ne supposeras jamais à un inconnu
                     du bon sens en lui voyant une figure flatteuse, ou des vertus en lui trouvant
                     une jolie tournure. Enfin je suis parfaitement de ton avis sur l’obligation dans
                     laquelle sont tous les fils de pair d’avoir un air à eux et des manières tout à
@@ -1038,9 +992,7 @@
                     de mariage.</p>
                 <p>Un oncle d’Émilie, un vice-amiral, dont la fortune venait de s’augmenter d’une
                     vingtaine de mille livres de rente par suite de<pb n="106" xml:id="p106"
-                        /><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>la loi d’indemnité, vieillard septuagénaire en possession de dire de
+                        />la loi d’indemnité, vieillard septuagénaire en possession de dire de
                     dures vérités à sa petite-nièce de laquelle il raffolait, s’écria pour dissiper
                     l’aigreur de cette conversation : – Ne tourmentez donc pas ma pauvre Émilie ! ne
                     voyez-vous pas qu’elle attend la majorité du duc de Bordeaux !</p>
@@ -1082,9 +1034,7 @@
                     l’orgueilleuse fille. Son vieil oncle fut le seul qui, en sa qualité d’ancien
                     marin, osât courir des bordées avec elle, et essuyer ses boutades, sans être
                     jamais embarrassé de lui rendre feu pour feu.</p>
-                <p><pb n="107" xml:id="p107"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>Quand la belle saison fut venue après le vote du budget, cette famille,
+                <p><pb n="107" xml:id="p107"/>Quand la belle saison fut venue après le vote du budget, cette famille,
                     véritable modèle des familles parlementaires de l’autre bord de la Manche, qui
                     ont un pied dans toutes les administrations et dix voix aux Communes, s’envola,
                     comme une nichée d’oiseaux, vers les beaux sites d’Aulnay, d’Antony et de
@@ -1182,9 +1132,7 @@
                     </choice> quelquefois mieux que ne dansait la noblesse. La plupart des toilettes
                     étaient simples et bien portées. Ceux qui, dans cette assemblée, représentaient
                     les suzerains du territoire, c’est-à-dire les paysans, se tenaient dans leur<pb
-                        n="109" xml:id="p109"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> coin avec une incroyable politesse. Il fallut même à mademoiselle
+                        n="109" xml:id="p109"/> coin avec une incroyable politesse. Il fallut même à mademoiselle
                     Émilie une certaine étude des divers éléments qui composaient cette réunion
                     avant de pouvoir y trouver un sujet de plaisanterie. Mais elle n’eut ni le temps
                     de se livrer à ses malicieuses critiques, ni le loisir d’entendre beaucoup de
@@ -1222,9 +1170,7 @@
                     sur lui l’attention. Son regard fixe suivait les mouvements d’une danseuse, en
                     trahissant quelque sentiment profond. Sa taille svelte et dégagée rappelait les
                     belles proportions de l’Apollon. De beaux cheveux noirs se bouclaient
-                    naturellement sur son<pb n="110" xml:id="p110"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>front élevé. D’un seul coup d’œil mademoiselle de Fontaine remarqua la
+                    naturellement sur son<pb n="110" xml:id="p110"/>front élevé. D’un seul coup d’œil mademoiselle de Fontaine remarqua la
                     finesse de son linge, la fraîcheur de ses gants de chevreau évidemment pris chez
                     le bon faiseur, et la petitesse d’un pied bien chaussé dans une botte de peau
                     d’Irlande. Il ne portait aucun de ces ignobles brimborions dont se chargent les
@@ -1259,9 +1205,7 @@
                     réussit. Mademoiselle de Fontaine suivit alors la direction que prenaient les
                     regards du jeune homme, et aperçut la cause de cette insouciance.</p>
                 <p>Au milieu du quadrille qui se trouvait devant elle, dansait<pb n="111"
-                        xml:id="p111"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>une jeune personne pâle, et semblable à ces déités écossaises que
+                        xml:id="p111"/>une jeune personne pâle, et semblable à ces déités écossaises que
                     Girodet a placées dans son immense composition des guerriers français reçus par
                     Ossian. Émilie crut reconnaître en elle une illustre lady qui était venue
                     habiter depuis peu de temps une campagne voisine. Elle avait pour cavalier un
@@ -1283,9 +1227,8 @@
                     l’enceinte comme des gens disposés à partir, trouva le moyen de les suivre sous
                     prétexte d’admirer les points de vue du jardin. Son frère se prêta avec une
                     malicieuse bonhomie aux caprices de cette marche assez vagabonde. Émilie aperçut
-                    alors ce <choice ana="deplacement">
+                    alors ce <choice ana="remplacement">
                         <orig>joli</orig>
-                    </choice><choice ana="insertion">
                         <reg>beau</reg>
                     </choice> couple montant dans un élégant tilbury que gardait un domestique à
                     cheval et en livrée<choice ana="remplacement">
@@ -1306,15 +1249,10 @@
                     nous pouvons retourner à la danse.</p>
                 <p>– Je le veux bien, répondit-elle. Croyez-vous que ce soit <choice ana="insertion">
                         <reg>une parente de </reg>
-                    </choice>lady Dudley ?<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
-                <p resp="orig"> – Elle ne sortirait pas sans Félix de Vandenesse, lui dit son frère
-                    en souriant.</p>
-                <p><pb n="112" xml:id="p112"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>– Lady Dudley <choice ana="supression">
+                    </choice>lady Dudley ?</p>
+                <choice ana="supression"><orig><p resp="orig"> – Elle ne sortirait pas sans Félix de Vandenesse, lui dit son frère
+                    en souriant.</p></orig></choice>
+                <p><pb n="112" xml:id="p112"/>– Lady Dudley <choice ana="supression">
                         <orig>ne </orig>
                     </choice>peut<choice ana="supression">
                         <orig>-elle pas</orig>
@@ -1353,18 +1291,13 @@
                         <orig>Anglaise</orig>
                         <reg>anglaise</reg>
                     </choice>, et le prétendu étranger n’habitait pas les bosquets fleuris et
-                    embaumés de Châtenay.<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
+                    embaumés de Châtenay.</p>
                 <p resp="orig"> Un soir, Émilie sortie à cheval avec son oncle, qui depuis les beaux
                     jours avait obtenu de sa goutte une assez longue cessation d’hostilités,
                     rencontra lady Dudley. L’illustre étrangère avait auprès d’elle dans sa calèche
                     monsieur de Vandenesse. Émilie reconnut <choice ana="remplacement">
                         <orig>le</orig>
-                        <reg>ce </reg>
-                    </choice><choice ana="deplacement">
-                        <reg>joli</reg>
+                        <reg>ce joli</reg>
                     </choice> couple, et ses suppositions furent en un moment dissipées comme se
                     dissipent les rêves. Dépitée comme toute femme frustrée dans son attente, elle
                     tourna bride si rapidement, que son oncle eut toutes les peines du monde à la
@@ -1375,9 +1308,7 @@
                     nièce ? La voilà maintenant qui marche à petits pas comme un gendarme en
                     patrouille dans les rues de Paris. Ne dirait-on pas qu’elle veut cerner ce brave
                     bourgeois qui m’a l’air d’être un auteur rêvassant à ses poésies, car<pb n="113"
-                        xml:id="p113"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>il a, je crois, un<hi rend="i">album</hi>à la main. Par ma foi, je suis
+                        xml:id="p113"/>il a, je crois, un<hi rend="i">album</hi>à la main. Par ma foi, je suis
                     un grand sot ! Ne serait-ce pas le jeune homme en quête de qui nous sommes ?</p>
                 <p>À cette pensée le vieux marin <choice ana="remplacement">
                         <orig>fit marcher tout doucement</orig>
@@ -1418,9 +1349,7 @@
                     croisa les bras et répondit d’un ton fort ému : – Monsieur, je ne puis croire,
                     en voyant vos cheveux blancs, que vous vous amusiez encore à chercher des
                     duels.</p>
-                <p><pb n="114" xml:id="p114"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>– Cheveux blancs ? s’écria le marin en l’interrompant, tu en as menti
+                <p><pb n="114" xml:id="p114"/>– Cheveux blancs ? s’écria le marin en l’interrompant, tu en as menti
                     par ta gorge, ils ne sont que gris.</p>
                 <p>Une dispute ainsi commencée devint en quelques secondes si chaude, que le jeune
                     adversaire oublia le ton de modération qu’il s’était efforcé de conserver. Au
@@ -1452,18 +1381,14 @@
                 <p>– Halte-là, ma nièce, dit le comte en arrêtant le cheval d’Émilie par la bride.
                     Je ne vois pas la nécessité de faire des avances à quelque boutiquier trop
                     heureux d’avoir été jeté à terre par une charmante jeune fille ou par le
-                    commandant de la<hi rend="i">Belle-Poule</hi>.<choice ana="supression">
-                        <orig> </orig>
-                    </choice></p>
+                    commandant de la<hi rend="i">Belle-Poule</hi>.</p>
                 <p>– Pourquoi croyez-vous que ce soit un roturier, mon cher oncle ? Il me semble
                     qu’il a des manières fort distinguées.</p>
                 <p>– Tout le monde a des manières aujourd’hui, ma nièce.</p>
                 <p>– Non, mon oncle, tout le monde n’a pas l’air et la tournure que donne l’habitude
                     des salons, et je parierais avec vous volontiers que ce jeune homme est
                     noble.</p>
-                <p><pb n="115" xml:id="p115"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> – Vous n’avez pas trop eu le temps de l’examiner.</p>
+                <p><pb n="115" xml:id="p115"/> – Vous n’avez pas trop eu le temps de l’examiner.</p>
                 <p>– Mais ce n’est pas la première fois que je le vois.</p>
                 <p>– Et ce n’est pas non plus la première fois que vous le cherchez, lui répliqua
                     l’amiral en riant.</p>
@@ -1502,9 +1427,7 @@
                     d’automne ; à ce signe, sa nièce vint essayer sur lui le pouvoir toujours neuf
                     de ses coquetteries. Instruite dans l’art de cajoler le vieux marin, elle lui
                     prodigua les caresses les plus enfantines, les paroles les plus tendres ; elle
-                    alla même<pb n="116" xml:id="p116"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> jusqu’à l’embrasser, afin d’obtenir de lui la révélation d’un secret
+                    alla même<pb n="116" xml:id="p116"/> jusqu’à l’embrasser, afin d’obtenir de lui la révélation d’un secret
                     si important. Le vieillard, qui passait sa vie à faire jouer à sa nièce ces
                     sortes de scènes, et qui les payait souvent par le prix d’une parure ou par
                     l’abandon de sa loge aux Italiens, se complut cette fois à se laisser prier et
@@ -1519,9 +1442,7 @@
                     obstinément d’en laisser voir davantage. Cet événement rendit <choice
                         ana="deplacement">
                         <reg>plus intense</reg>
-                    </choice><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>le sentiment secret de mademoiselle de Fontaine <choice
+                    </choice> le sentiment secret de mademoiselle de Fontaine <choice
                         ana="deplacement">
                         <orig>plus intense</orig>
                     </choice><choice ana="supression">
@@ -1551,9 +1472,7 @@
                     peu d’un duel que de fumer un cigare. Dans mon temps, deux jeunes gens ne
                     pouvaient devenir intimes qu’après avoir vu la couleur de leur sang. Mais,
                     ventre-de-biche ! hier, j’avais, en ma qualité de<pb n="117" xml:id="p117"
-                        /><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> marin, embarqué un peu trop de rhum à bord, et j’ai sombré sur vous.
+                        /> marin, embarqué un peu trop de rhum à bord, et j’ai sombré sur vous.
                     Touchez là ! J’aimerais mieux recevoir cent rebuffades d’un Longueville que de
                     causer la moindre peine à sa famille.</p>
                 <p>Quelque froideur que le jeune homme s’efforçât de marquer au comte de Kergarouët,
@@ -1587,9 +1506,7 @@
                     sorte d’enthousiasme.</p>
                 <p>Pendant la promenade qu’il fit avec celui qu’il regardait déjà comme son neveu,
                     il trouva mille occasions de l’interroger sur toutes<pb n="118" xml:id="p118"
-                        /><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> les bagatelles dont la parfaite connaissance constituait, selon son
+                        /> les bagatelles dont la parfaite connaissance constituait, selon son
                     code particulier, un gentilhomme accompli.</p>
                 <p>– Avez-vous des dettes, demanda-t-il enfin à son compagnon après bien des
                     questions.</p>
@@ -1623,9 +1540,7 @@
                     qu’il avait reçu la plus brillante éducation et que ses connaissances étaient
                     aussi solides qu’étendues. Il trouva si bien le mot propre dans une discussion
                     assez légère suscitée par le vieux marin sur les constructions navales, qu’une
-                    des femmes<pb n="119" xml:id="p119"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>fit observer qu’il semblait être sorti de l’École Polytechnique.</p>
+                    des femmes<pb n="119" xml:id="p119"/>fit observer qu’il semblait être sorti de l’École Polytechnique.</p>
                 <p>– Je crois, madame, répondit-il, qu’on peut regarder comme un titre de gloire d’y
                     être entré.</p>
                 <p>Malgré <choice ana="remplacement">
@@ -1666,9 +1581,7 @@
                 <p>Mademoiselle de Fontaine, qui seule était dans le secret de cette visite, avait
                     fait une toilette assez recherchée pour attirer les regards du jeune homme ;
                     mais elle eut le petit chagrin de voir qu’il ne lui<pb n="120" xml:id="p120"
-                        /><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>accorda pas autant d’attention qu’elle croyait en mériter. La famille
+                        />accorda pas autant d’attention qu’elle croyait en mériter. La famille
                     fut assez surprise du silence dans lequel elle s’était renfermée. Émilie
                     déployait ordinairement pour les nouveaux venus sa coquetterie, son babil
                     spirituel, et l’inépuisable éloquence de ses regards et de ses attitudes. Soit
@@ -1740,9 +1653,7 @@
                         <orig>En effet, deux</orig>
                         <reg>Deux</reg>
                     </choice> qualités de monsieur Longueville très-contraires à la curiosité
-                    générale, et surtout à celle<pb n="121" xml:id="p121"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>de mademoiselle de Fontaine, étaient une discrétion et une modestie
+                    générale, et surtout à celle<pb n="121" xml:id="p121"/>de mademoiselle de Fontaine, étaient une discrétion et une modestie
                         inattendues<choice ana="supression">
                         <orig>. Il ne parlait jamais ni de lui, ni de ses occupations, ni de sa
                             famille</orig>
@@ -1780,9 +1691,7 @@
                     enchanta sa famille étonnée. Peut-être, après tout, son égoïsme se
                     métamorphosait-il en amour. Attendre l’arrivée de son timide et secret adorateur
                     était une joie profonde. Sans qu’un seul mot de passion eût été prononcé entre
-                        eux,<pb n="122" xml:id="p122"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>elle se savait aimée, et avec quel art ne se plaisait-elle pas à faire
+                        eux,<pb n="122" xml:id="p122"/>elle se savait aimée, et avec quel art ne se plaisait-elle pas à faire
                     déployer au jeune inconnu les trésors d’une instruction qui se montra variée !
                     Elle s’aperçut qu’elle aussi était observée avec soin, et alors elle essaya de
                     vaincre tous les défauts que son éducation avait laissés croître en elle.
@@ -1839,9 +1748,7 @@
                     </choice> se dépita souvent d’avoir laissé percer son caractère dans quelques
                     réponses que lui arracha malicieusement Clara dont l’air modeste et candide
                     éloignait tout soupçon de perfidie. Il y eut un moment où mademoiselle de
-                        Fontaine<pb n="123" xml:id="p123"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> parut fâchée d’avoir fait contre les roturiers une imprudente sortie
+                        Fontaine<pb n="123" xml:id="p123"/> parut fâchée d’avoir fait contre les roturiers une imprudente sortie
                     provoquée par Clara.</p>
                 <p>– Mademoiselle, lui dit cette charmante créature, j’ai tant entendu parler de
                     vous par Maximilien, que j’avais le plus vif désir de vous connaître par
@@ -1884,9 +1791,7 @@
                     trouva pas. Inquiet de ce mystère, et ne sachant pas encore quel serait le
                     résultat de l’enquête qu’il avait prié un administrateur parisien de lui faire
                     sur la famille Longueville, il crut devoir avertir sa fille de se conduire
-                        prudemment.<pb n="124" xml:id="p124"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> L’observation paternelle fut reçue avec une feinte obéissance pleine
+                        prudemment.<pb n="124" xml:id="p124"/> L’observation paternelle fut reçue avec une feinte obéissance pleine
                     d’ironie.</p>
                 <p>– Au moins, ma chère Émilie, si vous l’aimez, ne le lui avouez pas !</p>
                 <p>– Mon père, il est vrai que je l’aime, mais j’attendrai pour le lui dire que vous
@@ -1918,9 +1823,7 @@
                     secrètement joui, comme Maximilien, de la douceur d’un premier amour ; mais
                     aussi fiers l’un que l’autre, il semblait que chacun d’eux craignît d’avouer
                     qu’il aimât.</p>
-                <p><pb n="125" xml:id="p125"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> Maximilien Longueville, à qui Clara avait inspiré sur le caractère
+                <p><pb n="125" xml:id="p125"/> Maximilien Longueville, à qui Clara avait inspiré sur le caractère
                     d’Émilie des soupçons assez fondés, se trouvait tour à tour emporté par la
                     violence d’une passion de jeune homme, et retenu par le désir de connaître et
                     d’éprouver la femme à laquelle il devait confier son bonheur. Son amour ne
@@ -1953,9 +1856,7 @@
                     en dispensant son temps aussi libéralement qu’un noble qui a devant lui toute
                     une vie libre de soins. Elle s’abandonnait au cours d’une méditation beaucoup
                     plus intéressante pour elle que ces pensées préliminaires, quand un léger
-                    bruissement du feuillage lui<pb n="126" xml:id="p126"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>annonça que depuis un moment Maximilien la contemplait sans doute avec
+                    bruissement du feuillage lui<pb n="126" xml:id="p126"/>annonça que depuis un moment Maximilien la contemplait sans doute avec
                     admiration.</p>
                 <p>– Savez-vous que cela est fort mal de surprendre ainsi les jeunes filles ? lui
                     dit-elle en souriant.</p>
@@ -1988,9 +1889,7 @@
                     famille.</p>
                 <p>Une pause effrayante pour Émilie succéda à ces phrases qu’elle avait presque
                     bégayées. Pendant le moment que dura le silence,<pb n="127" xml:id="p127"
-                        /><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> cette jeune fille si fière n’osa soutenir le regard éclatant de celui
+                        /> cette jeune fille si fière n’osa soutenir le regard éclatant de celui
                     qu’elle aimait, car elle avait un secret sentiment de la bassesse des mots
                     suivants qu’elle ajouta : – Êtes-vous noble ?</p>
                 <p>Quand ces dernières paroles furent prononcées, elle aurait voulu être au fond
@@ -2024,9 +1923,7 @@
                     sur la vie et le monde ; mais aujourd’hui, reprit-elle avec intention en le
                     regardant d’une manière à le rendre fou, je sais où sont pour une femme les
                     véritables richesses.</p>
-                <p><pb n="128" xml:id="p128"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>– J’ai besoin de croire que vous parlez à cœur ouvert, répondit-il avec
+                <p><pb n="128" xml:id="p128"/>– J’ai besoin de croire que vous parlez à cœur ouvert, répondit-il avec
                     une gravité douce. Mais cet hiver, ma chère Émilie, dans moins de deux mois
                     peut-être, je serai fier de ce que je pourrai vous offrir, si vous tenez aux
                     jouissances de la fortune. Ce sera le seul secret que je garderai là, dit-il en
@@ -2065,9 +1962,7 @@
                     flibustier, forban, corsaire ?</p>
                 <p>– Je savais bien que j’allais me trouver là, s’écria le vieux marin en se
                     réveillant.</p>
-                <p><pb n="129" xml:id="p129"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> Il regarda dans le salon, mais sa nièce avait disparu comme un feu
+                <p><pb n="129" xml:id="p129"/> Il regarda dans le salon, mais sa nièce avait disparu comme un feu
                     Saint-Elme, pour se servir de son expression habituelle.</p>
                 <p>– Eh bien, mon oncle ! reprit monsieur de Fontaine, comment avez-vous pu nous
                     cacher tout ce que vous saviez sur ce jeune homme ? Vous avez cependant dû vous
@@ -2101,9 +1996,7 @@
                     s’appeler Longueville. Mais la maison Palma, Werbrust et compagnie n’est-elle
                     pas à moitié ruinée par une spéculation au Mexique ou aux Indes ? J’éclaircirai
                     tout cela.</p>
-                <p><pb n="130" xml:id="p130"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>– Tu parles tout seul comme si tu étais sur un théâtre, et tu parais me
+                <p><pb n="130" xml:id="p130"/>– Tu parles tout seul comme si tu étais sur un théâtre, et tu parais me
                     compter pour zéro, dit tout à coup le vieux marin. Tu ne sais donc pas que s’il
                     est gentilhomme, j’ai plus d’un sac dans mes écoutilles pour parer à son défaut
                     de fortune ?</p>
@@ -2143,9 +2036,7 @@
                 <p>– Mademoiselle, dit-il à la lingère qui <choice ana="remplacement">
                         <orig>l’avait suivi</orig>
                         <reg>le suivit</reg>
-                    </choice> d’un air<pb n="131" xml:id="p131"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> très-inquiet, j’enverrai régler ce compte ; ma maison le veut ainsi.
+                    </choice> d’un air<pb n="131" xml:id="p131"/> très-inquiet, j’enverrai régler ce compte ; ma maison le veut ainsi.
                     Mais, tenez, ajouta-t-il à l’oreille de la jeune femme en lui remettant un
                     billet de mille francs, prenez : ce sera une affaire entre nous. – Vous me
                     pardonnerez, j’espère, mademoiselle, dit-il en se retournant vers Émilie. Vous
@@ -2249,9 +2140,7 @@
                     au monde…</p>
                 <p>– Savez-vous mon nom, lui demanda Émilie en l’interrompant avec vivacité.</p>
                 <p>– Non, mademoiselle. C’est un crime, je l’avoue, de ne pas<pb n="133"
-                        xml:id="p133"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> avoir retenu un nom qui est sur toutes les lèvres, je devrais dire
+                        xml:id="p133"/> avoir retenu un nom qui est sur toutes les lèvres, je devrais dire
                     dans tous les cœurs ; mais j’ai une excuse valable : j’arrive d’Allemagne. Mon
                     ambassadeur, qui est à Paris en congé, m’a envoyé ce soir ici pour servir de
                     chaperon à son aimable femme, que vous pouvez voir là-bas dans un coin.</p>
@@ -2260,14 +2149,8 @@
                         <orig>reprit</orig>
                         <reg>repartit</reg>
                     </choice> en riant le jeune homme. Il faudra bien que je la fasse danser ! Aussi
-                    ai-je voulu avoir une compensation.<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
-                <p resp="orig"> Mademoiselle de Fontaine s’inclina.<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
+                    ai-je voulu avoir une compensation.</p>
+                <p resp="orig"> Mademoiselle de Fontaine s’inclina.</p>
                 <p resp="orig"> – J’ai été bien surpris, dit le babillard secrétaire d’ambassade en
                     continuant, de trouver mon frère ici. En arrivant de Vienne, j’ai appris que le
                     pauvre garçon était malade et au lit. Je comptais bien le voir avant d’aller au
@@ -2291,9 +2174,7 @@
                     danseuse.</p>
                 <p>– Comment ! dit-il en souriant, les demoiselles devinent donc aussi les pensées
                     d’amour à travers les fronts muets ?</p>
-                <p><pb n="134" xml:id="p134"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> – Monsieur votre frère est amoureux, demanda-t-elle en laissant
+                <p><pb n="134" xml:id="p134"/> – Monsieur votre frère est amoureux, demanda-t-elle en laissant
                     échapper un geste de curiosité.</p>
                 <p>– Oui. Ma sœur Clara, pour laquelle il a des soins maternels, m’a écrit qu’il
                     s’était amouraché, cet été, d’une fort jolie personne ; mais depuis je n’ai pas
@@ -2366,9 +2247,7 @@
                     et lui fit manquer son existence. La froideur apparente de Maximilien et le
                     sourire d’une femme lui arrachèrent un de ces sarcasmes dont les perfides
                     jouissances la séduisaient toujours.</p>
-                <p><pb n="136" xml:id="p136"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> – Mademoiselle, lui dit à voix basse Longueville à la faveur du bruit
+                <p><pb n="136" xml:id="p136"/> – Mademoiselle, lui dit à voix basse Longueville à la faveur du bruit
                     que firent les femmes en se levant de table, personne ne formera pour votre
                     bonheur des vœux plus ardents que ne le seront les miens : permettez-moi de vous
                     donner cette assurance en prenant congé de vous. Dans quelques jours, je
@@ -2401,9 +2280,7 @@
                     pair de France et vicomte. Monsieur de Fontaine obtint aussi la pairie,
                     récompense due autant à sa fidélité pendant les mauvais jours qu’à son nom qui
                     manquait à la chambre héréditaire.</p>
-                <p><pb n="137" xml:id="p137"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice>Vers cette époque, Émilie devenue majeure fit sans doute de sérieuses
+                <p><pb n="137" xml:id="p137"/>Vers cette époque, Émilie devenue majeure fit sans doute de sérieuses
                     réflexions sur la vie<choice ana="remplacement">
                         <orig> ;</orig>
                         <reg>,</reg>
@@ -2486,10 +2363,7 @@
                     </choice> comme pilote sur<hi rend="sc">la Belle Émilie</hi>, après <choice
                         ana="supression">
                         <orig>avoir déjà fait </orig>
-                    </choice>vingt ans de galères conjugales.<choice ana="supression">
-                        <orig> </orig>
-                    </choice>
-                </p>
+                    </choice>vingt ans de galères conjugales.</p>
                 <p resp="orig"> La conduite de la comtesse <choice ana="remplacement">
                         <orig>était</orig>
                         <reg>fut</reg>
@@ -2527,9 +2401,7 @@
                         <reg>n’abusait</reg>
                     </choice> jamais<choice ana="supression">
                         <orig> abusé</orig>
-                    </choice> de<pb n="138" xml:id="p138"/><choice ana="insertion">
-                        <reg> </reg>
-                    </choice> l’hospitalité quand il lui arrivait de sauver un ennemi de la fureur
+                    </choice> de<pb n="138" xml:id="p138"/> l’hospitalité quand il lui arrivait de sauver un ennemi de la fureur
                     des orages. Quoique la comtesse aspirât à régner sur Paris et qu’elle essayât de
                     marcher de pair avec mesdames les duchesses de Maufrigneuse, de Chaulieu, les
                     marquises d’Espard et d’Aiglemont, les comtesses Féraud, de Montcornet, de

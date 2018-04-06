@@ -12,50 +12,284 @@
         <!--<xsl:processing-instruction name="xml-stylesheet"> type="text/xsl" href="tool.xsl"</xsl:processing-instruction>
         <xsl:processing-instruction name="xml-model"> href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>-->
         
-        <html>
-            <head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-                <link href="medite.css" rel="stylesheet" type="text/css" title="style par défaut"/>
-                <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"/> 
-                <style type="text/css"> a:link{text-decoration:none}
-                .txt_gauche{
-                width:43%;
-                float:left;
-                overflow:auto;
-                height: 550px;
-                padding: 20px 20px 20px 20px;
-                }
-                .txt_droite{
-                width:43%;
-                float:left;
-                overflow:auto;
-                height: 550px;
-                padding: 20px 20px 20px 20px;
-                }
-                form{
-                display:inline-block;
-                }
-                input{
-                width: 30px;}
-                .norm{
-                width: 100px;}
-            </style>
-            <script>
-                function align(a){
-                document.getElementById(a).click()}
-            </script></head>
-            <body>
-                <div class="txt_gauche"><!--<form method="post" action="edittool.php">-->
+        <html lang="fr">
+            <head>
+                <meta charset="utf-8"/>
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                            
+                            <title>    Comparaison des versions Furne (1842) et Furne corrigé
+                                de “Le Bal de Sceaux” :: Phoebus
+                            </title>
+                            
+                            <meta name="description" content="" />
+                            <meta name="description" content="" />
+                            
+                            <meta property="og:title"            content="" />
+                            <meta property="og:description"      content="" />
+                            <meta property="og:image"            content="/favicon.png" />
+                            <meta property="og:url"              content="https://ebalzac.com/genetique/02-bal-sceaux/furne/furne-corrige" />
+                            
+                            <meta property="twitter:title"       content="" />
+                            <meta property="twitter:site"        content="" />
+                            <meta property="twitter:description" content="" />
+                            <meta property="twitter:image"       content="/favicon.png" />
+                            <meta property="twitter:card"        content="summary" />
+                            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png" />
+                            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png" />
+                            <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32" />
+                            <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" />
+                            <meta name="application-name" content="Phoebus"/>
+                            <meta name="msapplication-TileColor" content="#FFFFFF" />
+                            <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png" />
+                            <meta name="theme-color" content="#ffffff" />
+                            <link rel="shortcut icon" href="/favicon.ico"/>
+                                
+                                <link href="/css/font-montserrat.min.css" rel="stylesheet" type="text/css"/>
+                                    <link href="/css/font-playfair.min.css" rel="stylesheet" type="text/css"/>
+                                        <link href="/css/front.min.css" rel="stylesheet" type="text/css"/>
+                                            
+                                            
+            </head>
+            <body class="page-genetique bleu">
+                <aside class="cadre-colore">
+                    <img class="logo-header" src="/images/front/logo-texte.svg" alt="Logo mobile eBalzac" />
+                </aside>
+                <header class="menu">
+                    <button class="hamburger" onclick="toggle_menu()">
+                        <img src="/images/front/menu.svg" />
+                    </button>
+                    
+                    <button class="hamburger hamburger-modifications"
+                        onclick="toggle_modifications()"
+                        title="Afficher/Masquer les modifications"
+                        style="display:none">
+                        <img src="/images/front/menu-modifications.svg" />
+                    </button>
+                    <ul>
+                        <li class=" univers-jaune">
+                            <a href="/">
+                                Accueil
+                            </a>
+                        </li>
+                        <li class=" univers-jaune">
+                            <a href="/presentation">
+                                Le projet eBalzac
+                            </a>
+                            <ul>
+                                <li class="">
+                                    <a href="/presentation">
+                                        Présentation détaillée
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="/membres">
+                                        Membres
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="/activites">
+                                        Activités
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="/partenaires">
+                                        Partenaires
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="/contact">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=" univers-vert">
+                            <a href="/edition">
+                                Édition
+                            </a>
+                            <ul>
+                                <li class="">
+                                    <a href="/edition">
+                                        Présentation de l’édition
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="/editions/la-comedie-humaine">
+                                        La Comédie humaine
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active univers-bleu">
+                            <a href="/genetique">
+                                Génétique
+                            </a>
+                        </li>
+                        <li class=" univers-rouge">
+                            <a href="/hypertexte">
+                                Hypertexte
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </header>
+                <section>
+                    <img class="logo-texte" src="/images/front/logo-texte.svg" alt="Logo eBalzac" />
+                    <div class="contenu">
+                        
+                        <div class="pave-comparaison">
+                            <div class="pave-large pave-comparaison-haut">
+                                <h1>Le Bal de Sceaux</h1>
+                                
+                                <input type="hidden" id="version_base" value="Furne (1842)" />
+                                <input type="hidden" id="version_destination" value="Furne corrigé" />
+                                <div class="filtres">
+                                    <a href="/genetique">Retour à la liste</a>
+                                </div>
+                                <div class="svg-loader">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                                        <path fill="#EEE" d="M20,4C11.2,4,4,11.2,4,20c0,8.8,7.2,16,16,16s16-7.2,16-16C36,11.2,28.8,4,20,4z M20,32.5
+                                            c-6.9,0-12.5-5.6-12.5-12.5c0-6.9,5.6-12.5,12.5-12.5S32.5,13.1,32.5,20C32.5,26.9,26.9,32.5,20,32.5z"/>
+                                        <path fill="#4caf50" d="M20,7.5c3.5,0,6.6,1.4,8.8,3.7l2.5-2.5C28.4,5.8,24.4,4,20,4V7.5z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="pave-comparaison-bas">
+                                <div style="display:none" class="comparaison-html">
+                                    <div id="windows">
+                                        <div class="txt_container right"> <!--A finir à partir d'ici!!-->
                     <xsl:apply-templates select="//text" mode="text1"/>
                 <!--</form>--></div>
                 <div class="txt_droite">
                     <xsl:apply-templates select="//text" mode="text2"/>
-                <!--</form>--></div>
-                <!--<div class="index">
-                <h4>Remplacements</h4>
-<xsl:for-each select="//choice[@type ='remplacement']">
-    <xsl:
-</xsl:for-each>    -->                
-                <!--</div>-->
+                    <!--</form>--></div><xsl:variable name="esp">&#160;</xsl:variable>
+                <div id="modifications">
+                    <div id="rempl_ins_supp">
+                        <div id="remplacements"><h4><img src="img/blue_dot.png" alt=""/> Remplacements <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='remplacement'])+1"/>]</span></h4>
+                            <ul id="remplacements_carousel">
+                                <xsl:for-each select="//choice[@ana='remplacement']">
+                                    <li>
+                                        <span class="counter">[<xsl:value-of select="count(preceding::choice[@ana='remplacement'])+1"/>]</span>
+                                    <span class="r_highlight">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                        <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                        <xsl:attribute name="title"><xsl:value-of select="translate(descendant::orig,' ', $esp)"/><xsl:text>→</xsl:text><xsl:value-of select="translate(descendant::reg,' ', '&#160;')"/></xsl:attribute>
+                                    </xsl:element>
+                                        <xsl:value-of select="translate(substring(orig,0,10),' ', $esp)"/>
+                                            <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
+                                                <xsl:attribute name="class">light</xsl:attribute>
+                                            <xsl:text>...</xsl:text>
+                                            </xsl:element>
+                                            </xsl:if>
+                                        <xsl:element name="span">
+                                            <xsl:attribute name="class">light</xsl:attribute>
+                                            <xsl:text>→</xsl:text>
+                                        </xsl:element>
+                                        <xsl:value-of select="translate(substring(reg,0,10),' ', $esp)"/>
+                                        <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
+                                            <xsl:attribute name="class">light</xsl:attribute>
+                                            <xsl:text>...</xsl:text>
+                                        </xsl:element>
+                                        </xsl:if>
+                                    </span>
+                                </li>
+                                </xsl:for-each>
+                            </ul>
+                            <div class="remplacements_prev_btn"><a>Précédent</a></div>
+                            <div class="remplacements_next_btn"><a>Suivant</a></div>
+                        </div>
+                        <div id="insertions"><h4><img src="img/green_dot.png" alt=""/> Insertions <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='insertion'])+1"/>]</span></h4>
+                        <ul id="insertions_carousel">
+                            
+                            <xsl:for-each select="//choice[@ana='insertion']">
+                                <li style="text-align:justify;">
+                                    <span class="counter">[<xsl:value-of select="count(preceding::choice[@ana='insertion'])+1"/>]</span>
+                                    <span class="entries i_highlight">
+                                        <xsl:element name="a">
+                                            <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                            <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                            <xsl:attribute name="title"><xsl:value-of select="translate(descendant::orig,' ', $esp)"/></xsl:attribute>
+                                        </xsl:element>
+                                        <xsl:value-of select="translate(substring(orig,0,10),' ', $esp)"/>
+                                        <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
+                                            <xsl:attribute name="class">light</xsl:attribute>
+                                            <xsl:text>...</xsl:text>
+                                        </xsl:element>
+                                        </xsl:if>
+                                    </span>
+                                </li>
+                            </xsl:for-each>
+                        </ul>
+                            <div class="insertions_prev_btn"><a>Précédent</a></div>
+                            <div class="insertions_next_btn"><a>Suivant</a></div>
+                        </div>
+                        <div id="supressions"><h4><img src="img/red.png" alt=""/> Supressions <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='supression'])+1"/>]</span></h4>
+                            <ul id="supressions_carousel">
+                                
+                                <xsl:for-each select="//choice[@ana='supression']">
+                                    <li style="text-align:justify;">
+                                        <span class="counter">[<xsl:value-of select="count(preceding::choice[@ana='supression'])+1"/>]</span>
+                                        <span class="entries i_highlight">
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                                <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                                <xsl:attribute name="title"><xsl:value-of select="translate(descendant::reg,' ', $esp)"/></xsl:attribute>
+                                            </xsl:element>
+                                            <xsl:value-of select="translate(substring(reg,0,10),' ', $esp)"/>
+                                            <xsl:if test="string-length(substring(reg, 10)) > 0"><xsl:element name="span">
+                                                <xsl:attribute name="class">light</xsl:attribute>
+                                                <xsl:text>...</xsl:text>
+                                            </xsl:element>
+                                            </xsl:if>
+                                        </span>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                            <div class="supressions_prev_btn"><a>Précédent</a></div>
+                            <div class="supressions_next_btn"><a>Suivant</a></div>
+                        </div> 
+                    </div>
+                    <div id="depl">
+                    <div id="deplacements">
+                        <h4><img src="img/grey_dot.png" alt=""/> Déplacements <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='deplacement']) div 2"/>]</span></h4>
+                        <ul id="supressions_carousel">
+                            
+                            <xsl:for-each select="//choice[@ana='deplacement']">
+                                <xsl:choose>
+                                    <xsl:when test=". =preceding::choice[@ana='deplacement']"></xsl:when>
+                                    <xsl:otherwise><li style="text-align:justify;">
+                                        <span class="counter">[<xsl:value-of select="(count(preceding::choice[@ana='deplacement']) div 2)+1"/>]</span>
+                                        <span class="entries d_highlight">
+                                            <xsl:element name="a">
+                                                <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                                <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                                <xsl:attribute name="title"><xsl:value-of select="translate(descendant::*,' ', $esp)"/></xsl:attribute>
+                                            </xsl:element>
+                                            <xsl:value-of select="translate(substring(descendant::*,0,10),' ', $esp)"/>
+                                            <xsl:if test="string-length(substring(descendant::*, 10)) > 0"><xsl:element name="span">
+                                                <xsl:attribute name="class">light</xsl:attribute>
+                                                <xsl:text>...</xsl:text>
+                                            </xsl:element>
+                                            </xsl:if>
+                                        </span>
+                                    </li></xsl:otherwise>
+                                </xsl:choose>
+                                
+                            </xsl:for-each>
+                        </ul></div>
+                    </div>
+                        <div id="deplacements_buttons">
+                        <div class="deplacements_prev_btn"><a>Précédent</a></div>
+                        <div class="deplacements_next_btn"><a>Suivant</a></div></div>
+                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!--voir si tout va bien ici-->
             </body>
         </html>
     </xsl:template>
