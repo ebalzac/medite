@@ -6,11 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Comparaison d'état Furne (1842) et Furné corrigé de La Maison du chat-qui-pelote</title>
+            <title type="main">Comparaison des états Furne (1842) et Furné corrigé de La Maison du chat-qui-pelote</title>
          <title type="orig">La Maison du chat-qui-pelote - Furne (1842)</title>
             <title type="reg">La Maison du chat-qui-pelote - Furne corrigé</title>
-         <title ref="etudes">Études de mœurs</title>
-         <title ref="scenes">Scènes de la vie privée</title>
          <author key="Balzac, Honoré de (1799-1850)">Honoré de Balzac</author>
             <principal>Andrea Del Lungo</principal>
             <principal>Pierre Glaudes</principal>
@@ -62,8 +60,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Le texte que nous donnons à lire est celui de l’édition Furne : la ponctuation et l’orthographe ont été scrupuleusement respectées et sont conformes aux habitudes de l’édition du XIXe siècle. Nous avons dès lors conservé la diversité des formes ortho-typographiques de l’édition d’origine. Seules les coquilles manifestes ont été corrigées et sont signalées en note. Il s’agissait de rendre accessible le texte de La Comédie humaine dans son état du XIXe siècle.</p>
-         <p>Les variantes sont signalées à l'aide de l'élément <hi rend="i">choice</hi> dont l'attribut <hi rend="i">ana</hi> indique le type de modification (remplacement, suppression, insertion, déplacement). L'élément <hi rend="i">orig</hi> se réfère à la version Furne et <hi rend="i">reg</hi> à celle du Furne corrigé. Les changements structurels (ajout de saut de ligne, de style de caractère) sont traduits par l'ajout de l'attribut <hi rend="i">resp</hi> à l'élément concerné.</p>
+         <p>Les textes comparés ont été édités dans le cadre du projet eBalzac et sont accessibles à la lecture à l'adresse www.ebalzac.com/edition. Les variantes sont signalées à l'aide de l'élément <hi rend="i">choice</hi> dont l'attribut <hi rend="i">ana</hi> indique le type de modification (remplacement, suppression, insertion, déplacement). L'élément <hi rend="i">orig</hi> se réfère à la version Furne et <hi rend="i">reg</hi> à celle du Furne corrigé. Les changements structurels (ajout de saut de ligne, de style de caractère) sont traduits par l'ajout de l'attribut <hi rend="i">resp</hi> à l'élément concerné.</p>
       </encodingDesc>
       <profileDesc>
          <creation>
