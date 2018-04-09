@@ -131,6 +131,17 @@ text-align: right;}
 .signed{
 text-align: right;
 margin: 0.5em 2em 0.5em 0;}
+
+.dedication > .salute{
+text-align: center;
+font-style: normal;
+font-size: 1.2em;
+margin: 0 0 1em 0;}
+.dedication > .closer > .salute{
+font-style: italic;}
+.closer > .salute{
+text-indent: 6em;
+margin: 0;}
 p {
     text-indent:1em;
     font-size:17px;
@@ -145,7 +156,7 @@ margin-left: 3%;
  
 .deplacement{background: #e5d30a; color: #FFF;}
 .insertion{background: #44ac20; color: #FFF;}
-.supression{background: #e78888; color: #FFF;}
+.suppression{background: #e78888; color: #FFF;}
 .remplacement{background:  #0ac0e5; color: #FFF;}
 
 span.sc{font-variant: small-caps;
@@ -187,8 +198,37 @@ padding: 10px 20px;}
 float:right}
 .left{
 float:left}
+p.label{
+text-align: center;
+font-size: 110%;
+margin: 1em 0 1em 0;}
+.i{
+font-style: italic}
+.center{
+text-align:center}
+div.lg{margin-bottom: 1em;}
+div.poem{
+margin: 2em 0 2em 2em;}
+div.press{
+margin: 1em 0 1em 2em;}
+p.autofirst{
+text-indent: 0 !important; }
+p.center{
+text-align: center;}
 .txt_container{
 width: 43%}
+div.legal, div.treatise, div.press{
+margin: 1em 0 1em 2em;}
+.letter{
+margin: 1em 0 1em 2em;}
+.head{
+font-size: 120%;
+text-align: center;
+margin: 1.5em 0 1.5em 0;
+line-height: 1.5em;}
+.quote{
+    margin: 1em 0 1em 3em;
+}
 /*carousel*/
 .comparaison-html #modifications{
 flex:1 1 auto;
@@ -222,7 +262,7 @@ comparaison-html #modifications.active
 {color:#FFF}
 .comparaison-html #rempl_ins_supp>div>h4 img,.comparaison-html #depl>div>h4 img{display:none}
 .comparaison-html #rempl_ins_supp>div>ul,.comparaison-html #depl>div>ul
-{background:#FFF;height:135px;overflow-y:scroll;transition:all .5s ease 0s;margin:0;list-style:none;text-align:left;padding:0 5px; display: block;}
+{background:#FFF;max-height:130px;overflow-y:auto;overflow-x:hidden;transition:all .5s ease 0s;margin:0;list-style:none;text-align:left;padding:0 5px; display: block;}
 .comparaison-html #rempl_ins_supp>div>ul>li,.comparaison-html #depl>div>ul>li{display:flex;display:-webkit-flex}
 .comparaison-html #rempl_ins_supp>div>ul>li span:first-child,.comparaison-html #depl>div>ul>li span:first-child
 {color:#AAA;padding-right:5px}
