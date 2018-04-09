@@ -5,51 +5,250 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
         <xsl:output encoding="UTF-8" method="html"/>
     <xsl:strip-space elements="*"/>
-    <!--<xsl:template match="/">
-        <xsl:apply-templates/>
-    </xsl:template>-->
+    
+    
+    <xsl:variable name="esp">&#160;</xsl:variable>
     <xsl:template match="/">
-        <!--<xsl:processing-instruction name="xml-stylesheet"> type="text/xsl" href="tool.xsl"</xsl:processing-instruction>
-        <xsl:processing-instruction name="xml-model"> href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>-->
-        
         <html>
             <head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
                 <link href="medite.css" rel="stylesheet" type="text/css" title="style par défaut"/>
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"/> 
                 <style type="text/css"> a:link{text-decoration:none}
-                .txt_gauche{
-                width:43%;
-                float:left;
-                overflow:auto;
-                height: 550px;
-                padding: 20px 20px 20px 20px;
-                }
-                .txt_droite{
-                width:43%;
-                float:left;
-                overflow:auto;
-                height: 550px;
-                padding: 20px 20px 20px 20px;
-                }
-                form{
-                display:inline-block;
-                }
-                input{
-                width: 30px;}
-                .norm{
-                width: 100px;}
-            </style>
-            <script>
-                function align(a){
-                document.getElementById(a).click()}
-            </script></head>
+                    #txt_window_2{
+                    float:left;
+                    overflow:auto;
+                    height: 550px;
+                    padding: 20px 20px 20px 20px;
+                    }
+                    #txt_window{
+                    float:left;
+                    overflow:auto;
+                    height: 550px;
+                    padding: 20px 20px 20px 20px;
+                    }
+                </style>
+                <script>
+                    function align(a){
+                    document.getElementById(a).click()}
+                </script></head>
             <body>
-                <div class="txt_gauche"><!--<form method="post" action="edittool.php">-->
-                    <xsl:apply-templates select="//text" mode="text1"/>
-                <!--</form>--></div>
-                <div class="txt_droite">
+                                <article class="comparaison-html">
+                                    <article id="windows">
+                                        <div id="modifications">
+                                            <div id="rempl_ins_supp">
+                                                <div id="remplacements"><h4><img src="img/blue_dot.png" alt=""/> Remplacements <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='remplacement'])+1"/>]</span></h4>
+                                                    <ul id="remplacements_carousel">
+                                                        <xsl:for-each select="//choice[@ana='remplacement']">
+                                                            <li>
+                                                                <span class="counter">[<xsl:value-of select="count(preceding::choice[@ana='remplacement'])+1"/>]</span>
+                                                                <span class="r_highlight">
+                                                                    <xsl:element name="a">
+                                                                        <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                                                        <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                                                        <xsl:attribute name="title"><xsl:value-of select="translate(descendant::orig,' ', $esp)"/><xsl:text>→</xsl:text><xsl:value-of select="translate(descendant::reg,' ', '&#160;')"/></xsl:attribute>
+                                                                        
+                                                                        <xsl:value-of select="translate(substring(orig,0,10),' ', $esp)"/>
+                                                                        <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
+                                                                            <xsl:attribute name="class">light</xsl:attribute>
+                                                                            <xsl:text>...</xsl:text>
+                                                                        </xsl:element>
+                                                                        </xsl:if>
+                                                                        <xsl:element name="span">
+                                                                            <xsl:attribute name="class">light</xsl:attribute>
+                                                                            <xsl:text>→</xsl:text>
+                                                                        </xsl:element>
+                                                                        <xsl:value-of select="translate(substring(reg,0,10),' ', $esp)"/>
+                                                                        <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
+                                                                            <xsl:attribute name="class">light</xsl:attribute>
+                                                                            <xsl:text>...</xsl:text>
+                                                                        </xsl:element>
+                                                                        </xsl:if>
+                                                                    </xsl:element>
+                                                                </span>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                    <div class="remplacements_prev_btn"><a>Précédent</a></div>
+                                                    <div class="remplacements_next_btn"><a>Suivant</a></div>
+                                                </div>
+                                                <div id="insertions"><h4><img src="img/green_dot.png" alt=""/> Insertions <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='insertion'])+1"/>]</span></h4>
+                                                    <ul id="insertions_carousel">
+                                                        
+                                                        <xsl:for-each select="//choice[@ana='insertion']">
+                                                            <li style="text-align:justify;">
+                                                                <span class="counter">[<xsl:value-of select="count(preceding::choice[@ana='insertion'])+1"/>]</span>
+                                                                <span class="entries i_highlight">
+                                                                    <xsl:element name="a">
+                                                                        <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                                                        <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                                                        <xsl:attribute name="title"><xsl:value-of select="translate(descendant::reg,' ', $esp)"/></xsl:attribute>
+                                                                        
+                                                                        <xsl:value-of select="translate(substring(descendant::reg,0,20),' ', $esp)"/>
+                                                                        <xsl:if test="string-length(substring(descendant::reg, 20)) > 0"><xsl:element name="span">
+                                                                            <xsl:attribute name="class">light</xsl:attribute>
+                                                                            <xsl:text>...</xsl:text>
+                                                                        </xsl:element>
+                                                                        </xsl:if></xsl:element>
+                                                                </span>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                    <div class="insertions_prev_btn"><a>Précédent</a></div>
+                                                    <div class="insertions_next_btn"><a>Suivant</a></div>
+                                                </div>
+                                                <div id="suppressions"><h4><img src="img/red.png" alt=""/> Suppresions <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='suppression'])+1"/>]</span></h4>
+                                                    <ul id="suppressions_carousel">
+                                                        
+                                                        <xsl:for-each select="//choice[@ana='suppression']">
+                                                            <li style="text-align:justify;">
+                                                                <span class="counter">[<xsl:value-of select="count(preceding::choice[@ana='suppression'])+1"/>]</span>
+                                                                <span class="entries i_highlight">
+                                                                    <xsl:element name="a">
+                                                                        <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                                                        <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                                                        <xsl:attribute name="title"><xsl:value-of select="translate(descendant::orig,' ', $esp)"/></xsl:attribute>
+                                                                        
+                                                                        <xsl:value-of select="translate(substring(orig,0,20),' ', $esp)"/>
+                                                                        <xsl:if test="string-length(substring(orig, 20)) > 0"><xsl:element name="span">
+                                                                            <xsl:attribute name="class">light</xsl:attribute>
+                                                                            <xsl:text>...</xsl:text>
+                                                                        </xsl:element>
+                                                                        </xsl:if></xsl:element>
+                                                                </span>
+                                                            </li>
+                                                        </xsl:for-each>
+                                                    </ul>
+                                                    <div class="suppressions_prev_btn"><a>Précédent</a></div>
+                                                    <div class="suppressions_next_btn"><a>Suivant</a></div>
+                                                </div> 
+                                            </div>
+                                            <div id="depl">
+                                                <div id="deplacements">
+                                                    <h4><img src="img/grey_dot.png" alt=""/> Déplacements <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='deplacement']) div 2"/>]</span></h4>
+                                                    <ul id="suppressions_carousel">
+                                                        
+                                                        <xsl:for-each select="//choice[@ana='deplacement']">
+                                                            <xsl:choose>
+                                                                <xsl:when test=". =preceding::choice[@ana='deplacement']"></xsl:when>
+                                                                <xsl:otherwise><li style="text-align:justify;">
+                                                                    <span class="counter">[<xsl:value-of select="(count(preceding::choice[@ana='deplacement']) div 2)+1"/>]</span>
+                                                                    <span class="entries d_highlight">
+                                                                        <xsl:element name="a">
+                                                                            <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                                                                            <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                                                                            <xsl:attribute name="title"><xsl:value-of select="translate(descendant::*,' ', $esp)"/></xsl:attribute>
+                                                                            
+                                                                            <xsl:value-of select="translate(substring(descendant::*,0,10),' ', $esp)"/>
+                                                                            <xsl:if test="string-length(substring(descendant::*, 10)) > 0"><xsl:element name="span">
+                                                                                <xsl:attribute name="class">light</xsl:attribute>
+                                                                                <xsl:text>...</xsl:text>
+                                                                            </xsl:element>
+                                                                            </xsl:if></xsl:element>
+                                                                    </span> 
+                                                                </li></xsl:otherwise>
+                                                            </xsl:choose>
+                                                            
+                                                        </xsl:for-each>
+                                                    </ul></div>
+                                            </div>
+                                            <div id="deplacements_buttons">
+                                                <div class="deplacements_prev_btn"><a>Précédent</a></div>
+                                                <div class="deplacements_next_btn"><a>Suivant</a></div></div>
+                                        </div>
+                                        <article class="txt_container right">
+                                            <div id="txt_title2"><xsl:value-of select="//titleStmt/title[@type='reg']"/></div>
+                                            <article id="txt_window_2">
                     <xsl:apply-templates select="//text" mode="text2"/>
-                <!--</form>--></div>
+                <!--</form>--></article>
+                                        </article>
+                                        <article class="txt_container left">
+                                            <div id="txt_title1"><xsl:value-of select="//titleStmt/title[@type='orig']"/></div>
+                <article id="txt_window">
+                    <xsl:apply-templates select="//text" mode="text1"/>
+                    <!--</form>--></article>
+                                        </article>
+                
+                                    </article>
+                                </article>
+                <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+                <script src="/js/front.js"></script>
+                
+                <script type="text/javascript" src="/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+                <script type="text/javascript" src="/bower_components/js-cookie/src/js.cookie.js"></script>
+                <script type="text/javascript">
+                    
+                    function toggle_modifications(){
+                    $('#modifications').toggleClass('active');
+                    Cookies.set('panneau-modifications', $('#modifications').hasClass('active'));
+                    }
+                    
+                    $(document).ready(function(){
+                    $('#rempl_ins_supp > div > h4, #depl > div > h4').on('click touch', function(){
+                    $parent = $(this).parent();
+                    $('.liste-visible').not($parent).removeClass('liste-visible');
+                    $parent.toggleClass('liste-visible');
+                    });
+                    
+                    var scroll_options = {
+                    interrupt: true
+                    };
+                    
+                    $('#txt_title_1').html( $('#version_base').val() );
+                    $('#txt_title_2').html( $('#version_destination').val() );
+                    $('#txt_title_1, #txt_title_2').on('click touch', function(){
+                    var $titre = $(this);
+                    $titre.parents('#windows').toggleClass('large');
+                    $('body > section').scrollTo( $titre, 250, {});
+                    });
+                    
+                    $('.comparaison-html [id*="txt_window"]').each(function(){
+                    var $bloc_texte = $(this);
+                    var $bloc_texte_opposee = $(this).parent().siblings().find('[id*="txt_window"]');
+                    $('.span_c', $bloc_texte).each(function(){
+                    var $span   = $(this);
+                    var attr_id = $span.attr('id');
+                    var lettre  = attr_id.substr(0,1) == 'c'
+                    ? 'b'
+                    : 'c';
+                    var cible   = '#' + lettre + attr_id.substr(1);
+                    $span.attr('data-cible', cible);
+                    });
+                    $('.span_c', $bloc_texte).on('mouseenter', function(){
+                    var $span   = $(this);
+                    var $cible  = $( $span.attr('data-cible') );
+                    $cible.addClass('survol-cible');
+                    });
+                    $('.span_c', $bloc_texte).on('mouseleave', function(){
+                    var $span   = $(this);
+                    var $cible  = $( $span.attr('data-cible') );
+                    $cible.removeClass('survol-cible');
+                    });
+                    $('.span_c', $bloc_texte).on('click touch', function(){
+                    var $span   = $(this);
+                    var $cible  = $( $span.attr('data-cible') );
+                    $bloc_texte_opposee.scrollTo( $cible, 250, scroll_options );
+                    $bloc_texte.scrollTo( $span, 250, scroll_options );
+                    });
+                    });
+                    
+                    if ( Cookies.get('panneau-modifications') == 'true' ){
+                    $('#modifications').addClass('active');
+                    }
+                    
+                    setTimeout(function(){
+                    if ( typeof(Cookies.get('panneau-modifications')) == 'undefined' ){
+                    $('#modifications').addClass('active');
+                    setTimeout(function(){
+                    $('#modifications').removeClass('active');
+                    },3000)
+                    }
+                    $(".svg-loader").addClass('hidden');
+                    $(".comparaison-html").show();
+                    $(".hamburger-modifications").show();
+                    });
+                    
+                    });
+                </script>
             </body>
         </html>
     </xsl:template>
@@ -127,6 +326,63 @@
             <xsl:apply-templates mode="text2"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
+    <xsl:template match="body/div/div" mode="text1">
+        <xsl:element name="section">
+            <xsl:attribute name="class">div level3</xsl:attribute>
+            <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="body/div/div" mode="text2">
+        <xsl:element name="section">
+            <xsl:attribute name="class">div level3</xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="body/div/div/div" mode="text1">
+        <xsl:element name="section">
+            <xsl:attribute name="class">div level4</xsl:attribute>
+            <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="body/div/div/div" mode="text2">
+        <xsl:element name="section">
+            <xsl:attribute name="class">div level4</xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="signed" mode="text1">
+        <xsl:element name="div">
+            <xsl:attribute name="class">signed</xsl:attribute>
+            <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="signed" mode="text2">
+        <xsl:element name="div">
+            <xsl:attribute name="class">signed</xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="head" mode="text1">
+        <xsl:element name="h2">
+            <xsl:attribute name="class">head</xsl:attribute>
+            <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="head" mode="text2">
+        <xsl:element name="h2">
+            <xsl:attribute name="class">head</xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="lb" mode="#all">
+        <xsl:element name="br"/>
+    </xsl:template>
+    
+    <xsl:template match="q"></xsl:template>
         
         <xsl:template match="reg" mode="text2">
                 <xsl:element name="a">
@@ -140,6 +396,26 @@
                     </xsl:if>
                 </xsl:element>
         </xsl:template>
+    
+    <xsl:template match="span" mode="text2">
+        <xsl:element name="a">
+            <xsl:attribute name="href"><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
+            <xsl:attribute name="id"><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
+            <xsl:attribute name="class">para</xsl:attribute>
+            <xsl:attribute name="onclick">align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para')</xsl:text></xsl:attribute>
+            <xsl:apply-templates mode="text2"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="span" mode="text1">
+        <xsl:element name="a">
+            <xsl:attribute name="href"><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
+            <xsl:attribute name="id"><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
+            <xsl:attribute name="class">para</xsl:attribute>
+            <xsl:attribute name="onclick">align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para')</xsl:text></xsl:attribute>
+            <xsl:apply-templates mode="text1"/>
+        </xsl:element>
+    </xsl:template>
         
         <xsl:template match="orig" mode="text1">
                 <xsl:element name="a">
@@ -155,9 +431,7 @@
         </xsl:template>
         
         <xsl:template match="choice[descendant::orig and descendant::reg]" mode="text1">
-            <xsl:text>&lt;/a&gt;</xsl:text>
                 <xsl:apply-templates select="orig" mode="text1"/>
-            <xsl:text>&lt;a class="para"&gt;</xsl:text>
         </xsl:template>
     
     <xsl:template match="choice" mode="name">
@@ -165,37 +439,29 @@
     </xsl:template>
     
         <xsl:template match="choice[descendant::orig and descendant::reg]" mode="text2">
-            <xsl:text>&lt;/a&gt;</xsl:text>
                 <xsl:apply-templates select="reg" mode="text2"/>
-            <xsl:text>&lt;a class="para"&gt;</xsl:text>
         </xsl:template>
     
         <xsl:template match="choice[descendant::orig and not(descendant::reg)]" mode="text1">
-            <xsl:text>&lt;/a&gt;</xsl:text>
                 <xsl:apply-templates select="orig" mode="text1"/>
-            <xsl:text>&lt;a class="para"&gt;</xsl:text>
         </xsl:template>
     
         <xsl:template match="choice[descendant::orig and not(descendant::reg)]" mode="text2">
-            <xsl:text>&lt;/a&gt;</xsl:text>
                     <xsl:element name="a">
                         <xsl:attribute name="href"><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
                         <xsl:attribute name="id"><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
                         <xsl:attribute name="class"><xsl:value-of select="@ana"/></xsl:attribute>
                         <xsl:attribute name="onclick">align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
                     </xsl:element>
-            <xsl:text>&lt;a class="para"&gt;</xsl:text>
         </xsl:template>
         
     <xsl:template match="choice[descendant::reg and not(descendant::orig)]" mode="text1">
-        <xsl:text>&lt;/a&gt;</xsl:text>
         <xsl:element name="a">
                 <xsl:attribute name="href"><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
             <xsl:attribute name="id"><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
                 <xsl:attribute name="class"><xsl:value-of select="@ana"/></xsl:attribute>
             <xsl:attribute name="onclick">align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
             </xsl:element>
-        <xsl:text>&lt;a class="para"&gt;</xsl:text>
     </xsl:template>
      
     <xsl:template match="*" mode="orig">
@@ -206,78 +472,55 @@
         <xsl:apply-templates mode="text1"></xsl:apply-templates>
     </xsl:template>
     
-    <xsl:template match="p[not(@resp='orig') and not(following-sibling::p[@resp='orig'][0])]" mode="text2">
+    <xsl:template match="p[not(@resp='orig') and not(following-sibling::p[@resp='orig'][1])]" mode="text2">
                 
                         <xsl:element name="{local-name()}">
-                        <xsl:if test="@resp ='reg'"><xsl:attribute name="class">reg</xsl:attribute></xsl:if>
-                            <xsl:if test="@rend ='noindent'"><xsl:attribute name="class">noindent</xsl:attribute></xsl:if>
-                            <xsl:choose>
-                                <!--S'il n'y a pas de variantes à l'intérieur, on crée les liens pour alignement-->
-                                <xsl:when test="not(descendant::choice) and not(descendant::pb)">
-                            <xsl:element name="a">
-                            <xsl:attribute name="class">para</xsl:attribute>
+                            <xsl:if test="@resp ='reg'"><xsl:attribute name="class">reg</xsl:attribute><span class="preg"><xsl:value-of select="$esp"/></span></xsl:if>
+                            <xsl:if test="@rend"><xsl:attribute name="class"><xsl:value-of select="."/></xsl:attribute></xsl:if>
                                 <xsl:apply-templates mode="text2"/>
-                        </xsl:element>
-                    </xsl:when>
-                     <xsl:otherwise>
-                         <xsl:text>&lt;a class="para"&gt;</xsl:text>
-                         <xsl:apply-templates mode="text2"/>
-                         <xsl:text>&lt;/a&gt;</xsl:text>
-                     </xsl:otherwise>
-                </xsl:choose>
-                            
                         </xsl:element>
     </xsl:template>
     <!--pour éviter le double affichage des @resp="orig", on désactive l'affichage en text2 et on appelle template @name='orig' à la place-->
-    <xsl:template match="p[following-sibling::p[@resp='orig'][0]]" mode="text2">
-        <xsl:text>&lt;/a&gt;&lt;/p&gt;</xsl:text><xsl:text>&lt;p&gt;</xsl:text><span class="porig">&#182; </span> <xsl:text>&lt;a class="para"&gt;</xsl:text>
+    <xsl:template match="p[following-sibling::p[@resp='orig'][1] and not(@resp='orig')]" mode="text2">
+        <xsl:text>&lt;/p&gt;</xsl:text><xsl:text>&lt;p</xsl:text>
+        <xsl:if test="@resp ='reg'"><xsl:text> class="reg"</xsl:text></xsl:if>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:if test="@resp ='reg'"><span class="preg"><xsl:value-of select="$esp"/></span></xsl:if>
         <xsl:apply-templates mode="text2"/>
-        <xsl:text>&lt;/a&gt;</xsl:text>
+        <xsl:text></xsl:text>
     </xsl:template>
     
     <xsl:template match="p[@resp ='orig']" mode="text2">
-        <xsl:text>&lt;a class="para"&gt;</xsl:text>
-        <xsl:apply-templates mode="text2"/>
-        <xsl:text>&lt;/a&gt;</xsl:text>
-        <xsl:text>&lt;/p&gt;</xsl:text>
+        <xsl:text> </xsl:text><xsl:apply-templates mode="text2"/>
+        <xsl:if test="not(following-sibling::p[@resp='orig'][1])"><xsl:text>&lt;/p&gt;</xsl:text></xsl:if>
     </xsl:template>
     
-    <xsl:template match="p[not(@resp='reg') and not(following-sibling::p[@resp='reg'][0])]" mode="text1">
+    <xsl:template match="p[not(@resp='reg') and not(following-sibling::p[@resp='reg'][1])]" mode="text1">
         
         <xsl:element name="{local-name()}">
-            <xsl:if test="@resp ='orig'"><xsl:attribute name="class">orig</xsl:attribute></xsl:if>
-            <xsl:if test="@rend ='noindent'"><xsl:attribute name="class">noindent</xsl:attribute></xsl:if>
-            <xsl:choose>
-                <!--S'il n'y a pas de variantes à l'intérieur, on crée les liens pour alignement-->
-                <xsl:when test="not(descendant::choice) and not(descendant::pb)">
-                    <xsl:element name="a">
-                        <xsl:attribute name="class">para</xsl:attribute>
+            <xsl:if test="@resp ='orig'"><xsl:attribute name="class">orig</xsl:attribute><span class="porig"><xsl:value-of select="$esp"/></span></xsl:if>
+            <xsl:if test="@rend ='noindent'"><xsl:attribute name="class">autofirst</xsl:attribute></xsl:if>
+           
                         <xsl:apply-templates mode="text1"/>
-                    </xsl:element>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>&lt;a class="para"&gt;</xsl:text>
-                    <xsl:apply-templates mode="text1"/>
-                    <xsl:text>&lt;/a&gt;</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
+                    
             
         </xsl:element>
     </xsl:template>
     
     
-    <xsl:template match="p[following-sibling::p[@resp='reg'][0]]" mode="text1">
-        <xsl:text>&lt;/a&gt;&lt;/p&gt;</xsl:text><xsl:text>&lt;p&gt;</xsl:text><span class="preg">&#182; </span> <xsl:text>&lt;a class="para"&gt;</xsl:text>
-            <xsl:apply-templates mode="text1"></xsl:apply-templates>
-        <xsl:text>&lt;/a&gt;</xsl:text>
-        </xsl:template>
-        
-    <xsl:template match="p[@resp ='reg']" mode="text1">
-        <xsl:text>&lt;a class="para"&gt;</xsl:text>
+    <xsl:template match="p[following-sibling::p[@resp='reg'][1] and not(@resp='reg')]" mode="text1">
+        <xsl:text>&lt;/p&gt;</xsl:text><xsl:text>&lt;p</xsl:text>
+        <xsl:if test="@rend ='orig'"><xsl:text> class="orig"</xsl:text></xsl:if>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:if test="@rend ='orig'"><span class="porig"><xsl:value-of select="$esp"/></span></xsl:if>
         <xsl:apply-templates mode="text1"/>
-        <xsl:text>&lt;/a&gt;</xsl:text>
-        <xsl:text>&lt;/p&gt;</xsl:text>
-        </xsl:template>
+        <xsl:text></xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="p[@resp ='reg']" mode="text1">
+        <xsl:text> </xsl:text><xsl:apply-templates mode="text1"/>
+        <xsl:if test="not(following-sibling::p[@resp='reg'][1])"><xsl:text>&lt;/p&gt;</xsl:text></xsl:if>
+    </xsl:template>
     
     <xsl:template match="hi[@resp='orig']" mode="text1">
         <xsl:if test="@rend ='i'">
@@ -313,7 +556,7 @@
     
     <xsl:template match="hi" mode="text2">
         <xsl:if test="@rend ='i'">
-            <xsl:element name="i">
+            <xsl:element name="em">
                 <xsl:apply-templates mode="text2"/></xsl:element>
         </xsl:if>
         <xsl:if test="@rend ='sc'">
@@ -328,7 +571,7 @@
     
     <xsl:template match="hi" mode="text1">
         <xsl:if test="@rend ='i'">
-            <xsl:element name="i">
+            <xsl:element name="em">
                 <xsl:apply-templates mode="text1"/></xsl:element>
         </xsl:if>
         <xsl:if test="@rend ='sc'">
@@ -366,7 +609,6 @@
         
     </xsl:template>
     <xsl:template match="pb" mode="text1">
-        <xsl:text>&lt;/a&gt;</xsl:text>
         <xsl:choose>
             <xsl:when test="@resp='reg'"/>
             <xsl:when test="@resp='orig'"><xsl:text> </xsl:text>
@@ -384,15 +626,13 @@
                     <xsl:attribute name="class">pb</xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
-                    <xsl:text>p. </xsl:text><xsl:value-of select="@n"/>
+                    <xsl:text>[p. </xsl:text><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
                 </xsl:element>
             </xsl:otherwise>
         </xsl:choose>
-        <xsl:text>&lt;a class="para"&gt;</xsl:text>
     </xsl:template>
     
     <xsl:template match="pb" mode="text2">
-        <xsl:text>&lt;/a&gt;</xsl:text>
         <xsl:choose>
             <xsl:when test="@resp='reg'">
                 <xsl:text> </xsl:text>
@@ -404,25 +644,106 @@
                     <xsl:text>p. </xsl:text><xsl:value-of select="@n"/>
                 </xsl:element>
             </xsl:when>
-            <xsl:otherwise/>
+                <xsl:otherwise><xsl:text> </xsl:text>
+                    <xsl:element name="a">
+                        <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                        <xsl:attribute name="class">pb</xsl:attribute>
+                        <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
+                        <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
+                        <xsl:text>[p. </xsl:text><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
+                    </xsl:element>
+                </xsl:otherwise>
+            
         </xsl:choose>
-        <xsl:text>&lt;a class="para"&gt;</xsl:text>
     </xsl:template>
     
     <xsl:template match="dateline" mode="text1">
         <xsl:element name="div">
-            <xsl:attribute name="class">dateline</xsl:attribute>
+            <xsl:attribute name="class">dateline<xsl:if test="@rend"> <xsl:value-of select="@rend"/></xsl:if></xsl:attribute>
+            
             <xsl:apply-templates mode="text1"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
     
     <xsl:template match="dateline" mode="text2">
         <xsl:element name="div">
-            <xsl:attribute name="class">dateline</xsl:attribute>
+            <xsl:attribute name="class">dateline<xsl:if test="@rend"> <xsl:value-of select="@rend"/></xsl:if></xsl:attribute>
             <xsl:apply-templates mode="text2"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
+    
+    <xsl:template match="q" mode="text1">
+        <xsl:element name="div">
+            <xsl:attribute name="class"><xsl:value-of select="@type"/><xsl:text> q</xsl:text></xsl:attribute>
+            <xsl:apply-templates mode="text1"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="q" mode="text2">
+        <xsl:element name="div">
+            <xsl:attribute name="class"><xsl:value-of select="@type"/><xsl:text> q</xsl:text></xsl:attribute>
+            <xsl:apply-templates mode="text2"/>
+        </xsl:element>
+    </xsl:template>
    
+   <xsl:template match="closer | postscript | opener |l|lg" mode="text1">
+       <xsl:element name="div">
+           <xsl:attribute name="class"><xsl:value-of select="local-name()"/><xsl:if test="@rend"><xsl:text> </xsl:text><xsl:value-of select="@rend"/></xsl:if></xsl:attribute>
+           <xsl:apply-templates mode="text1"></xsl:apply-templates>
+       </xsl:element>
+   </xsl:template>
+    
+    <xsl:template match="closer | postscript | opener| l|lg" mode="text2">
+        <xsl:element name="div">
+            <xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="quote" mode="text1">
+        <xsl:element name="blockquote">
+            <xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
+            <xsl:apply-templates mode="text1"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="quote" mode="text2">
+        <xsl:element name="blockquote">
+            <xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
+            <xsl:apply-templates mode="text2"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="label" mode="text1">
+        <xsl:element name="p">
+            <xsl:element name="label">
+                <xsl:apply-templates mode="text1"/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="label" mode="text2">
+        <xsl:element name="p">
+            <xsl:element name="label">
+                <xsl:apply-templates mode="text2"/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="p[@rend]" mode="text1">
+        <xsl:element name="p">
+            <xsl:attribute name="class"><xsl:value-of select="@rend"/></xsl:attribute>
+            <xsl:apply-templates mode="text1"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="p[@rend]" mode="text2">
+        <xsl:element name="p">
+            <xsl:attribute name="class"><xsl:value-of select="@rend"/></xsl:attribute>
+            <xsl:apply-templates mode="text2"/>
+        </xsl:element>
+    </xsl:template>
+    
         <xsl:template match="*"/>
     </xsl:stylesheet>
         
