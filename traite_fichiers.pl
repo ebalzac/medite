@@ -14,7 +14,7 @@ foreach my $file (@filesF) {
 
 	my $txtfile = $file;
 	$txtfile =~ s/\.xml$/.txt/;
-	$txtfile =~ s/\.\.\/F/Medite-F-txt/;
+	$txtfile =~ s/\.\.\/F/Medite-txt/;
 
 	my $cmd = "xsltproc xml2txtMedite_structure.xsl $file > $txtfile";
 	`$cmd`;
@@ -26,7 +26,7 @@ foreach my $file (@filesFC) {
 
 	my $txtfile = $file;
 	$txtfile =~ s/\.xml$/.txt/;
-	$txtfile =~ s/\.\.\/FC/Medite-FC-txt/;
+	$txtfile =~ s/\.\.\/FC/Medite-txt/;
 
 	my $cmd = "xsltproc xml2txtMedite_structure.xsl $file > $txtfile";
 	`$cmd`;

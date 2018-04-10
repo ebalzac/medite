@@ -4,7 +4,7 @@
     version="2.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
     exclude-result-prefixes="tei">
-<xsl:output encoding="UTF-8" method="xml" indent="no" escape-uri-attributes="yes" />
+    <xsl:output encoding="UTF-8" method="xml" indent="no" escape-uri-attributes="no"/>
     <xsl:strip-space elements="*"/>
     
     <xsl:template match="/">
@@ -32,11 +32,13 @@
         tei:head | 
         tei:speaker | 
         tei:stage | 
-        tei:titlePart">
+        tei:titlePart|
+        tei:l |
+        tei:lg">
         
         <xsl:element name="{local-name()}">
             <xsl:for-each select="@*">
-                <xsl:if test=". ='resp | type | rend'"><xsl:attribute name="{local-name()}"><xsl:value-of select="."/></xsl:attribute></xsl:if>
+                <xsl:attribute name="{local-name()}"><xsl:value-of select="."/></xsl:attribute>
             </xsl:for-each>
             <xsl:apply-templates mode="para"/>
         </xsl:element>
@@ -52,8 +54,11 @@
     <xsl:template match="tei:pb|tei:choice" mode="para">
         <xsl:element name="{local-name()}">
             <xsl:for-each select="@*">
-                <xsl:if test=". ='ana | n | resp'"><xsl:attribute name="{local-name()}"><xsl:value-of select="."/></xsl:attribute></xsl:if>
-                <xsl:if test=". ='xml:id'"><xsl:attribute name="xml:id"><xsl:value-of select="."/></xsl:attribute></xsl:if>
+                <xsl:choose>
+                    <xsl:when test="ends-with(local-name(), 'id')"><xsl:attribute name="xml:id"><xsl:value-of select="."/></xsl:attribute></xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="{local-name()}"><xsl:value-of select="."/></xsl:attribute></xsl:otherwise>
+                </xsl:choose>
             </xsl:for-each>
             <xsl:apply-templates/>
         </xsl:element>
@@ -62,7 +67,7 @@
     <xsl:template match="*" mode="para">
         <xsl:element name="{local-name()}">
             <xsl:for-each select="@*">
-                <xsl:if test=". ='rend | place | resp'"><xsl:attribute name="{local-name()}"><xsl:value-of select="."/></xsl:attribute></xsl:if>
+                <xsl:attribute name="{local-name()}"><xsl:value-of select="."/></xsl:attribute>
             </xsl:for-each>
             <xsl:apply-templates/>
         </xsl:element>

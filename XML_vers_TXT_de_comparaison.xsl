@@ -14,12 +14,15 @@
             <xsl:apply-templates/>
         </xsl:template>
         
-        <xsl:template match="tei:p | tei:div | tei:q | tei:quote | tei:closer | tei:salute | tei:l | tei:lb | tei:dateline| tei:head|tei:titlePart|tei:docAuthor">
-            <xsl:apply-templates/><xsl:text>
+        <xsl:template match="*">
+            <xsl:apply-templates xml:space="default"/><xsl:text>
 </xsl:text>
         </xsl:template>
         <xsl:template match="tei:hi[@rend='sc']">
             <xsl:value-of select="translate(., $smallcase, $uppercase)"/>
+        </xsl:template>
+        <xsl:template match="tei:hi|tei:num|tei:sup|tei:figure|tei:graphic">
+            <xsl:apply-templates/>
         </xsl:template>
         
         <xsl:template match="tei:pb">
