@@ -21,6 +21,7 @@
         <xsl:template match="tei:hi[@rend='sc']">
             <xsl:value-of select="translate(., $smallcase, $uppercase)"/>
         </xsl:template>
+        
         <xsl:template match="tei:hi|tei:num|tei:sup|tei:figure|tei:graphic">
             <xsl:apply-templates/>
         </xsl:template>
