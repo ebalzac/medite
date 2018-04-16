@@ -8,8 +8,8 @@
         <xsl:output encoding="UTF-8" method="text" indent="no" />
         <xsl:strip-space elements="*"/>
         
-        <xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyzéèêàçâîïôöùüû'"/>
-        <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊÀÇÂÎÏÔÖÙÜÛ'"/>
+        <xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyzéèêàçâîïôöùüûœ'"/>
+        <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZÉÈÊÀÇÂÎÏÔÖÙÜÛŒ'"/>
         <xsl:template match="tei:text">
             <xsl:apply-templates/>
         </xsl:template>
@@ -22,8 +22,12 @@
             <xsl:value-of select="translate(., $smallcase, $uppercase)"/>
         </xsl:template>
         
-        <xsl:template match="tei:hi|tei:num|tei:sup|tei:figure|tei:graphic">
+        <xsl:template match="tei:hi|tei:num|tei:sup|tei:figure|tei:graphic|tei:stage">
             <xsl:apply-templates/>
+        </xsl:template>
+        
+        <xsl:template match="tei:cell">
+            <xsl:apply-templates/><xsl:text> </xsl:text>
         </xsl:template>
         
         <xsl:template match="tei:pb">

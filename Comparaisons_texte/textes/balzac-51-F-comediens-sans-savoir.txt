@@ -3,7 +3,10 @@ La Comédie humaine
 Études de mœurs
 Scènes de la vie parisienne
 Les Comédiens sans le savoir
+
+
 [155] À MONSIEUR LE COMTE JULES DE CASTELLANE
+
 
 Léon de Lora, notre célèbre peintre de paysage, appartient à l’une des plus nobles familles du Roussillon, espagnole d’origine, et qui, si elle se recommande par l’antiquité de la race, est depuis cent ans vouée à la pauvreté proverbiale des Hidalgos. Venu de son pied léger à Paris du département des Pyrénées-Orientales, avec une somme de onze francs pour tout viatique, il y avait en quelque sorte oublié les misères de son enfance et sa famille au milieu des misères qui ne manquent jamais aux rapins dont toute la fortune est une intrépide vocation. Puis les soucis de la gloire et ceux du succès furent d’autres causes d’oubli.
 Si vous avez suivi le cours sinueux et capricieux de ces Études, peut-être vous souvenez-vous de Mistigris, élève de Schinner, un des héros de Un début dans la vie (SCÈNES DE LA VIE PRIVÉE), et de ses apparitions dans quelques autres Scènes. En 1845, le paysagiste, émule des Hobbéma, des Ruysdaël, des Lorrain, ne ressemble plus au rapin dénué, frétillant, que vous avez vu. Homme illustre, il possède une charmante maison rue de Berlin, non loin de l’hôtel de Brambourg où demeure son ami Bridau, et près de la maison de Schinner son premier maître. Il est membre de l’Institut et officier de la Légion-d’Honneur, il a trente-neuf ans, il a vingt mille francs de rentes, ses toiles sont payées au poids de l’or, et, ce qui lui semble plus extraordinaire que d’être invité [156] parfois aux bals de la cour, son nom jeté si souvent, depuis seize ans, par la Presse à l’Europe, a fini par pénétrer dans la vallée des Pyrénées-Orientales où végètent trois véritables Lora, son frère aîné, son père et une vieille tante paternelle, mademoiselle Urraca y Lora.
@@ -198,7 +201,7 @@ Il fallait bien rendre à madame Nourrisson la monnaie de sa princesse de Lambal
 – Oh ! pour ça, reprit-elle, un louis, c’est assez…
 – Et comment ?
 – J’ai tous les bijoux de la mère ; et, de trois en trois mois, elle est dans ses petits souliers, allez ! elle est bien embarrassée de me trouver les intérêts de ce que je lui ai prêté. Vous voulez vous marier par là, jobard ?… dit-elle, donnez-moi quarante francs, et je jaserai pour plus de cent écus.
-Gazonal fit voir une pièce de quarante francs, et madame Nourrisson donna des détails effrayants sur la misère secrète de quelques femmes dites comme il faut. La revendeuse mise en gaieté par la conversation se dessina. Sans trahir aucun nom, aucun secret, elle fit frissonner les deux artistes en leur démontrant qu’il se rencontrait peu de bonheurs, à Paris, qui ne fussent assis sur la base vacillante de l’emprunt. Elle possédait dans ses tiroirs des feues grand’mères, des enfants vivants, des défunts maris, des petites-filles mortes, souvenirs entourés d’or et de brillants ! Elle apprenait d’effrayantes histoires en faisant causer ses pratiques les unes sur les autres, en leur arrachant leurs secrets dans les moments de passion, de brouilles, de colères, et dans ces préparations anodines que veut un emprunt pour se conclure.
+Gazonal fit voir une pièce de quarante francs, et madame Nourrisson donna des détails effrayants sur la misère secrète de quelques femmes dites comme il faut. La revendeuse mise en gaieté par la conversation se dessina. Sans trahir aucun nom, aucun secret, elle fit frissonner les deux artistes en leur démontrant qu’il se rencontrait peu de bonheurs, à Paris, qui ne fussent assis sur la base vacillante de l’emprunt. Elle possédait dans ses tiroirs des feues grand’mères, des enfants vivants, des défunts maris, des petites-filles mortes, souvenirs entourés d’or et de brillants ! Elle apprenait d’effrayantes histoires en faisant causer ses pratiques les unes sur les autres, en leur arrachant leurs secrets dans les moments de passion, de brouilles, de colères, et dans ces préparations anodines que veut un emprunt pour se conclure. [ill.]
 – Comment avez-vous été amenée à faire ce commerce ? demanda Gazonal.
 – Pour mon fils, dit-elle avec naïveté.
 Presque toujours, les revendeuses à la toilette justifient leur commerce par des raisons pleines de beaux motifs. Madame Nourrisson se posa comme ayant perdu plusieurs prétendus, trois filles qui avaient très-mal tourné, toutes ses illusions, enfin ! Elle montra, comme étant celles de ses plus belles valeurs, des reconnaissances du Mont-de-Piété pour prouver combien son commerce comportait de mauvaises chances. Elle se donna pour gênée au Trente prochain. On la volait beaucoup, disait-elle.
@@ -558,4 +561,6 @@ Trois jours après Léon et Bixiou, qui ne revoyaient plus Gazonal, le vinrent c
 Gazonal regardait ces papiers d’un air hébété.
 – Vous ne direz pas que nous n’entendons point l’hospitalité : nous vous avons instruit, régalé, et… amusé, dit Bixiou.
 Paris, novembre 1845.
+
+
 

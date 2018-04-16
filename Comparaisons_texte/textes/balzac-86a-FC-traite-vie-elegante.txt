@@ -3,11 +3,17 @@ La Comédie humaine
 Études analytiques
 Pathologie de la vie sociale
 Traité de la vie élégante
+
+
+
 [Lov. A224, 32]Première partie 
 Généralités
 Mens agitat molem.
-Virgile.L’esprit d’un homme se devine à la manière dont il porte sa canne.
-Traduction fashionable.Chapitre premier 
+Virgile.
+L’esprit d’un homme se devine à la manière dont il porte sa canne.
+Traduction fashionable.
+
+Chapitre premier 
 Prolégomènes
 La civilisation a échelonné les hommes sur trois grandes lignes… Il nous aurait été facile de colorier nos catégories à la manière de monsieur Ch. Dupin ; mais comme le charlatanisme serait un contre-sens dans un ouvrage de philosophie chrétienne, nous nous dispenserons de mêler la peinture aux X de l’algèbre, [Lov. A224, 33] et nous tâcherons, en professant les doctrines les plus secrètes de la vie élégante, d’être compris même de nos antagonistes, les gens en bottes à revers.
 Or, les trois classes d’êtres créés par les mœurs modernes sont :
@@ -35,11 +41,17 @@ Pour les parvenus de cette classe, la vie est résolue par le [Lov. A224, 36] t
 Là cesse la vie occupée. Le haut fonctionnaire, le prélat, le général, le grand propriétaire, le ministre, le valet et les princes sont dans la catégorie des oisifs, et appartiennent à la vie élégante.
 Après avoir achevé cette triste autopsie du corps social, un philosophe éprouve tant de dégoût pour les préjugés qui amènent les hommes à passer les uns près des autres en s’évitant comme des couleuvres, qu’il a besoin de se dire : – Je ne construis pas à plaisir une nation, je l’accepte toute faite…
 Cet aperçu de la société prise en masse doit aider à concevoir nos premiers aphorismes, que nous formulerons ainsi :
-AphorismesILe but de la vie civilisée ou sauvage est le repos.
-IILe repos absolu produit le spleen.
-IIILa vie élégante est, dans une large acception du terme, l’art d’animer le repos.
-IVL’homme habitué au travail ne peut comprendre la vie élégante.
-VCOROLLAIRE. Pour être fashionable, il faut jouir du repos sans avoir passé par le travail ; autrement, gagner un quaterne, être fils de millionnaire, prince, sinécuriste ou cumulard.
+Aphorismes
+I
+Le but de la vie civilisée ou sauvage est le repos.
+II
+Le repos absolu produit le spleen.
+III
+La vie élégante est, dans une large acception du terme, l’art d’animer le repos.
+IV
+L’homme habitué au travail ne peut comprendre la vie élégante.
+V
+COROLLAIRE. Pour être fashionable, il faut jouir du repos sans avoir passé par le travail ; autrement, gagner un quaterne, être fils de millionnaire, prince, sinécuriste ou cumulard.
 
 
 [Lov. A224, 37]§ II 
@@ -48,13 +60,15 @@ L’artiste est une exception : son oisiveté est un travail, et son travail es
 Quand monsieur Peel entra chez monsieur le vicomte de Châteaubriand, il se trouva dans un cabinet dont tous les meubles étaient en bois de chêne : le ministre trente fois millionnaire vit tout-à-coup les ameublements d’or ou d’argent massif qui encombrent l’Angleterre écrasés par cette simplicité.
 L’artiste est toujours grand. Il a une élégance et une vie à lui, parce que chez lui tout reflète son intelligence et sa gloire. Autant d’artistes, autant de vies caractérisées par des idées neuves. Chez eux la fashion doit être sans force : ces êtres indomptés façonnent tout à leur guise. S’ils s’emparent d’un magot, c’est pour le transfigurer.
 De cette doctrine se déduit un aphorisme européen :
-VIUn artiste vit comme il veut, ou… comme il peut.
+VI
+Un artiste vit comme il veut, ou… comme il peut.
 
 
 [Lov. A224, 38]§ III 
 De la vie élégante
 Si nous omettions de définir ici la vie élégante, ce traité serait infirme ; un traité sans définition est comme un colonel amputé des deux jambes : il ne peut plus guère aller que cahin-caha. Définir, c’est abréger. Abrégeons donc.
-DéfinitionsLa vie élégante est la perfection de la vie extérieure et matérielle ;
+Définitions
+La vie élégante est la perfection de la vie extérieure et matérielle ;
 Ou bien,
 L’art de dépenser ses revenus en homme d’esprit ;
 Ou encore,
@@ -97,8 +111,10 @@ La vie élégante est donc essentiellement la science des manières.
 [Lov. A224, 42] Maintenant la question nous semble suffisamment abrégée, et aussi subtilement posée que si S. S. le comte Ravez s’était chargé de la proposer à la première chambre septennale.
 Mais à quelle gent commence la vie élégante et tous les oisifs sont-ils aptes à en suivre les principes ?
 Voici deux aphorismes qui doivent résoudre tous les doutes, et servir de point de départ à nos observations fashionables.
-VIIPour la vie élégante, il n’y a d’être complet que le centaure, l’homme en tilbury.
-VIIIIl ne suffit pas d’être devenu ou de naître riche pour mener une vie élégante, il faut en avoir le sentiment.
+VII
+Pour la vie élégante, il n’y a d’être complet que le centaure, l’homme en tilbury.
+VIII
+Il ne suffit pas d’être devenu ou de naître riche pour mener une vie élégante, il faut en avoir le sentiment.
 Ne fais pas le prince, a dit avant nous Solon, si tu n’as pas appris à l’être.
 
 
@@ -117,7 +133,8 @@ Hier, encore, les Francs sans armures, peuple débile et [Lov. A224, 46] dégé
 Du moment où deux livres de parchemin ne tiennent plus lieu de tout, où le fils naturel d’un baigneur millionnaire et un homme de talent ont les mêmes droits que le fils d’un comte, nous ne pouvons plus être distinctibles, que par notre valeur intrinsèque. Alors dans notre société les différences ont disparu : il n’y a plus que des nuances. Aussi, le savoir-vivre, l’élégance des manières, le je ne sais quoi, fruit d’une éducation complète, forment la seule barrière qui sépare l’oisif, de l’homme occupé. S’il existe un privilége, il dérive de la supériorité morale. De là, le haut prix, attaché par le plus grand nombre, à l’instruction, à la pureté du langage, à la grâce du maintien, à la manière plus ou moins aisée dont une toilette est portée, à la recherche des appartements, enfin à la perfection de tout ce qui procède de la personne. N’imprimons-nous pas nos mœurs, notre pensée sur tout ce qui nous entoure et nous appartient ? – « Parle, marche, mange ou habille-toi et je te dirai qui tu es ? » a remplacé l’ancien proverbe, expression de cour, adage de privilégié. Aujourd’hui un maréchal de Richelieu est impossible. Un Pair de France, un prince même, risquent de tomber au-dessous [Lov. A224, 47] d’un électeur à cent écus, s’ils se déconsidèrent ; car il n’est permis à personne d’être impertinent ou débauché. Plus les choses ont subi l’influence de la pensée, et plus les détails de la vie se sont ennoblis, épurés, agrandis.
 Telle est la pente insensible par laquelle le christianisme de notre révolution a renversé le polythéisme de la féodalité, par quelle filiation, un sentiment vrai a respiré jusques dans les signes matériels et changeants de notre puissance ; et voilà comment nous sommes revenus au point d’où nous sommes partis – à l’adoration du veau d’or. Seulement, l’idole parle, marche, pense ; en un mot, elle est un géant. Aussi, le pauvre Jacques Bonhomme est-il bâté pour longtemps : une révolution populaire est impossible aujourd’hui : si quelques rois tombent encore, ce sera, comme en France, par le froid mépris de la classe intelligente.
 Pour distinguer notre vie par de l’élégance, il ne suffit donc plus aujourd’hui, d’être noble ou de gagner un quaterne à l’une des loteries humaines, il faut encore avoir été doué de cette indéfinissable faculté (l’esprit de nos sens peut-être !), qui nous porte toujours à choisir les choses vraiment belles ou bonnes, les choses dont l’ensemble concorde avec notre physionomie, avec notre destinée. C’est un tact exquis, dont le constant exercice peut, seul, faire découvrir soudain les rapports, prévoir les conséquences, deviner la place ou la portée des objets, des mots, des idées et des personnes ; car, pour nous résumer, le principe de la vie élégante est une haute pensée d’ordre et d’harmonie destinée à donner de la poésie aux choses. De là cet aphorisme.
-IXUn homme devient riche, il naît élégant.
+IX
+Un homme devient riche, il naît élégant.
 
 Appuyé sur de telles bases, vu de cette hauteur, ce système d’existence n’est donc plus une plaisanterie éphémère, un mot vide, dédaigné par les penseurs comme un journal lu. La vie élégante repose au contraire sur les déductions les plus sévères de la constitution sociale. N’est-elle pas l’habitude et les mœurs des [Lov. A224, 48] gens supérieurs qui savent jouir de la fortune et obtenir du peuple le pardon de leur élévation en faveur des bienfaits répandus par leurs lumières ? N’est-elle pas l’expression des progrès faits par un pays, puisqu’elle en représente tous les genres de luxe. Enfin, si elle est l’indice d’une nature perfectionnée, tout homme ne doit-il pas désirer d’en étudier, d’en surprendre les secrets ?
 Alors il n’est donc plus indifférent de mépriser ou d’adopter les fugitives prescriptions de la MODE ; car mens molem agitat : l’esprit d’un homme se devine à la manière dont il tient sa canne. Les distinctions s’avilissent, ou meurent en devenant communes ; mais il existe une puissance chargée d’en stipuler de nouvelles, c’est l’opinion ; or, la mode n’a jamais été que l’opinion en matière de costume. Le costume étant le plus énergique de tous les symboles, la révolution fut aussi une question de mode, un débat entre la soie et le drap. Mais aujourd’hui LA MODE n’est plus restreinte au luxe de la personne. Le matériel de la vie, ayant été l’objet du progrès général, a reçu d’immenses développements. Il n’est pas un seul de nos besoins qui n’ait produit une encyclopédie, et notre vie animale se rattache à l’universalité des connaissances humaines. Aussi, en dictant les lois de l’élégance, la mode embrasse-t-elle tous les arts. Elle est le principe des œuvres comme des ouvrages. N’est-elle pas le cachet dont un consentement unanime, scelle une découverte ou marque les inventions qui enrichissent le bien-être de l’homme ? Ne constitue-t-elle pas la récompense toujours lucrative, l’hommage décernés au génie. En accueillant, en signalant le progrès, elle se met à la tête de tout : elle fait les révolutions de la musique, des lettres, du dessin et de l’architecture. Or, un traité de la vie élégante, étant la réunion des principes incommutables qui doivent diriger la manifestation de notre pensée par la vie extérieure, est en quelque sorte la métaphysique des choses.
@@ -129,7 +146,8 @@ Plan de ce traité
 – Hé bien quoi ? lui dit A-Z en ne s’apercevant pas que notre honorable ami reprenait haleine.
 – Hé bien, répliqua-t-il, quand ces codes-là ont été faits, je ne sais quelle épizootie (il voulait dire épidémie) a saisi les cacographes, et nous avons été inondés de codes… La politesse, la gourmandise, le théâtre, les honnêtes gens, les femmes, [Lov. A224, 50] l’indemnité, les colons, l’administration, tout a eu son code. Puis, la doctrine de Saint-Simon a dominé cet océan d’ouvrages, en prétendant que la codification (voyez l’Organisateur) était une science spéciale… Peut-être le typographe s’est-il trompé, et n’a-t-il pas bien lu caudification, de cauda, queue ?… mais n’importe !
 – Je vous demande, ajouta-t-il, en arrêtant un de ses auditeurs et le tirant par un bouton, n’est-ce pas un vrai miracle que la Vie élégante n’ait pas trouvé de législateurs parmi tout ce monde écrivant et pensant ? Ces manuels, même ceux du garde-champêtre, du maire et du contribuable, ne sont-ils pas des fadaises auprès d’un traité sur LA MODE ? La publication des principes qui rendent la vie poétique, n’est-elle pas d’une immense utilité ? Si, en province, la plupart de nos fermes, closeries, borderies, maisons, métairies, bordages, etc., sont de véritables chenils ; si le bestial, et surtout les chevaux, obtiennent en France, un traitement indigne d’un peuple chrétien, si la science du confortable, si le briquet de l’immortel Fumade, si la cafetière de Lemare, si les tapis à bon marché sont inconnus à soixante lieues de Paris, il est bien certain que ce manque général des plus vulgaires inventions dues à la science moderne, vient de l’ignorance dans laquelle nous laissons croupir la petite propriété ! L’élégance se rattache à tout. Elle tend à rendre une nation moins pauvre, en lui inspirant le goût du luxe ; car un grand axiome est certes celui-ci :
-XLa fortune que l’on acquiert est en raison des besoins que l’on se crée.
+X
+La fortune que l’on acquiert est en raison des besoins que l’on se crée.
 
 Elle donne (toujours l’élégance) un aspect plus pittoresque à un pays ! et perfectionne l’agriculture ; car, des soins apportés au vivre, au couvert des animaux, dépend la beauté des races et de leurs produits. Or, allez voir dans quels trous les Bretons [Lov. A224, 51] logent leurs vaches, leurs chevaux, leurs moutons et leurs enfants, et vous avouerez que, de tous les livres à faire, un traité sur l’élégance est le plus philanthropique et le plus national ? Si un ministre a laissé son mouchoir et sa tabatière sur la table de Louis XVIII, si les miroirs dans lesquels un jeune élégant se fait la barbe, chez un vieux campagnard, lui donnent l’air d’un homme prêt à tomber en apoplexie, et si enfin votre oncle va encore dans un cabriolet à pompe, c’est assurément faute d’un ouvrage classique sur LA MODE !…
 Notre honorable ami parla long-temps et très-bien avec cette facilité d’élocution que les envieux nomment bavardage ; puis, il conclut en disant : – L’élégance dramatise la vie…
@@ -153,23 +171,31 @@ Ayant dit, il nous proposa de prendre le thé avec lui. Nous acceptâmes. Une mi
 La question dont nous nous occupâmes, était une question de vie ou de mort pour notre entreprise.
 En effet, si le sentiment de la vie élégante devait résulter d’une organisation plus ou moins heureuse, il s’ensuivait que les hommes se partageaient pour nous en deux classes : les poètes et les prosateurs, les élégants et le commun des martyrs ; partant, plus de traité : les premiers sachant tout, les derniers ne pouvant rien apprendre.
 Mais, après la plus mémorable des discussions, nous vîmes surgir cet axiome consolateur.
-XIQuoique l’élégance soit moins un art qu’un sentiment, elle provient également de l’instinct et d’une habitude.
+XI
+Quoique l’élégance soit moins un art qu’un sentiment, elle provient également de l’instinct et d’une habitude.
 
 – Oui, s’écria sir William Crad…k, le compagnon fidèle de Brummell, rassurez la population craintive des country-gentlemen (petits propriétaires), des marchands et des banquiers ?… Tous les enfants de l’aristocratie ne naissent pas avec le sentiment de l’élégance, avec le goût qui sert à donner à la vie une poétique empreinte ; et cependant, l’aristocratie de chaque pays s’y distingue par ses manières et par une remarquable entente de l’existence ! – Quel est donc son privilége ?… L’éducation, l’habitude. Frappés dès le berceau de la grâce harmonieuse qui règne autour d’eux, élevés par des mères élégantes, dont le langage et les mœurs gardent toutes les bonnes traditions, les enfants des grands seigneurs se familiarisent avec les rudiments de notre science, et il faut un naturel bien revêche pour résister à un constant aspect de choses véritablement belles. Aussi le spectacle le plus hideux pour un peuple, est-il un grand tombé au-dessous d’un bourgeois ?
 [Lov. A224, 55] Si toutes les intelligences ne sont pas égales, il est rare que nos sens ne soient pas égaux ; car l’intelligence résulte d’une perfection intérieure ; or, plus nous élargissons la forme, et plus nous obtenons d’égalité : ainsi, les jambes humaines se ressemblent bien mieux que les visages, grâce à la configuration de ces membres qui offrent des lignes étendues. Or, l’élégance n’étant que la perfection des objets sensibles, doit être accessible à tous par l’habitude… L’étude peut conduire un homme riche à porter des bottes et un pantalon aussi bien que nous les portons nous-mêmes, et lui apprendre à savoir dépenser sa fortune avec grâce… Ainsi du reste.
 Brummell fronça légèrement le sourcil. Nous devinâmes qu’il allait faire entendre cette voix prophétique, à laquelle obéissait naguère un peuple de riches.
 – L’axiome est vrai, dit-il, et j’approuve une partie des raisonnements dus à l’honorable préopinant ; mais j’improuve fortement de lever ainsi la barrière qui sépare la vie élégante, de la vie vulgaire ; et d’ouvrir les portes du temple au peuple entier.
 – Non !… s’écria Brummell, en frappant du poing sur la table ; non, toutes les jambes ne sont pas appelées à porter de même une botte ou un pantalon… Non, Milords. N’y a-t-il pas des boiteux, des gens contrefaits ou ignobles à toujours ? Et n’est-ce pas un axiome que cette sentence, mille fois prononcée par nous dans le cours de notre vie.
-XIIRien ne ressemble moins à l’homme qu’un homme.
+XII
+Rien ne ressemble moins à l’homme qu’un homme.
 
 – Donc, reprit-il, après avoir consacré le principe favorable qui laisse, aux catéchumènes de la vie élégante, l’espoir de parvenir à la grâce par l’habitude, reconnaissons aussi les exceptions, et cherchons-en les formules, de bonne foi ?…
 Après bien des efforts, après de nombreuses observations savamment débattues, nous rédigeâmes les axiomes suivants.
-[Lov. A224, 56] XIIIIl faut avoir été, au moins, jusqu’en rhétorique, pour mener une vie élégante.
-XIVSont en dehors de la vie élégante, les détaillants, les gens d’affaires et les professeurs d’humanités.
-XVL’avare est une négation.
-XVIUn banquier arrivé à quarante ans sans avoir déposé son bilan, ou qui a plus de trente-six pouces de tour, est le damné de la vie élégante : il en verra le paradis, sans jamais y entrer.
-XVIIL’être qui ne vient pas souvent à Paris, ne sera jamais complètement élégant.
-XVIIIL’homme impoli est le lépreux du monde fashionable.
+[Lov. A224, 56] XIII
+Il faut avoir été, au moins, jusqu’en rhétorique, pour mener une vie élégante.
+XIV
+Sont en dehors de la vie élégante, les détaillants, les gens d’affaires et les professeurs d’humanités.
+XV
+L’avare est une négation.
+XVI
+Un banquier arrivé à quarante ans sans avoir déposé son bilan, ou qui a plus de trente-six pouces de tour, est le damné de la vie élégante : il en verra le paradis, sans jamais y entrer.
+XVII
+L’être qui ne vient pas souvent à Paris, ne sera jamais complètement élégant.
+XVIII
+L’homme impoli est le lépreux du monde fashionable.
 
 [Lov. A224, 57] – Assez ! dit Brummell. Si nous ajoutions un seul aphorisme, ce serait rentrer dans l’enseignement des principes généraux qui doivent être l’objet de la seconde partie du traité.
 Alors il daigna poser lui-même les limites de la science, en divisant ainsi notre ouvrage.
@@ -195,87 +221,110 @@ Deuxième partie
 Principes généraux
 Songez aussi, Madame, qu’il y a des perfections révoltantes.
 MONOGRAPHIE DE LA VERTU, 
-ouvrage inédit de l’auteur.Chapitre IV 
+ouvrage inédit de l’auteur.
+
+Chapitre IV 
 Dogmes
 L’Église reconnaît sept péchés capitaux et n’admet que trois vertus théologales. Nous avons donc sept principes de remords contre trois sources de consolation !
 Triste problème que celui-ci : 3 : 7 : : l’homme : X !… Aussi nulle créature humaine, sans en excepter sainte Thérèse ni saint François-d’Assise, [Lov. A224,60] n’a-t-elle pu échapper aux conséquences de cette proposition fatale !
 Malgré sa rigueur, ce dogme gouverne le monde élégant, comme il dirige l’univers catholique. Le mal sait stipuler des accommodements, le bien suit une ligne sévère. De cette loi éternelle nous pouvons extraire un axiome, confirmé par tous les dictionnaires des cas de conscience.
-XIXLe bien n’a qu’un mode, le mal en a mille.
+XIX
+Le bien n’a qu’un mode, le mal en a mille.
 
 Ainsi la vie élégante a ses péchés capitaux et ses trois vertus cardinales. Oui, l’élégance est une et indivisible comme la Trinité, comme la Liberté, comme la Vertu. De là, résultent les plus importants de tous nos aphorismes généraux :
-XXLe principe constitutif de l’élégance est l’unité.
-XXIIl n’y a pas d’unité possible sans la propreté, sans l’harmonie, sans la simplicité relative.
+XX
+Le principe constitutif de l’élégance est l’unité.
+XXI
+Il n’y a pas d’unité possible sans la propreté, sans l’harmonie, sans la simplicité relative.
 
 Mais ce n’est point la simplicité plutôt que l’harmonie, ni l’harmonie plutôt que la propreté qui produisent l’élégance, elle naît d’une concordance mystérieuse, entre ces trois vertus primordiales : la créer partout et soudain est le secret des esprits nativement distingués.
 En analysant toutes les choses de mauvais goût qui entachent les toilettes, les appartements, les discours ou le maintien d’un inconnu, les observateurs trouveront toujours qu’elles pèchent par des infractions, plus ou moins sensibles, à cette triple loi de l’unité.
 [Lov. A224, 61] La vie extérieure est une sorte de système organisé qui représente un homme aussi exactement que les couleurs du colimaçon se reproduisent sur sa coquille. Aussi, dans la vie élégante, tout s’enchaîne et se commande. Quand monsieur Cuvier aperçoit l’os frontal, maxillaire ou crural de quelque bête, n’en induit-il pas toute une créature, fût-elle antédiluvienne, et n’en reconstruit-il pas aussitôt un individu classé, soit parmi les sauriens ou les marsupiaux, soit parmi les carnivores ou les herbivores ?… Jamais cet homme ne s’est trompé : son génie lui a révélé les lois unitaires de la vie animale.
 De même, dans la vie élégante, une seule chaise doit déterminer toute une série de meubles, comme l’éperon fait supposer un cheval. Telle toilette annonce telle sphère de noblesse et de bon goût. Chaque fortune a sa base et son sommet. Jamais les Georges Cuvier de l’élégance ne s’exposent à porter des jugements erronés : ils vous diront à quel nombre de zéros, dans le chiffre des revenus, doivent appartenir les galeries de tableaux, les chevaux de race pure, les tapis de la Savonnerie, les rideaux de soie diaphane, les cheminées de mosaïque, les vases étrusques et les pendules surmontées d’une statue échappée au ciseau des David ? Apportez-leur enfin une seule patère !… ils en déduiront tout un boudoir, une chambre, un palais.
 Cet ensemble, rigoureusement exigé par l’unité, rend solidaires tous les accessoires de l’existence ; car un homme de goût juge, comme un artiste, sur un rien. Plus l’ensemble est parfait et plus un barbarisme y est sensible. Il n’y a qu’un sot ou un homme de génie qui puissent mettre une bougie dans un martinet. Les applications de cette grande loi fashionable furent bien comprises de la femme célèbre (madame T***) à laquelle nous devons cet aphorisme.
-XXIIOn connaît l’esprit d’une maîtresse de maison en franchissant le seuil de sa porte.
+XXII
+On connaît l’esprit d’une maîtresse de maison en franchissant le seuil de sa porte.
 
 [Lov. A224, 62] Cette vaste et perpétuelle image qui représente votre fortune ne doit jamais en être le spécimen infidèle ; car vous seriez placé entre deux écueils : l’avarice ou l’impuissance. Or, trop vain comme trop modeste vous n’obéissez plus à cette unité, dont la moindre des conséquences est d’amener un heureux équilibre entre vos forces productrices et votre forme extérieure.
 Une faute aussi capitale détruit toute une physionomie.
 Premier terme de cette proposition, l’avarice a déjà été jugée ; mais, sans pouvoir être accusés d’un vice aussi honteux, beaucoup de gens, jaloux d’obtenir deux résultats tâchent de mener une vie élégante avec économie ; ceux là parviennent sûrement à un but : ils sont ridicules. Ne ressembleront-ils pas, à tout moment, à des machinistes inhabiles dont les décorations laissent apercevoir les ressorts, les contrepoids et les coulisses ; manquant ainsi, à ces deux axiomes fondamentaux de la science :
-XXIIIL’effet le plus essentiel de l’élégance est de cacher les moyens.
-XXIVTout ce qui révèle une économie est inélégant.
+XXIII
+L’effet le plus essentiel de l’élégance est de cacher les moyens.
+XXIV
+Tout ce qui révèle une économie est inélégant.
 
 En effet l’économie est un moyen. Elle est le nerf d’une bonne administration, mais elle ressemble à l’huile, qui donne de la souplesse et de la douceur aux roues d’une machine : il ne faut ni la voir ni la sentir.
 Ces inconvénients ne sont pas les seuls châtiments dont les gens parcimonieux soient punis. En restreignant le développement de leur existence, ils descendent de leur sphère ; et, malgré [Lov. A224, 63] leur pouvoir, se mettent au niveau de ceux que la vanité précipite vers l’écueil opposé. Qui ne frémirait pas de cette épouvantable fraternité ?
 Que de fois n’avez-vous pas rencontré, à la ville ou à la campagne, des bourgeois semi-aristocrates qui, parés outre mesure, sont obligés, faute d’un équipage, de calculer leurs visites, leurs plaisirs et leurs devoirs, d’après Mathieu-Laensberg. Esclave de son chapeau, madame redoute la pluie et monsieur craint le soleil ou la poussière. Impressibles comme des baromètres, ils devinent le temps, quittent tout et disparaissent à l’aspect d’un nuage. Mouillés et crottés, ils s’accusent réciproquement au logis de leurs misères, gênés partout, ils ne jouissent de rien.
 Cette doctrine a été résumée par un aphorisme applicable à toutes les existences depuis celle de la femme forcée de retrousser sa robe pour s’asseoir en voiture, jusqu’au petit prince d’Allemagne qui veut avoir des bouffes.
-XXVDe l’accord entre la vie extérieure et la fortune, résulte l’aisance.
+XXV
+De l’accord entre la vie extérieure et la fortune, résulte l’aisance.
 
 L’observation religieuse de ce principe permet seule à un homme de déployer, jusques dans ses moindres actes, une liberté sans laquelle la grâce ne saurait exister. S’il mesure ses désirs sur sa puissance il reste dans sa sphère sans avoir peur d’en déchoir. Cette sécurité d’action qu’on pourrait nommer la conscience du bien être, nous préserve de tous les orages occasionnés par une vanité mal entendue.
 Ainsi les experts de la vie élégante ne tracent pas de longs chemins en toile verte sur leurs tapis, et ne redoutent pas, pour eux, les visites d’un vieil oncle asthmatique. Ils ne consultent pas le thermomètre pour sortir avec leurs chevaux. Également soumis aux charges de la fortune comme à ses bénéfices, ils ne paraissent jamais contrariés d’un dommage ; car, chez eux, tout se répare avec de l’argent, ou se résout par le plus ou [Lov. A224, 64] moins de peine que prennent leurs gens. Mettre un vase, une pendule en cage, couvrir ses divans de housses, ensacher un lustre, n’est-ce pas ressembler à ces bonnes gens qui, après avoir fait des tirelires pour s’acheter des candélabres, les habillent aussitôt d’une gaze épaisse ? L’homme de goût doit jouir de tout ce qu’il possède. Comme Fontenelle, il n’aime pas les choses qui veulent être par trop respectées. À l’exemple de la Nature, il ne craint pas d’étaler, tous les jours, sa splendeur : il peut la reproduire. Aussi, n’attend-il pas que, semblables aux vétérans du Luxembourg, ses meubles lui attestent leurs services par de nombreux chevrons, pour en changer la destination ; et, ne se plaint-il jamais du prix excessif des choses, car il a tout prévu. Pour l’homme de la vie occupée, les réceptions sont des solennités : il a ses sacres périodiques pour lesquels il fait ses déballages, vide ses armoires, et décapuchonne ses bronzes ; mais l’homme de la vie élégante sait recevoir à toute heure, sans se laisser surprendre. Sa devise est celle d’une famille dont la gloire s’associe à la découverte du nouveau monde, il est semper paratus, toujours prêt, toujours semblable à lui-même. Sa maison, ses gens, ses voitures, son luxe ignorent le préjugé du dimanche. Tous les jours sont des jours de fête. Enfin, si magna licet componere parvis, il est, comme le fameux Dessein qui répondait sans se déranger, en apprenant l’arrivée du duc d’Yorck : – Mettez-le au numéro quatre.
 Ou, comme la duchesse d’Abrantès qui, priée la veille par Napoléon, de recevoir la Reine de Westphalie, au Raincy, dit à son maître d’hôtel : – J’ai demain une reine, et donne, le lendemain, les plaisirs d’une chasse royale, d’opulents festins et un bal somptueux à des souverains.
 Tout fashionable doit imiter, dans sa sphère, cette large entente de l’existence. Il obtiendra facilement ces merveilleux résultats par une constante recherche, par une exquise fraîcheur dans les détails. Le soin perpétue la bonne grâce de l’ensemble, et de là vient cet axiome anglais :
-XXVIL’entretien est le sine quâ non de l’élégance.
+XXVI
+L’entretien est le sine quâ non de l’élégance.
 
 [Lov. A224, 65] L’entretien n’est pas seulement cette condition vitale de la propreté, qui nous oblige d’imprimer aux choses leur lustre journalier, ce mot exprime tout un système.
 Du moment où la finesse et la grâce des tissus ont remplacé, dans le costume européen, la lourdeur des draps d’or et les cottes armoriées du laborieux moyen-âge, une révolution immense a eu lieu dans les choses de la vie. Au lieu d’enfouir un fonds dans un mobilier périssable, nous en avons consommé l’intérêt en objets plus légers, moins chers, faciles à renouveler, et les familles n’ont plus été déshéritées du capital.
 Ce calcul, d’une civilisation avancée, a reçu ses derniers développements en Angleterre. Dans cette patrie du confortable, le matériel de la vie est considéré comme un grand vêtement, essentiellement muable et soumis aux caprices de la fashion. Les riches changent annuellement leurs chevaux, leurs voitures, leurs ameublements ; les diamants mêmes sont remontés ; tout prend une forme nouvelle. Aussi, les moindres meubles sont-ils fabriqués dans cet esprit : les matières premières y sont sagement économisées. Si nous ne sommes pas encore parvenus à ce degré de science, nous avons cependant fait quelques progrès. Les lourdes menuiseries de l’Empire sont entièrement condamnées, ainsi que ses voitures pesantes et ses sculptures, demi-chefs-d’œuvre qui ne satisfaisaient ni l’artiste, ni l’homme de goût. Nous marchons enfin dans une voie d’élégance et de simplicité. Si la modestie de nos fortunes ne permet pas encore des mutations fréquentes, nous avons au moins compris cet aphorisme qui domine les mœurs actuelles.
-[Lov. A224, 66] XXVIILe luxe est moins dispendieux que l’élégance.
+[Lov. A224, 66] XXVII
+Le luxe est moins dispendieux que l’élégance.
 
 Et nous tendons à nous éloigner du système en vertu duquel nos ayeux considéraient l’acquisition d’un meuble comme un placement de fonds ; car chacun a senti instinctivement qu’il est tout à la fois plus élégant et plus confortable de manger dans un service de porcelaine unie, que de montrer aux curieux une coupe sur laquelle Constantin a copié la Fornarina. Les arts enfantent des merveilles que les particuliers doivent laisser aux rois, et des monuments qui n’appartiennent qu’aux nations. L’homme assez niais pour introduire dans l’ensemble de sa vie un seul échantillon d’une existence supérieure, cherche à paraître ce qu’il n’est pas, et retombe alors dans cette impuissance dont nous avons tâché de flétrir les ridicules. Aussi, nous avons rédigé la maxime suivante pour éclairer les victimes de la manie des grandeurs.
-XXVIIILa vie élégante étant un habile développement de l’amour-propre, tout ce qui révèle trop fortement la vanité, y produit un pléonasme.
+XXVIII
+La vie élégante étant un habile développement de l’amour-propre, tout ce qui révèle trop fortement la vanité, y produit un pléonasme.
 
 Chose admirable !… Tous les principes généraux de la science ne sont que des corollaires du grand principe que nous avons proclamé ; car l’entretien et ses lois sont en quelque sorte la conséquence immédiate de l’unité.
 Bien des personnes nous ont objecté l’énormité des dépenses nécessitées par nos despotiques aphorismes ?…
 Quelle fortune, nous a-t-on dit, pourrait suffire aux exigences de vos théories ? Le lendemain du jour où une maison a été remeublée, retapissée, où une voiture a été restaurée, où la soie d’un boudoir a été changée, un fashionable ne vient-il pas [Lov. A224, 67] insolemment appuyer sa tête pommadée sur une tenture ? Un homme en colère n’arrive-t-il pas exprès pour souiller un tapis ? Des maladroits n’accrochent-ils pas la voiture ? Et peut-on toujours empêcher les impertinents de franchir le seuil sacré du boudoir ?…
 Ces réclamations, présentées avec l’art spécieux dont les femmes savent colorer toutes leurs défenses, ont été pulvérisées par cet aphorisme :
-XXIXUn homme de bonne compagnie ne se croit plus le maître de toutes les choses qui, chez lui, doivent être mises à la disposition des autres.
+XXIX
+Un homme de bonne compagnie ne se croit plus le maître de toutes les choses qui, chez lui, doivent être mises à la disposition des autres.
 
 Un élégant ne dit pas tout-à-fait comme le roi : notre voiture, notre palais, notre château, nos chevaux ; mais il sait empreindre toutes ses actions de cette délicatesse royale, heureuse métaphore, à l’aide de laquelle un homme semble convier à sa fortune tous ceux dont il s’entoure. Aussi, cette noble doctrine implique-t-elle un autre axiome non moins important que le précédent :
-XXXAdmettre une personne chez vous, c’est la supposer digne d’habiter votre sphère.
+XXX
+Admettre une personne chez vous, c’est la supposer digne d’habiter votre sphère.
 
 Alors les prétendus malheurs, dont une petite maîtresse demanderait raison à nos dogmes absolus, ne peuvent procéder que d’un défaut de tact impardonnable. Une maîtresse de maison peut-elle jamais se plaindre d’un manque d’égards ou de soin ? N’est-ce pas sa faute ? N’existe-t-il pas, pour les gens comme il faut, des signes maçonniques à la faveur desquels ils doivent se reconnaître ? En ne recevant dans son intimité que ses égaux, l’homme élégant n’a plus d’accidents à redouter : s’il en survient, ce sont de ces coups du sort que personne n’est dispensé de subir. L’anti-chambre est une institution. En Angleterre, où l’aristocratie a fait de si grands progrès, il est peu [Lov. A224, 68] de maisons qui n’aient un parloir. Cette pièce est destinée à donner audience à tous les inférieurs. La distance plus ou moins grande qui sépare nos oisifs, des hommes occupés, est représentée par l’étiquette. Les philosophes, les frondeurs, les rieurs, qui se moquent des cérémonies, ne recevraient pas leur épicier, fût-il électeur du grand collége, avec les attentions dont ils entoureraient un marquis. Il ne s’ensuit pas de là que les fashionables méprisent les travailleurs. Bien loin, ils ont pour eux une admirable formule de respect social.
 – Ce sont des gens estimables…
 Il est aussi maladroit à un élégant de se moquer de la classe industrielle, que de tourmenter des mouches à miel, que de déranger un artiste qui travaille : cela est de mauvais ton.
 Les salons appartiennent donc à ceux qui ont le pied élégant, comme les frégates à ceux qui ont le pied marin. Si vous n’avez pas refusé nos prolégomènes, il faut en accepter toutes les conséquences.
 De cette doctrine, dérive un aphorisme fondamental :
-XXXIDans la vie élégante, il n’existe plus de supériorités : on y traite de puissance à puissance.
+XXXI
+Dans la vie élégante, il n’existe plus de supériorités : on y traite de puissance à puissance.
 
 Un homme de bonne compagnie ne dit à personne : – J’ai l’honneur, etc. Il n’est le très-humble serviteur d’aucun homme.
 Le sentiment des convenances dicte aujourd’hui de nouvelles formules que les gens de goût savent approprier aux circonstances. Sous ce rapport, nous conseillons aux esprits stériles de consulter les Lettres de Montesquieu. Cet illustre écrivain a déployé une rare souplesse de talent, dans la manière dont il terminait ses moindres billets, en horreur de l’absurde monographie du – « J’ai l’honneur d’être. »
 Du moment où les gens de la vie élégante représentent les aristocraties naturelles d’un pays, ils se doivent réciproquement les égards de l’égalité la plus complète. Le talent, l’argent et la [Lov. A224, 69] puissance donnant les mêmes droits, l’homme en apparence faible et dénué auquel vous adressez maladroitement un léger coup de tête, sera bientôt au sommet de l’État, et celui que vous saluez obséquieusement, va rentrer demain dans le néant de la fortune sans pouvoir.
 Jusqu’ici l’ensemble de nos dogmes a plutôt embrassé l’esprit que la forme des choses. Nous avons en quelque sorte présenté l’Esthétique de la vie élégante. En recherchant les lois générales qui régissent les détails, nous avons été moins étonné que surpris de découvrir une sorte de similitude entre les vrais principes de l’architecture et ceux qu’il nous reste à tracer. Alors nous nous sommes demandé si, par hasard, la plupart des objets qui servent à la vie élégante n’étaient pas dans le domaine de l’architecture. Le vêtement, le lit, le coupé, sont des abris de la personne, comme la maison est le grand vêtement qui couvre l’homme et les choses à son usage. Il semble que nous ayons employé tout, jusqu’au langage, comme l’a dit monsieur de Talleyrand, pour cacher une vie, une pensée qui, malgré nos efforts, traverse tous les voiles.
 Sans vouloir donner à cette règle plus d’importance qu’elle n’en mérite, nous consignerons ici quelques-unes de ces règles.
-XXXIIL’élégance veut impérieusement que les moyens soient appropriés au but.
+XXXII
+L’élégance veut impérieusement que les moyens soient appropriés au but.
 
 De ce principe, dérivent deux autres aphorismes, qui en sont la conséquence immédiate.
-XXXIIIL’homme de goût doit toujours savoir réduire le besoin au simple.
-XXXIVIl faut que chaque chose paraisse ce qu’elle est.
-[Lov. A224, 70] XXXVLa prodigalité des ornements nuit à l’effet.
-XXXVIL’ornement doit être mis en haut.
-XXXVIIEn toute chose, la multiplicité des couleurs sera de mauvais goût.
+XXXIII
+L’homme de goût doit toujours savoir réduire le besoin au simple.
+XXXIV
+Il faut que chaque chose paraisse ce qu’elle est.
+[Lov. A224, 70] XXXV
+La prodigalité des ornements nuit à l’effet.
+XXXVI
+L’ornement doit être mis en haut.
+XXXVII
+En toute chose, la multiplicité des couleurs sera de mauvais goût.
 
 Nous ne chercherons pas à démontrer ici, par quelques applications, la justesse de ces axiomes ; car dans les deux parties suivantes, nous en développerons plus rationnellement les conséquences, en signalant leurs effets à chaque détail. Cette observation nous a conduit à retrancher, de cette partie, les principes généraux qui devaient dominer chacune des divisions subsidiaires de la science, pensant qu’ils seraient mieux placés en forme de sommaires, au commencement des chapitres dont ils régissent plus spécialement les matières.
 Du reste, tous les préceptes que nous avons déjà proclamés, et auxquels nous serons forcé de recourir souvent par la suite, pourront paraître vulgaires à bien des gens.
 Nous accepterions au besoin ce reproche comme un éloge. Cependant, malgré la simplicité de ces lois que plus d’un élégantologiste aurait peut-être mieux rédigées, déduites ou enchaînées, nous n’achèverons pas sans faire observer aux néophytes de la fashion, que le bon goût ne résulte pas encore tant de la connaissance de ces règles, que de leur application. Un homme doit pratiquer cette science avec l’aisance qu’il met à parler sa langue maternelle. Il est dangereux de balbutier dans le monde élégant. N’avez-vous pas souvent vu de ces demi-fashionables qui se fatiguent à courir après la grâce, sont gênés s’ils voient un [Lov. A224, 71] pli de moins à leur chemise, et suent sang et eau pour arriver à une fausse correction, semblables à ces pauvres Anglais tirant à chaque mot leur Pocket. Souvenez-vous, pauvres crétins de la vie élégante, que de notre XXXIIIe aphorisme, résulte essentiellement cet autre principe, votre condamnation éternelle.
-XXXVIIIL’élégance travaillée est à la véritable élégance ce qu’est une perruque à des cheveux.
+XXXVIII
+L’élégance travaillée est à la véritable élégance ce qu’est une perruque à des cheveux.
 
 Cette maxime implique, en conséquence sévère, le corollaire suivant.
-XXXIXLe Dandysme est une hérésie de la vie élégante.
+XXXIX
+Le Dandysme est une hérésie de la vie élégante.
 
 En effet le Dandysme est une affectation de la mode. En se faisant Dandy, un homme devient un meuble de boudoir, un mannequin extrêmement ingénieux qui peut se poser sur un cheval ou sur un canapé, qui mord ou tète habilement le bout d’une canne ; mais un être pensant ?… jamais. L’homme qui ne voit que la mode dans la mode est un sot. La vie élégante n’exclut ni la pensée, ni la science ; elle les consacre. Elle ne doit pas apprendre seulement à jouir du temps, mais à l’employer dans un ordre d’idées extrêmement élevé.
 Puisque nous avons, en commençant cette seconde partie de notre traité, trouvé quelque similitude entre nos dogmes et ceux du christianisme, nous la terminerons en empruntant à la théologie des termes scolastiques propres à exprimer les résultats obtenus par ceux qui savent appliquer nos principes avec plus ou moins de bonheur.
@@ -293,10 +342,13 @@ Troisième partie
 Des choses qui procèdent immédiatement de la personne
 – Croyez-vous qu’on puisse être homme de talent, sans toutes ces niaiseries ?
 – Oui, monsieur ; mais vous serez un homme de talent plus ou moins aimable, bien ou mal élevé, répondit-elle.
-(Inconnus causant dans un salon.)Chapitre V 
+(Inconnus causant dans un salon.)
+
+Chapitre V 
 De la toilette dans toutes ses parties
 Nous devons à un jeune écrivain dont l’esprit philosophique a donné de graves aspects aux questions les plus [Lov. A224, 74] frivoles de la Mode, une pensée que nous transformerons en axiome.
-XLLa toilette est l’expression de la société.
+XL
+La toilette est l’expression de la société.
 
 Cette maxime résume toutes nos doctrines et les contient si virtuellement que rien ne peut plus être dit qui ne soit un développement plus ou moins heureux de ce savant aphorisme.
 L’érudit ou l’homme du monde élégant qui voudrait rechercher, à chaque époque, les costumes d’un peuple en ferait ainsi l’histoire la plus pittoresque et la plus nationalement vraie. Expliquer la longue chevelure des Francs, la tonsure des moines, les cheveux rasés du serf, les perruques de Popocambou, la poudre aristocratique et les titus de 1790, ne serait-ce pas raconter les principales révolutions de notre pays ? Demander l’origine des souliers à la poulaine, des aumônières, des chaperons, de la cocarde, des paniers, des vertugadins, des gants, des masques, du velours, c’est entraîner un modilogue dans l’effroyable dédale des lois somptuaires, et sur tous les champs de bataille où la civilisation a triomphé des mœurs grossières importées en Europe par la barbarie du moyen âge. Si l’Église excommunia successivement les prêtres qui prirent des culottes et ceux qui les quittèrent pour des pantalons ; si la perruque des chanoines de Beauvais occupa jadis le parlement de Paris pendant un demi-siècle, c’est que ces choses, futiles en apparence, représentaient ou des idées ou des intérêts. Soit le pied, soit le buste, soit la tête, vous verrez toujours un progrès social, un système rétrograde ou quelque lutte acharnée se formuler à l’aide d’une partie quelconque du vêtement. Tantôt la chaussure annonce un privilége ; tantôt le chaperon, le bonnet ou le chapeau signalent une révolution ; là, une broderie, ou une écharpe ; ici des rubans ou quelqu’ornement de paille expriment un parti ; et alors vous appartenez aux Croisés, aux Protestants, aux Guises, à la Ligue, au Béarnais ou à la Fronde.
@@ -310,7 +362,8 @@ Pourquoi la toilette serait-elle donc toujours le plus éloquent des styles, si 
 Les intendants de nos armées ne reconnaissent pas les uniformes de nos régiments avec plus de promptitude que le physiologiste ne distingue les livrées imposées à l’homme par le luxe, par le travail ou la misère.
 [Lov. A224, 76] Dressez là, un porte-manteau, mettez-y des habits !… Bien. Pour peu que vous ne vous soyez pas promené comme un sot qui ne sait rien voir, vous devinerez le bureaucrate à cette flétrissure des manches, à cette large raie horizontalement imprimée dans le dos par la chaise sur laquelle il s’appuie si souvent en pinçant sa prise de tabac ou en se reposant des fatigues de la fainéantise. Vous admirerez l’homme d’affaires dans l’enflure de la poche aux carnets ; le flâneur, dans la dislocation des goussets où il met souvent ses mains ; le boutiquier, dans l’ouverture extraordinaire des poches qui bâillent toujours, comme pour se plaindre d’être privées de leurs paquets habituels. Enfin, un collet plus ou moins propre, poudré, pommadé, usé, des boutonnières plus ou moins flétries, une basque pendante, la fermeté d’un bougran neuf sont les diagnostics infaillibles des professions, des mœurs, ou des habitudes. Voilà l’habit frais du Dandy, l’Elbœuf du rentier, la redingote courte du courtier marron, le frac à boutons d’or sablé d’un Lyonnais arriéré, ou le spencer crasseux d’un avare !…
 Brummell avait donc bien raison de regarder la TOILETTE comme le point culminant de la Vie Élégante ; car elle domine les opinions, elle les détermine, elle règne !… C’est peut-être un malheur, mais ainsi va le monde. Là où il y a beaucoup de sots, les sottises se perpétuent ; et, certes, il faut bien reconnaître alors cette pensée, pour un axiome.
-XLIL’incurie de la toilette est un suicide moral.
+XLI
+L’incurie de la toilette est un suicide moral.
 
 Mais si la toilette est tout l’homme, elle est encore bien plus toute la femme. La moindre incorrection dans une parure, peut faire reléguer une duchesse inconnue dans les derniers rangs de la société.
 En méditant sur l’ensemble des questions graves dont se compose la science du vêtement, nous avons été frappé de la [Lov. A224, 78] généralité de certains principes qui régissent en quelque sorte tous les pays et la toilette des hommes aussi bien que celle des femmes ; puis, nous avons pensé qu’il fallait pour établir les lois du costume, suivre l’ordre même dans lequel nous nous habillons ; et alors, certains faits prédominent l’ensemble ; car de même que l’homme s’habille avant de parler, d’agir ; de même, il se baigne avant de s’habiller. Les divisions de ce chapitre résultent donc d’observations consciencieuses, qui ont ainsi dicté l’ordonnance de la matière vestimentaire.
@@ -323,41 +376,55 @@ En méditant sur l’ensemble des questions graves dont se compose la science du
 Principes œcuméniques de la toilette
 Les gens qui s’habillent à la manière du manouvrier dont le corps endosse quotidiennement et avec insouciance la même enveloppe, toujours crasseuse et puante, sont aussi nombreux que ces niais allant dans le monde pour n’y rien voir, mourant sans avoir vécu, ne connaissant ni la valeur d’un mets, ni la puissance des femmes, ne disant ni un bon mot ni une sottise, mais « mon Dieu, pardonne-leur, car ils ne savent ce qu’ils font !… »
 S’il s’agit de les convertir à l’élégance, pourront-ils jamais comprendre ces axiomes fondamentaux de toutes nos connaissances.
-[Lov. A224, 78] XLIILa brute se couvre, le riche ou le sot se parent, l’homme élégant s’habille.
-XLIIILa toilette est, tout à la fois, une science, un art, une habitude, un sentiment.
+[Lov. A224, 78] XLII
+La brute se couvre, le riche ou le sot se parent, l’homme élégant s’habille.
+XLIII
+La toilette est, tout à la fois, une science, un art, une habitude, un sentiment.
 
 En effet, quelle est la femme de quarante ans qui ne reconnaîtra pas une science profonde dans la toilette ? N’avouerez-vous pas qu’il ne saurait exister de grâce dans le vêtement si vous n’êtes accoutumés à le porter. Y a-t-il rien de plus ridicule que la grisette en robe de cour ? Et quant au sentiment de la toilette !… Combien, par le monde, compterez-vous de dévotes, de femmes et d’hommes auxquels sont prodigués l’or, les étoffes, les soieries, les créations les plus merveilleuses du luxe et qui s’en servent pour se donner l’air d’une idole japonaise. De là, suit un aphorisme également vrai, que même les coquettes émérites et les professeurs de séduction doivent toujours étudier.
-XLIVLa toilette ne consiste pas tant dans le vêtement que dans une certaine manière de le porter.
+XLIV
+La toilette ne consiste pas tant dans le vêtement que dans une certaine manière de le porter.
 
 Aussi n’est-ce pas tant le chiffon en lui-même, que l’esprit du chiffon qu’il faut saisir. Il existe au fond des provinces, et, même à Paris, bon nombre de personnes capables de commettre en fait de modes nouvelles, l’erreur de cette duchesse espagnole qui, recevant une précieuse cuvette de structure inconnue, crut après bien des méditations, entrevoir que sa forme la destinait à paraître sur la table, offrant aux regards des convives une daube truffée ; n’alliant pas des idées de propreté avec la porcelaine dorée de ce meuble nécessaire.
 [Lov. A224, 79] Aujourd’hui, nos mœurs ont tellement modifié le costume qu’il n’y a plus de costume, à proprement parler. Toutes les familles européennes ont adopté le drap, parce que les grands seigneurs, comme le peuple ont compris instinctivement cette grande vérité : il vaut beaucoup mieux porter des draps fins et avoir des chevaux, que de semer sur un habillement les pierreries du moyen âge et de la monarchie absolue. Alors, réduite à la toilette, l’élégance consiste en une extrême recherche dans les détails de l’habillement : c’est moins la simplicité du luxe, qu’un luxe de simplicité. Il y a bien une autre élégance… Mais elle n’est que la vanité dans la toilette. Elle pousse certaines femmes à porter des étoffes bizarres pour se faire remarquer, à se servir d’agrafes en diamants pour attacher un nœud, à mettre une boucle brillante dans la coque d’un ruban, de même que certains martyrs de la mode, gens à cent louis de rente, habitant une mansarde et voulant se mettre dans le dernier genre, ont des pierres à leurs chemises, le matin, attachent leurs pantalons avec des boutons d’or, retiennent leurs fastueux lorgnons par des chaînes, et vont dîner chez Tabar !… Combien de ces Tantales parisiens ignorent volontairement peut-être, cet axiome.
-XLVLa toilette ne doit jamais être un luxe.
+XLV
+La toilette ne doit jamais être un luxe.
 
 Beaucoup de personnes, même de celles auxquelles nous avons reconnu quelque distinction dans les idées, de l’instruction, et de la supériorité de cœur, savent difficilement connaître le point d’intersection qui sépare la toilette de pied et la toilette de voiture !…
 Quel plaisir ineffable pour l’observateur, pour le connaisseur de rencontrer par les rues de Paris, sur les boulevards, ces femmes de génie qui, après avoir signé leur nom, leur rang, leur fortune dans le sentiment de leur toilette, ne paraissent rien aux yeux du vulgaire et sont tout un poème pour [Lov. A224, 80] les artistes, pour les gens du monde occupés à flâner. C’est un accord parfait entre la couleur du vêtement et les dessins, c’est un fini dans les agréments qui révèle la main industrieuse d’une adroite femme de chambre. Ces hautes puissances féminines savent merveilleusement bien se conformer à l’humble rôle du piéton, parce qu’elles ont maintes fois expérimenté les hardiesses autorisées par un équipage, car il n’y a que les gens habitués au luxe du carrosse qui savent se vêtir pour aller à pied.
 C’est à l’une de ces ravissantes déesses parisiennes que nous devons les deux formules suivantes.
-XLVIL’équipage est un passeport pour tout ce qu’une femme veut oser.
-XLVIILe fantassin a toujours à lutter contre un préjugé.
+XLVI
+L’équipage est un passeport pour tout ce qu’une femme veut oser.
+XLVII
+Le fantassin a toujours à lutter contre un préjugé.
 
 D’où il suit que l’axiome suivant doit avant tout, régler les toilettes des prosaïques piétons.
-XLVIIITout ce qui vise à l’effet est de mauvais goût, comme tout ce qui est tumultueux.
+XLVIII
+Tout ce qui vise à l’effet est de mauvais goût, comme tout ce qui est tumultueux.
 
 Brummell a, du reste, laissé la maxime la plus admirable sur cette matière et l’assentiment de l’Angleterre l’a consacrée.
-XLIXSi le peuple vous regarde avec attention vous n’êtes pas bien mis, vous êtes trop bien mis, trop empesé, ou trop recherché.
+XLIX
+Si le peuple vous regarde avec attention vous n’êtes pas bien mis, vous êtes trop bien mis, trop empesé, ou trop recherché.
 
 [Lov. A224, 81] D’après cette immortelle sentence, tout fantassin doit passer inaperçu. Son triomphe est d’être à la fois vulgaire et distingué, reconnu par les siens et méconnu par la foule. Si Murat s’est fait nommer le Roi-Franconi, jugez de la sévérité avec laquelle le monde poursuit un fat ? Il tombe au-dessous du ridicule. Le trop de recherche est peut-être un plus grand vice que le manque de soin, et l’axiome suivant fera frémir sans doute les femmes à prétention.
-LDépasser la mode, c’est devenir caricature.
+L
+Dépasser la mode, c’est devenir caricature.
 
 Maintenant, il nous reste à détruire la plus grave de toutes les erreurs qu’une fausse expérience accrédite chez les esprits peu accoutumés à réfléchir ou à observer ; mais, nous donnerons despotiquement et sans commentaires notre arrêt souverain, laissant aux femmes de bon goût et aux philosophes de salon le soin de discuter.
-LILe vêtement est comme un enduit, il met tout en relief, et la toilette a été inventée bien plutôt pour faire ressortir des avantages corporels que pour voiler des imperfections.
+LI
+Le vêtement est comme un enduit, il met tout en relief, et la toilette a été inventée bien plutôt pour faire ressortir des avantages corporels que pour voiler des imperfections.
 
 D’où suit ce corollaire naturel.
-LIITout ce qu’une toilette cherche à cacher, dissimuler, augmenter et grossir plus que la nature ou la mode ne l’ordonnent ou ne le veulent est toujours censé vicieux.
+LII
+Tout ce qu’une toilette cherche à cacher, dissimuler, augmenter et grossir plus que la nature ou la mode ne l’ordonnent ou ne le veulent est toujours censé vicieux.
 Aussi, toute mode qui a pour but un mensonge, est essentiellement passagère et de mauvais goût.
 
 D’après ces principes dérivés d’une jurisprudence exacte, basés sur l’observation, et dus au calcul le plus sévère de l’amour-propre humain ou féminin, il est clair qu’une femme mal faite, déjetée, bossue ou boiteuse, doit essayer, par politesse, à diminuer les défauts de sa taille ; mais elle serait moins qu’une femme si elle s’imaginait produire la plus légère illusion. Mademoiselle de Lavallière boitait avec grâce, et plus d’une bossue sait prendre sa revanche par les charmes de l’esprit, ou par les éblouissantes richesses d’un cœur passionné. Nous ne savons pas quand les femmes comprendront qu’un défaut leur donne d’immenses avantages !… L’homme ou la femme parfaits sont les êtres les plus nuls.
 Nous terminerons ces réflexions préliminaires, applicables à tous les pays, par un axiome qui peut se passer de commentaires.
-LIIIUne déchirure est un malheur, une tache est un vice.
+LIII
+Une déchirure est un malheur, une tache est un vice.
+
+
 
 
 

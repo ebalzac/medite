@@ -3,12 +3,17 @@ La Comédie humaine
 Études de mœurs
 Scènes de la vie parisienne
 Les Petits Bourgeois
-[1]DÉDICACEÀ CONSTANCE VICTOIRE
+
+
+[1]DÉDICACE
+À CONSTANCE VICTOIRE
 Voici, madame, une de ces œuvres qui tombent, on ne sait d’où, dans la pensée et qui plaisent à un auteur, avant qu’il puisse prévoir quel sera l’accueil du public, ce grand juge du moment. Presque sûr de votre complaisance à mon engouement, je vous dédie ce livre : ne doit-il pas vous appartenir comme autrefois la dîme appartenait à l’Église, en mémoire de Dieu qui fait tout éclore, tout mûrir et dans les champs et dans l’intelligence.
 Quelques restes de glaise, laissés par Molière au bas de sa colossale statue de Tartuffe, ont été maniés ici d’une main plus audacieuse qu’habile ; mais à quelque distance que je demeure du plus grand des comiques, je serai content d’avoir utilisé ces miettes prises dans l’avant-scène de sa pièce, en montrant l’hypocrite moderne à l’œuvre. La raison qui m’a le plus encouragé dans cette difficile entreprise, fut de la trouver dépouillée de toute question religieuse qui devait être écartée pour vous, si pieuse, et à cause de ce qu’un grand écrivain a nommé l’indifférence en matière de religion.
 Puisse la double signification de vos noms être pour le livre une prophétie !
 Daignez voir ici l’expression de la respectueuse reconnaissance de qui ose se dire le plus dévoué de vos serviteurs
 H. de Balzac.
+
+
 I 
 Le Paris qui s’en va
 Le tourniquet Saint-Jean, dont la description parut fastidieuse en son temps au commencement de l’Étude intitulée Une double famille dans les Scènes de la Vie Privée, ce naïf détail du vieux Paris n’a plus que cette existence typographique. La construction de l’Hôtel de ville, tel qu’il est aujourd’hui, balaya tout un quartier. En 1830, les passants pouvaient encore [1b] voir le Tourniquet peint sur l’enseigne d’un marchand de vin, mais la maison fut depuis abattue. Rappeler ce service, n’est-ce pas en annoncer un autre du même genre. Hélas ! le vieux Paris disparaît avec une effrayante rapidité. Çà et là, dans cette œuvre, il en restera tantôt un type d’habitation du moyen-âge, comme celle décrite au commencement du Chat-qui-pelote et dont un ou deux modèles subsistent encore ; tantôt la maison habitée par le juge Popinot, rue du Fouarre, spécimen de vieille bourgeoisie ; ici, les restes de la maison de Fulbert, là tout le bassin de la Seine sous Charles IX. Nouvel Old Mortality, pourquoi l’historien de la société française, ne sauverait-il pas ces curieuses expressions du passé, comme le vieillard de Walter Scott rafraîchissait les tombes ? Certes, depuis dix ans environ, les cris de la littérature n’ont pas été superflus, l’art commence à déguiser sous ses fleurs les ignobles façades de ce qui s’appelle à Paris les maisons de produit, et que l’un de nos poëtes compare à des commodes.
@@ -1028,4 +1033,6 @@ Cérizet revint au commencement de la soirée, après avoir fait toutes les dili
 – Mais, non !…
 – Eh ! bien, en quatre voyages, l’or des tiroirs sera chez moi…
 Le vieillard endormi fut replacé sur son lit, et Cérizet gagna la place Saint-Sulpice, où il prit un fiacre pour revenir chez lui. Pour ne pas donner de soupçons, il vint une seconde fois accompagné d’un médecin du quartier Saint-Marcel qui avait l’habitude de voir les pauvres, et qui connaissait leurs maladies, et la consultation finit vers neuf heures. Le médecin déclara que le vieillard n’irait pas trois jours, en le voyant si profondément absorbé par la tasse d’eau de pavot ; aussitôt le médecin parti, Cérizet prit une
+
+
 

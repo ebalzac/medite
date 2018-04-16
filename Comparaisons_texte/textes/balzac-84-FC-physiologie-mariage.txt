@@ -4,8 +4,14 @@ La Comédie humaine
 Physiologie du mariage
 ou
 Méditations de philosophie éclectique sur le bonheur et le malheur conjugal
-[337]DÉDICACEFaites attention à ces mots (page 367) : « L’homme supérieur à qui ce livre est dédié » n’est-ce pas vous dire : – « C’est à vous ? »
-L’AUTEUR._______La femme qui, sur le titre de ce livre, serait tentée de l’ouvrir, peut s’en dispenser, elle l’a déjà lu sans le savoir. Un homme, quelque malicieux qu’il puisse être, ne dira jamais des femmes autant de bien ni autant de mal qu’elles en pensent elles-mêmes. Si, malgré cet avis, une femme persistait à lire l’ouvrage, la délicatesse devra lui imposer la loi de ne pas médire de l’auteur, du moment où, se privant des approbations qui flattent le plus les artistes, il a en quelque sorte gravé sur le frontispice de son livre la prudente inscription mise sur la porte de quelques établissements : Les dames n’entrent pas ici.
+
+
+[337]DÉDICACE
+Faites attention à ces mots (page 367) : « L’homme supérieur à qui ce livre est dédié » n’est-ce pas vous dire : – « C’est à vous ? »
+L’AUTEUR.
+_______
+La femme qui, sur le titre de ce livre, serait tentée de l’ouvrir, peut s’en dispenser, elle l’a déjà lu sans le savoir. Un homme, quelque malicieux qu’il puisse être, ne dira jamais des femmes autant de bien ni autant de mal qu’elles en pensent elles-mêmes. Si, malgré cet avis, une femme persistait à lire l’ouvrage, la délicatesse devra lui imposer la loi de ne pas médire de l’auteur, du moment où, se privant des approbations qui flattent le plus les artistes, il a en quelque sorte gravé sur le frontispice de son livre la prudente inscription mise sur la porte de quelques établissements : Les dames n’entrent pas ici.
+
 
 Introduction
 « Le mariage ne dérive point de la nature. – La famille orientale diffère entièrement de la famille occidentale. – L’homme est le ministre de la nature, et la société vient s’enter sur elle. – Les lois sont faites pour les mœurs, et les mœurs varient. »
@@ -40,7 +46,10 @@ Quand j’écris et parle de moi au singulier, cela suppose une confabulation av
 Première partie 
 Considérations générales
 [346] Nous parlerons contre les lois insensées jusqu’à ce qu’on les réforme, et en attendant nous nous y soumettrons aveuglément.
-(DIDEROT, Supplément au Voyage de Bougainville.)Méditation I 
+(DIDEROT, Supplément au Voyage de Bougainville
+.)
+
+Méditation I 
 Le sujet
 Physiologie, que me veux-tu ?
 Ton but est-il de nous démontrer que le mariage unit, pour toute la vie, deux êtres qui ne se connaissent pas ?
@@ -184,19 +193,33 @@ Mais cet aveu d’un amour subalterne, éclos en grandissant au milieu des ballo
 [363] Bref, un jeune homme ne manque jamais d’excellentes raisons pour prouver que sa maîtresse va devenir très-prochainement une femme honnête, si elle ne l’est pas déjà. Cette distinction, produite par l’élégance de nos mœurs, est devenue aussi indéfinissable que la ligne à laquelle commence le bon ton. Qu’est-ce donc alors qu’une femme honnête ?
 Cette matière touche de trop près à la vanité des femmes, à celle de leurs amants, et même à celle d’un mari, pour que nous n’établissions pas ici des règles générales, résultat d’une longue observation.
 Notre million de têtes privilégiées représente une masse d’éligibles au titre glorieux de femme honnête, mais toutes ne sont pas élues. Les principes de cette élection se trouvent dans les axiomes suivants :
-APHORISMESIUne femme honnête est essentiellement mariée.
-IIUne femme honnête a moins de quarante ans.
-IIIUne femme mariée dont les faveurs sont payables n’est pas une femme honnête.
-IVUne femme mariée qui a une voiture à elle est une femme honnête.
-VUne femme qui fait la cuisine dans son ménage n’est pas une femme honnête.
-VIQuand un homme a gagné vingt mille livres de rente, sa femme est une femme honnête, quel que soit le genre de commerce auquel il a dû sa fortune.
-VIIUne femme qui dit une lettre d’échange pour une lettre de change, souyer pour soulier, pierre de lierre pour pierre [364] de liais, qui dit d’un homme : « Est-il farce monsieur un tel ! » ne peut jamais être une femme honnête, quelle que soit sa fortune.
-VIIIUne femme honnête doit avoir une existence pécuniaire qui permette à son amant de penser qu’elle ne lui sera jamais à charge d’aucune manière.
-IXUne femme logée au troisième étage (les rues de Rivoli et Castiglione exceptées) n’est pas une femme honnête.
-XLa femme d’un banquier est toujours une femme honnête ; mais une femme assise dans un comptoir ne peut l’être qu’autant que son mari fait un commerce très-étendu et qu’elle ne loge pas au-dessus de sa boutique.
-XILa nièce, non mariée, d’un évêque, et quand elle demeure chez lui, peut passer pour une femme honnête, parce que si elle a une intrigue, elle est obligée de tromper son oncle.
-XIIUne femme honnête est celle que l’on craint de compromettre.
-XIIILa femme d’un artiste est toujours une femme honnête.
+APHORISMES
+I
+Une femme honnête est essentiellement mariée.
+II
+Une femme honnête a moins de quarante ans.
+III
+Une femme mariée dont les faveurs sont payables n’est pas une femme honnête.
+IV
+Une femme mariée qui a une voiture à elle est une femme honnête.
+V
+Une femme qui fait la cuisine dans son ménage n’est pas une femme honnête.
+VI
+Quand un homme a gagné vingt mille livres de rente, sa femme est une femme honnête, quel que soit le genre de commerce auquel il a dû sa fortune.
+VII
+Une femme qui dit une lettre d’échange pour une lettre de change, souyer pour soulier, pierre de lierre pour pierre [364] de liais, qui dit d’un homme : « Est-il farce monsieur un tel ! » ne peut jamais être une femme honnête, quelle que soit sa fortune.
+VIII
+Une femme honnête doit avoir une existence pécuniaire qui permette à son amant de penser qu’elle ne lui sera jamais à charge d’aucune manière.
+IX
+Une femme logée au troisième étage (les rues de Rivoli et Castiglione exceptées) n’est pas une femme honnête.
+X
+La femme d’un banquier est toujours une femme honnête ; mais une femme assise dans un comptoir ne peut l’être qu’autant que son mari fait un commerce très-étendu et qu’elle ne loge pas au-dessus de sa boutique.
+XI
+La nièce, non mariée, d’un évêque, et quand elle demeure chez lui, peut passer pour une femme honnête, parce que si elle a une intrigue, elle est obligée de tromper son oncle.
+XII
+Une femme honnête est celle que l’on craint de compromettre.
+XIII
+La femme d’un artiste est toujours une femme honnête.
 
 En appliquant ces principes, un homme du département de l’Ardèche peut résoudre toutes les difficultés qui se présenteront dans cette matière.
 Pour qu’une femme ne fasse pas elle-même sa cuisine, ait reçu une brillante éducation, ait le sentiment de la coquetterie, ait le droit de passer des heures entières dans un boudoir, couchée sur un divan, et vive de la vie de l’âme, il lui faut au moins un revenu de six mille francs en province ou de vingt mille livres à Paris. Ces deux termes de fortune vont nous indiquer le nombre présumé des femmes honnêtes qui se trouvent dans le million, produit brut de notre statistique.
@@ -234,7 +257,8 @@ Cette différence peut, au premier aspect, sembler singulière, mais elle est fa
 L’âge moyen auquel les femmes sont mariées est vingt ans, et à quarante elles cessent d’appartenir à l’amour.
 Or un jeune garçon de dix-sept ans donne de fiers coups de canif dans les parchemins des contrats, et particulièrement dans les plus anciens, disent les chroniques scandaleuses.
 Or un homme de cinquante-deux ans est plus redoutable à cet âge qu’à tout autre. C’est à cette belle époque de la vie qu’il use, et d’une expérience chèrement acquise, et de toute la fortune qu’il doit avoir. Les passions sous le fléau desquelles il tourne étant les dernières, il est impitoyable et fort comme l’homme entraîné par le courant, qui saisit une verte et flexible branche de saule, jeune pousse de l’année.
-XIVPhysiquement, un homme est plus long-temps homme que la femme n’est femme.
+XIV
+Physiquement, un homme est plus long-temps homme que la femme n’est femme.
 
 Relativement au mariage, la différence de durée qui existe entre la vie amoureuse de l’homme et celle de la femme est donc de quinze ans. Ce terme équivaut aux trois quarts du temps pendant lequel les infidélités d’une femme peuvent faire le malheur d’un mari. Cependant le reste de la soustraction faite sur notre masse d’hommes n’offre une différence que d’un sixième au plus, en le comparant à celui qui résulte de la soustraction exercée sur la masse féminine.
 Grande est la modestie de nos calculs. Quant à nos raisons, elles sont d’une évidence si vulgaire que nous ne les avons exposées que par exactitude et pour prévenir toute critique.
@@ -253,7 +277,8 @@ Mais ensuite les maladies par lesquelles un homme est affligé ne produisent pas
 Ah ! vous souvenez-vous de ce moment lugubre et noir où, seul et souffrant, accusant les hommes, surtout vos amis ; faible, découragé et pensant à la mort, la tête appuyée sur un oreiller fadement chaud, et couché sur un drap dont le blanc treillis de lin s’imprimait douloureusement sur votre peau, vous promeniez vos yeux agrandis sur le papier vert de votre chambre muette ? vous souvenez-vous, dis-je, de l’avoir vue entr’ouvrant votre porte sans bruit, montrant sa jeune, sa blonde tête encadrée de rouleaux d’or et d’un chapeau frais, apparaissant comme une étoile dans une nuit orageuse, souriant, accourant moitié chagrine, moitié heureuse, se précipitant vers vous !
 – Comment as-tu fait, qu’as-tu dit à ton mari ? demandez-vous.
 Un mari !… Ah ! nous voici ramenés en plein dans notre sujet.
-XVMoralement, l’homme est plus souvent et plus long-temps homme que la femme n’est femme.
+XV
+Moralement, l’homme est plus souvent et plus long-temps homme que la femme n’est femme.
 
 Cependant nous devons considérer que parmi ces deux millions de célibataires, il y a bien des malheureux chez lesquels le sentiment profond de leur misère et des travaux obstinés éteignent l’amour ;
 [371] Qu’ils n’ont pas tous passé par le collége, et qu’il y a bien des artisans, bien des laquais (le duc de Gèvres, très-laid et petit, en se promenant dans le parc de Versailles, aperçut des valets de riche taille, et dit à ses amis : – Regardez comme nous faisons ces drôles-là, et comme ils nous font !…), bien des entrepreneurs en bâtiment, bien des industriels qui ne pensent qu’à l’argent ; bien des courtauds de boutique ;
@@ -265,8 +290,10 @@ Mais laissons à chacun le soin d’augmenter le nombre des exceptions suivant s
 Maintenant, à entendre nos aimables célibataires, chacun d’eux raconte une multitude d’aventures qui, toutes, compromettent gravement les femmes honnêtes. Il y a beaucoup de modestie et de retenue à ne distribuer que trois aventures par célibataire ; mais si quelques-uns comptent par dizaine, il en est tant qui s’en sont tenus à deux ou trois passions, et même à une seule dans leur vie, que nous avons, comme en statistique, pris le mode d’une répartition par tête. Or, si l’on multiplie le nombre des célibataires par le nombre des bonnes fortunes, on obtiendra trois millions d’aventures ; et, pour y faire face, nous n’avons que quatre cent mille femmes honnêtes ?…
 Si le Dieu de bonté et d’indulgence qui plane sur les mondes ne fait pas une seconde lessive du genre humain, c’est sans doute à cause du peu de succès de la première…
 Voilà donc ce que c’est qu’un peuple ! voilà une société tamisée, et voilà ce qu’elle offre en résultat !
-[372] XVILes mœurs sont l’hypocrisie des nations ; l’hypocrisie est plus ou moins perfectionnée.
-XVIILa vertu n’est peut-être que la politesse de l’âme.
+[372] XVI
+Les mœurs sont l’hypocrisie des nations ; l’hypocrisie est plus ou moins perfectionnée.
+XVII
+La vertu n’est peut-être que la politesse de l’âme.
 
 L’amour physique est un besoin semblable à la faim, à cela près que l’homme mange toujours, et qu’en amour son appétit n’est pas aussi soutenu ni aussi régulier qu’en fait de table.
 Un morceau de pain bis et une cruchée d’eau font raison de la faim de tous les hommes ; mais notre civilisation a créé la gastronomie.
@@ -292,11 +319,16 @@ Nous n’essaierons pas de compter des femmes vertueuses par bêtise, il est rec
 Enfin, il ne serait cependant pas impossible qu’il y eût, dans quelque coin, des femmes jeunes, jolies et vertueuses de qui le monde ne se doute pas.
 Mais ne donnez pas le nom de femme vertueuse à celle qui, combattant une passion involontaire, n’a rien accordé à un amant qu’elle est au désespoir d’idolâtrer. C’est la plus sanglante injure qui puisse être faite à un mari amoureux. Que lui reste-t-il de sa femme ? Une chose sans nom, un cadavre animé. Au sein des plaisirs, sa femme demeure comme ce convive averti par Borgia, au milieu du festin, que certains mets sont empoisonnés : il n’a plus faim, mange du bout des dents, ou feint de manger. Il regrette le repas qu’il a laissé pour celui du terrible cardinal, et soupire après le moment où, la fête étant finie, il pourra se lever de table.
 Quel est le résultat de ces réflexions sur la vertu féminine ? Le voici ; mais les deux dernières maximes nous ont été données par un philosophe éclectique du dix-huitième siècle.
-XVIIIUne femme vertueuse a dans le cœur une fibre de moins ou de plus que les autres femmes : elle est stupide ou sublime.
-XIXLa vertu des femmes est peut-être une question de tempérament.
-[375] XXLes femmes les plus vertueuses ont en elles quelque chose qui n’est jamais chaste.
-XXI« Qu’un homme d’esprit ait des doutes sur sa maîtresse, cela se conçoit ; mais sur sa femme !… il faut être par trop bête. »
-XXII« Les hommes seraient trop malheureux si, auprès des femmes, ils se souvenaient le moins du monde de ce qu’ils savent par cœur. »
+XVIII
+Une femme vertueuse a dans le cœur une fibre de moins ou de plus que les autres femmes : elle est stupide ou sublime.
+XIX
+La vertu des femmes est peut-être une question de tempérament.
+[375] XX
+Les femmes les plus vertueuses ont en elles quelque chose qui n’est jamais chaste.
+XXI
+« Qu’un homme d’esprit ait des doutes sur sa maîtresse, cela se conçoit ; mais sur sa femme !… il faut être par trop bête. »
+XXII
+« Les hommes seraient trop malheureux si, auprès des femmes, ils se souvenaient le moins du monde de ce qu’ils savent par cœur. »
 
 Le nombre des femmes rares qui, semblables aux vierges de la parabole, ont su garder leur lampe allumée, sera toujours trop faible aux yeux des défenseurs de la vertu et des bons sentiments ; mais encore faudra-t-il le retrancher de la somme totale des femmes honnêtes, et cette soustraction consolante rend encore le danger des maris plus grand, le scandale plus affreux, et entache d’autant plus le reste des épouses légitimes.
 Quel mari pourra maintenant dormir tranquille à côté de sa jeune et jolie femme, en apprenant que trois célibataires, au moins, sont à l’affût ; que s’ils n’ont pas encore fait de dégât dans sa petite propriété, ils regardent la mariée comme une proie qui leur est due, qui tôt ou tard leur écherra, soit par ruse, soit par force, par conquête ou de bonne volonté ? et il est impossible qu’ils ne soient pas, un jour, victorieux dans cette lutte !
@@ -319,11 +351,14 @@ Mais qu’il se produise cependant au sein du salon le plus janséniste possible
 Le seul roi de France qui n’étoufferait pas de rire serait peut-être Louis XIII ; mais quant à son vert-galant de père, il aurait peut-être banni un tel jouvenceau, soit en l’accusant de n’être pas Français, soit en le croyant d’un dangereux exemple.
 Étrange contradiction ! Un jeune homme est également blâmé s’il passe sa vie en terre sainte, pour nous servir d’une expression de la vie de garçon ! Serait-ce par hasard au profit des femmes honnêtes que les préfets de police et les maires ont de tout temps ordonné aux passions publiques de ne commencer qu’à la nuit tombante et de cesser à onze heures du soir ?
 [378] Où voulez-vous donc que notre masse de célibataires jette sa gourme ? Et qui trompe-t-on donc ici ? comme demande Figaro. Est-ce les gouvernants ou les gouvernés ? L’ordre social est-il comme ces petits garçons qui se bouchent les oreilles au spectacle pour ne pas entendre les coups de fusil ? A-t-il peur de sonder sa plaie ? Ou serait-il reconnu que ce mal est sans remède et qu’il faut laisser aller les choses ? Mais il y a ici une question de législation, car il est impossible d’échapper au dilemme matériel et social qui résulte de ce bilan de la vertu publique en fait de mariage. Il ne nous appartient pas de résoudre cette difficulté ; cependant supposons un moment que pour préserver tant de familles, tant de femmes, tant de filles honnêtes, la Société se vît contrainte de donner à des cœurs patentés le droit de satisfaire aux célibataires : nos lois ne devraient-elles pas alors ériger en corps de métier ces espèces de Décius femelles qui se dévouent pour la république et font aux familles honnêtes un rempart de leurs corps ? Les législateurs ont bien eu tort de dédaigner jusqu’ici de régler le sort des courtisanes.
-XXIIILa courtisane est une institution si elle est un besoin.
+XXIII
+La courtisane est une institution si elle est un besoin.
 Cette question est hérissée de tant de si et de mais, que nous la léguons à nos neveux ; il faut leur laisser quelque chose à faire. D’ailleurs elle est tout à fait accidentelle dans cet ouvrage ; car aujourd’hui, plus qu’en aucun temps, la sensibilité s’est développée ; à aucune époque il n’y a eu autant de mœurs, parce qu’on n’a jamais si bien senti que le plaisir vient du cœur. Or, quel est l’homme à sentiment, le célibataire qui, en présence de quatre cent mille jeunes et jolies femmes parées des splendeurs de la fortune et des grâces de l’esprit, riches des trésors de la coquetterie et prodigues de bonheur, voudraient aller… ? Fi donc !
 Mettons pour nos futurs législateurs, sous des formes claires et brèves, le résultat de ces dernières années.
-XXIVDans l’ordre social, les abus inévitables sont des lois de la Nature d’après lesquelles l’homme doit concevoir ses lois civiles et politiques.
-[379] XXVL’adultère est une faillite, à cette différence près, dit Champfort, que c’est celui à qui l’on fait banqueroute qui est déshonoré.
+XXIV
+Dans l’ordre social, les abus inévitables sont des lois de la Nature d’après lesquelles l’homme doit concevoir ses lois civiles et politiques.
+[379] XXV
+L’adultère est une faillite, à cette différence près, dit Champfort, que c’est celui à qui l’on fait banqueroute qui est déshonoré.
 
 En France, les lois sur l’adultère et sur les faillites ont besoin de grandes modifications. Sont-elles trop douces ? pèchent-elles par leurs principes ? Caveant consules !
 Eh ! bien, courageux athlète, toi qui as pris pour ton compte la petite apostrophe que notre première Méditation adresse aux gens chargés d’une femme, qu’en dis-tu ? Espérons que ce coup d’œil jeté sur la question ne te fait pas trembler, que tu n’es pas un de ces hommes dont l’épine dorsale devient brûlante et dont le fluide nerveux se glace à l’aspect d’un précipice ou d’un boa constrictor ! Hé ! mon ami, qui a terre a guerre. Les hommes qui désirent ton argent sont encore bien plus nombreux que ceux qui désirent ta femme.
@@ -360,7 +395,8 @@ En 1819, j’habitais une chaumière au sein de la délicieuse vallée de l’Is
 [385] Jamais, depuis ce jour, je n’ai pu voir les ménages des prédestinés sans comparer la plupart des maris à cet orang-outang voulant jouer du violon.
 L’amour est la plus mélodieuse de toutes les harmonies, et nous en avons le sentiment inné. La femme est un délicieux instrument de plaisir, mais il faut en connaître les frémissantes cordes, en étudier la pose, le clavier timide, le doigté changeant et capricieux. Combien d’orangs !… d’hommes, veux-je dire, se marient sans savoir ce qu’est une femme ! Combien de prédestinés ont procédé avec elles comme le singe de Cassan avec son violon ! Ils ont brisé le cœur qu’ils ne comprenaient pas, comme ils ont flétri et dédaigné le bijou dont le secret leur était inconnu. Enfants toute leur vie, ils s’en vont de la vie les mains vides, ayant végété, ayant parlé d’amour et de plaisir, de libertinage et de vertu, comme les esclaves parlent de la liberté. Presque tous se sont mariés dans l’ignorance la plus profonde et de la femme et de l’amour. Ils ont commencé par enfoncer la porte d’une maison étrangère et ils ont voulu être bien reçus au salon. Mais l’artiste le plus vulgaire sait qu’il existe entre lui et son instrument (son instrument qui est de bois ou d’ivoire !), une sorte d’amitié indéfinissable. Il sait, par expérience, qu’il lui a fallu des années pour établir ce rapport mystérieux entre une matière inerte et lui. Il n’en a pas deviné du premier coup les ressources et les caprices, les défauts et les vertus. Son instrument ne devient une âme pour lui et n’est une source de mélodie qu’après de longues études ; ils ne parviennent à se connaître comme deux amis qu’après les interrogations les plus savantes.
 Est-ce en restant accroupi dans la vie, comme un séminariste dans sa cellule, qu’un homme peut apprendre la femme et savoir déchiffrer cet admirable solfége ? Est-ce un homme qui fait métier de penser pour les autres, de juger les autres, de gouverner les autres, de voler l’argent des autres, de nourrir, de guérir, de blesser les autres. Est-ce tous nos prédestinés enfin, qui peuvent employer leur temps à étudier une femme ? Ils vendent leur temps, comment le donneraient-ils au bonheur ? L’argent est leur dieu. L’on ne sert pas deux maîtres à la fois. Aussi le monde est-il plein de jeunes femmes qui se traînent pâles et débiles, malades et souffrantes. Les unes sont la proie d’inflammations plus ou moins graves, les autres restent sous la cruelle domination d’attaques nerveuses plus ou moins violentes. Tous les maris de ces femmes-là [386] sont des ignares et des prédestinés. Ils ont causé leur malheur avec le soin qu’un mari-artiste aurait mis à faire éclore les tardives et délicieuses fleurs du plaisir. Le temps qu’un ignorant passe à consommer sa ruine est précisément celui qu’un homme habile sait employer à l’éducation de son bonheur.
-XXVINe commencez jamais le mariage par un viol.
+XXVI
+Ne commencez jamais le mariage par un viol.
 
 Dans les Méditations précédentes, nous avons accusé l’étendue du mal avec l’irrespectueuse audace des chirurgiens qui développent hardiment les tissus menteurs sous lesquels une honteuse blessure est cachée. La vertu publique, traduite sur la table de notre amphithéâtre, n’a même pas laissé de cadavre sous le scalpel. Amant ou mari, vous avez souri ou frémi du mal ? Hé ! bien, c’est avec une joie malicieuse que nous reportons cet immense fardeau social sur la conscience des prédestinés. Arlequin, essayant de savoir si son cheval peut s’accoutumer à ne pas manger, n’est pas plus ridicule que ces hommes qui veulent trouver le bonheur en ménage et ne pas le cultiver avec tous les soins qu’il réclame. Les fautes des femmes sont autant d’actes d’accusation contre l’égoïsme, l’insouciance et la nullité des maris.
 Maintenant c’est à vous-même, vous, lecteur, qui avez souvent condamné votre crime dans un autre, c’est à vous de tenir la balance. L’un des bassins est assez chargé, voyez ce que vous mettrez dans l’autre ! Évaluez le nombre de prédestinés qui peut se rencontrer dans la somme totale des gens mariés, et pesez : vous saurez où est le mal.
@@ -376,38 +412,69 @@ L’amour est la poésie des sens. Il a la destinée de tout ce qui est grand ch
 La littérature roule sur sept situations ; la musique exprime tout avec sept notes ; la peinture n’a que sept couleurs ; comme ces trois arts, l’amour se constitue peut-être de sept principes, nous en abandonnons la recherche au siècle suivant.
 Si la poésie, la musique et la peinture ont des expressions [388] infinies, les plaisirs de l’amour doivent en offrir encore bien davantage ; car dans les trois arts qui nous aident à chercher peut-être infructueusement la vérité par analogie, l’homme se trouve seul avec son imagination, tandis que l’amour est la réunion de deux corps et de deux âmes. Si les trois principaux modes qui servent à exprimer la pensée demandent des études préliminaires à ceux que la nature a créés poètes, musiciens ou peintres, ne tombe-t-il pas sous le sens qu’il est nécessaire de s’initier dans les secrets du plaisir pour être heureux ? Tous les hommes ressentent le besoin de la reproduction, comme tous ont faim et soif ; mais ils ne sont pas tous appelés à être amants et gastronomes. Notre civilisation actuelle a prouvé que le goût était une science, et qu’il n’appartenait qu’à certains êtres privilégiés de savoir boire et manger. Le plaisir, considéré comme un art, attend son physiologiste. Pour nous, il suffit d’avoir démontré que l’ignorance seule des principes constitutifs du bonheur produit l’infortune qui attend tous les prédestinés.
 C’est avec la plus grande timidité que nous oserons hasarder la publication de quelques aphorismes qui pourront donner naissance à cet art nouveau comme des plâtres ont créé la géologie ; et nous les livrons aux méditations des philosophes, des jeunes gens à marier et des prédestinés.
-CATÉCHISME CONJUGALXXVIILe mariage est une science.
-XXVIIIUn homme ne peut pas se marier sans avoir étudié l’anatomie et disséqué une femme au moins.
-XXIXLe sort d’un ménage dépend de la première nuit.
-XXXLa femme privée de son libre arbitre ne peut jamais avoir le mérite de faire un sacrifice.
-[389] XXXIEn amour, toute âme mise à part, la femme est comme une lyre qui ne livre ses secrets qu’à celui qui en sait bien jouer.
-XXXIIIndépendamment d’un mouvement répulsif, il existe dans l’âme de toutes les femmes un sentiment qui tend à proscrire tôt ou tard les plaisirs dénués de passion.
-XXXIIIL’intérêt d’un mari lui prescrit au moins autant que l’honneur de ne jamais se permettre un plaisir qu’il n’ait eu le talent de faire désirer par sa femme.
-XXXIVLe plaisir étant causé par l’alliance des sensations et d’un sentiment, on peut hardiment prétendre que les plaisirs sont des espèces d’idées matérielles.
-XXXVLes idées se combinant à l’infini, il doit en être de même des plaisirs.
-XXXVIIl ne se rencontre pas plus dans la vie de l’homme deux moments de plaisir semblables, qu’il n’y a deux feuilles exactement pareilles sur un même arbre.
-XXXVIIS’il existe des différences entre un moment de plaisir et un autre, un homme peut toujours être heureux avec la même femme.
-XXXVIIISaisir habilement les nuances du plaisir, les développer, leur donner un style nouveau, une expression originale, constitue le génie d’un mari.
-XXXIXEntre deux êtres qui ne s’aiment pas, ce génie est du libertinage ; mais les caresses auxquelles l’amour préside ne sont jamais lascives.
-[390] XLLa femme mariée la plus chaste peut être aussi la plus voluptueuse.
-XLILa femme la plus vertueuse peut être indécente à son insu.
-XLIIQuand deux êtres sont unis par le plaisir, toutes les conventions sociales dorment. Cette situation cache un écueil sur lequel se sont brisées bien des embarcations. Un mari est perdu s’il oublie une seule fois qu’il existe une pudeur indépendante des voiles. L’amour conjugal ne doit jamais mettre ni ôter son bandeau qu’à propos.
-XLIIILa puissance ne consiste pas à frapper fort ou souvent, mais à frapper juste.
-XLIVFaire naître un désir, le nourrir, le développer, le grandir, l’irriter, le satisfaire, c’est un poème tout entier.
-XLVL’ordre des plaisirs est du distique au quatrain, du quatrain au sonnet, du sonnet à la ballade, de la ballade à l’ode, de l’ode à la cantate, de la cantate au dithyrambe. Le mari qui commence par le dithyrambe est un sot.
-XLVIChaque nuit doit avoir son menu.
-XLVIILe mariage doit incessamment combattre un monstre qui dévore tout : l’habitude.
-XLVIIISi un homme ne sait pas distinguer la différence des plaisirs de deux nuits consécutives, il s’est marié trop tôt.
-XLIXIl est plus facile d’être amant que mari, par la raison qu’il est [391] plus difficile d’avoir de l’esprit tous les jours que de dire de jolies choses de temps en temps.
-LUn mari ne doit jamais s’endormir le premier ni se réveiller le dernier.
-LIL’homme qui entre dans le cabinet de toilette de sa femme est philosophe ou un imbécile.
-LIILe mari qui ne laisse rien à désirer est un homme perdu.
-LIIILa femme mariée est un esclave qu’il faut savoir mettre sur un trône.
-LIVUn homme ne peut se flatter de connaître sa femme et de la rendre heureuse que quand il la voit souvent à ses genoux.
+CATÉCHISME CONJUGAL
+XXVII
+Le mariage est une science.
+XXVIII
+Un homme ne peut pas se marier sans avoir étudié l’anatomie et disséqué une femme au moins.
+XXIX
+Le sort d’un ménage dépend de la première nuit.
+XXX
+La femme privée de son libre arbitre ne peut jamais avoir le mérite de faire un sacrifice.
+[389] XXXI
+En amour, toute âme mise à part, la femme est comme une lyre qui ne livre ses secrets qu’à celui qui en sait bien jouer.
+XXXII
+Indépendamment d’un mouvement répulsif, il existe dans l’âme de toutes les femmes un sentiment qui tend à proscrire tôt ou tard les plaisirs dénués de passion.
+XXXIII
+L’intérêt d’un mari lui prescrit au moins autant que l’honneur de ne jamais se permettre un plaisir qu’il n’ait eu le talent de faire désirer par sa femme.
+XXXIV
+Le plaisir étant causé par l’alliance des sensations et d’un sentiment, on peut hardiment prétendre que les plaisirs sont des espèces d’idées matérielles.
+XXXV
+Les idées se combinant à l’infini, il doit en être de même des plaisirs.
+XXXVI
+Il ne se rencontre pas plus dans la vie de l’homme deux moments de plaisir semblables, qu’il n’y a deux feuilles exactement pareilles sur un même arbre.
+XXXVII
+S’il existe des différences entre un moment de plaisir et un autre, un homme peut toujours être heureux avec la même femme.
+XXXVIII
+Saisir habilement les nuances du plaisir, les développer, leur donner un style nouveau, une expression originale, constitue le génie d’un mari.
+XXXIX
+Entre deux êtres qui ne s’aiment pas, ce génie est du libertinage ; mais les caresses auxquelles l’amour préside ne sont jamais lascives.
+[390] XL
+La femme mariée la plus chaste peut être aussi la plus voluptueuse.
+XLI
+La femme la plus vertueuse peut être indécente à son insu.
+XLII
+Quand deux êtres sont unis par le plaisir, toutes les conventions sociales dorment. Cette situation cache un écueil sur lequel se sont brisées bien des embarcations. Un mari est perdu s’il oublie une seule fois qu’il existe une pudeur indépendante des voiles. L’amour conjugal ne doit jamais mettre ni ôter son bandeau qu’à propos.
+XLIII
+La puissance ne consiste pas à frapper fort ou souvent, mais à frapper juste.
+XLIV
+Faire naître un désir, le nourrir, le développer, le grandir, l’irriter, le satisfaire, c’est un poème tout entier.
+XLV
+L’ordre des plaisirs est du distique au quatrain, du quatrain au sonnet, du sonnet à la ballade, de la ballade à l’ode, de l’ode à la cantate, de la cantate au dithyrambe. Le mari qui commence par le dithyrambe est un sot.
+XLVI
+Chaque nuit doit avoir son menu.
+XLVII
+Le mariage doit incessamment combattre un monstre qui dévore tout : l’habitude.
+XLVIII
+Si un homme ne sait pas distinguer la différence des plaisirs de deux nuits consécutives, il s’est marié trop tôt.
+XLIX
+Il est plus facile d’être amant que mari, par la raison qu’il est [391] plus difficile d’avoir de l’esprit tous les jours que de dire de jolies choses de temps en temps.
+L
+Un mari ne doit jamais s’endormir le premier ni se réveiller le dernier.
+LI
+L’homme qui entre dans le cabinet de toilette de sa femme est philosophe ou un imbécile.
+LII
+Le mari qui ne laisse rien à désirer est un homme perdu.
+LIII
+La femme mariée est un esclave qu’il faut savoir mettre sur un trône.
+LIV
+Un homme ne peut se flatter de connaître sa femme et de la rendre heureuse que quand il la voit souvent à ses genoux.
 
 C’était à toute la troupe ignorante de nos prédestinés, à nos légions de catarrheux, de fumeurs, de priseurs, de vieillards, de grondeurs, etc., que Sterne adressait la lettre écrite, dans le Tristram Shandy, par Gauthier Shandy à son frère Tobie, quand ce dernier se proposait d’épouser la veuve de Wadman.
 Les célèbres instructions que le plus original des écrivains anglais a consignées dans cette lettre pouvant, à quelques exceptions près, compléter nos observations sur la manière de se conduire auprès des femmes, nous l’offrons textuellement aux réflexions des prédestinés en les priant de la méditer comme un des plus substantiels chefs-d’œuvre de l’esprit humain.
-Lettre de M. Shandy au capitaine Tobie Shandy.MON CHER FRÈRE TOBIE, 
+Lettre de M. Shandy au capitaine Tobie Shandy.
+MON CHER FRÈRE TOBIE, 
+
 Ce que je vais te dire a rapport à la nature des femmes et à la manière de leur faire l’amour. Et peut-être est-il heureux pour [392] toi (quoiqu’il ne le soit pas autant pour moi) que l’occasion se soit offerte, et que je me sois trouvé capable de t’écrire quelques instructions sur ce sujet.
 Si c’eût été le bon plaisir de celui qui distribue nos lots de te départir plus de connaissances qu’à moi, j’aurais été charmé que tu te fusses assis à ma place, et que cette plume fût entre tes mains ; mais puisque c’est à moi à t’instruire, et que madame Shandy est là auprès de moi, se disposant à se mettre au lit, je vais jeter ensemble et sans ordre sur le papier des idées et des préceptes concernant le mariage, tels qu’ils me viendront à l’esprit, et que je croirai qu’ils pourront être d’usage pour toi ; voulant en cela te donner un gage de mon amitié, et ne doutant pas, mon cher Tobie, de la reconnaissance avec laquelle tu la recevras.
 En premier lieu, à l’égard de ce qui concerne la religion dans cette affaire (quoique le feu qui me monte au visage me fasse apercevoir que je rougis en te parlant sur ce sujet ; quoique je sache, en dépit de ta modestie, qui nous le laisserait ignorer, que tu ne négliges aucune de ses pieuses pratiques), il en est une cependant que je voudrais te recommander d’une manière plus particulière pour que tu ne l’oubliasses point, du moins pendant tout le temps que dureront tes amours. Cette pratique, frère Tobie, c’est de ne jamais te présenter chez celle qui est l’objet de tes poursuites, soit le matin, soit le soir, sans te recommander auparavant à la protection du Dieu tout-puissant, pour qu’il te préserve de tout malheur.
@@ -429,6 +496,7 @@ Il ne se présente pas pour le moment autre chose à te dire.
 Ainsi, mon cher Tobie, je désire que tout aille pour le mieux ;
 Et je suis ton affectionné frère,
 GAUTHIER SHANDY.
+
 
 [394] Dans les circonstances actuelles, Sterne lui-même retrancherait sans doute de sa lettre l’article de l’âne ; et, loin de conseiller à un prédestiné de se faire tirer du sang, il changerait le régime des concombres et des laitues en un régime éminemment substantiel. Il recommandait alors l’économie pour arriver à une profusion magique au moment de la guerre, imitant en cela l’admirable gouvernement anglais qui, en temps de paix, a deux cents vaisseaux, mais dont les chantiers peuvent au besoin en fournir le double quand il s’agit d’embrasser les mers et de s’emparer d’une marine tout entière.
 Quand un homme appartient au petit nombre de ceux qu’une éducation généreuse investit du domaine de la pensée, il devrait toujours, avant de se marier, consulter ses forces et physiques et morales. Pour lutter avec avantage contre les tempêtes que tant de séductions s’apprêtent à élever dans le cœur de sa femme, un mari doit avoir, outre la science du plaisir et une fortune qui lui permette de ne se trouver dans aucune classe de prédestinés, une santé robuste, un tact exquis, beaucoup d’esprit, assez de bon sens pour ne faire sentir sa supériorité que dans les circonstances opportunes, et enfin une finesse excessive d’ouïe et de vue.
@@ -489,7 +557,8 @@ Mais cette discussion nous éloignerait trop de notre sujet s’il fallait exami
 Quand nous serons à dix, nous ferons une croix.
 
 Dans l’état actuel de nos mœurs et de notre imparfaite civilisation, il existe un problème insoluble pour le moment, et qui rend toute dissertation superflue relativement à l’art de choisir une femme ; nous le livrons, comme tous les autres, aux méditations des philosophes.
-PROBLÈMEL’on n’a pas encore pu décider si une femme est poussée à devenir infidèle plutôt par l’impossibilité où elle serait de se livrer au changement que par la liberté qu’on lui laisserait à cet égard.
+PROBLÈME
+L’on n’a pas encore pu décider si une femme est poussée à devenir infidèle plutôt par l’impossibilité où elle serait de se livrer au changement que par la liberté qu’on lui laisserait à cet égard.
 
 Au surplus, comme dans cet ouvrage nous saisissons un homme au moment où il vient de se marier, s’il a rencontré une femme d’un tempérament sanguin, d’une imagination vive, d’une constitution nerveuse, ou d’un caractère indolent, sa situation n’en serait que plus grave.
 Un homme se trouverait dans un danger encore plus critique si sa femme ne buvait que de l’eau (voyez la Méditation intitulée : Hygiène conjugale) : mais si elle avait quelque talent pour le chant, ou si elle s’enrhumait trop facilement, il aurait à trembler tous les jours ; car il est reconnu que les cantatrices sont pour le moins aussi passionnées que les femmes dont le système muqueux est d’une grande délicatesse.
@@ -518,26 +587,31 @@ Je le demande à toute créature raisonnable, un démon rassemblerait-il autour 
 Livrée avec toutes ses ignorances et ses désirs à un homme qui, même amoureux, ne peut et ne doit pas connaître ses mœurs secrètes et délicates, cette jeune fille ne sera-t-elle pas honteusement passive, soumise et complaisante pendant tout le temps que sa jeune imagination lui persuadera d’attendre le plaisir ou le bonheur jusqu’à un lendemain qui n’arrive jamais ?
 Dans cette situation bizarre où les lois sociales et celles de la nature sont aux prises, une jeune fille obéit, s’abandonne, souffre et se tait par intérêt pour elle-même. Son obéissance est une spéculation ; sa complaisance, un espoir ; son dévouement, une sorte de vocation dont vous profitez ; et son silence est générosité. Elle sera victime de vos caprices tant qu’elle ne les comprendra pas ; elle souffrira de votre caractère jusqu’à ce qu’elle l’ait étudié ; elle se sacrifiera sans aimer, parce qu’elle croit au semblant de passion que vous donne le premier moment de sa possession ; elle ne se taira plus le jour où elle aura reconnu l’inutilité de ses sacrifices.
 Alors, un matin arrive où tous les contre-sens qui ont présidé à cette union se relèvent comme des branches un moment ployées sous un poids par degrés allégé. Vous avez pris pour de l’amour l’existence négative d’une jeune fille qui attendait le bonheur, qui volait au-devant de vos désirs dans l’espérance que vous iriez au-devant des siens, et qui n’osait se plaindre des malheurs secrets dont elle s’accusait la première. Quel homme ne serait pas la dupe d’une déception préparée de si loin, et de laquelle une jeune femme est innocente, complice et victime ? Il faudrait être un Dieu pour échapper à la fascination dont vous êtes entouré par la nature et la société. Tout n’est-il pas piége autour de vous et en vous ? car, pour être heureux, ne serait-il pas nécessaire de vous défendre des impétueux désirs [408] de vos sens ? Où est, pour les contenir, cette barrière puissante qu’élève la main légère d’une femme à laquelle on veut plaire, parce qu’on ne la possède pas encore ?… Aussi, avez-vous fait parader et défiler vos troupes quand il n’y avait personne aux fenêtres ; avez-vous tiré un feu d’artifice dont la carcasse reste seule au moment où votre convive se présente pour le voir. Votre femme était devant les plaisirs du mariage comme un Mohican à l’Opéra : l’instituteur est ennuyé quand le Sauvage commence à comprendre.
-LVIEn ménage, le moment où deux cœurs peuvent s’entendre est aussi rapide qu’un éclair, et ne revient plus quand il a fui.
+LVI
+En ménage, le moment où deux cœurs peuvent s’entendre est aussi rapide qu’un éclair, et ne revient plus quand il a fui.
 
 Ce premier essai de la vie à deux, pendant lequel une femme est encouragée par l’espérance du bonheur, par le sentiment encore neuf de ses devoirs d’épouse, par le désir de plaire, par la vertu si persuasive au moment où elle montre l’amour d’accord avec le devoir, se nomme la Lune de Miel. Comment peut-elle durer long-temps entre deux êtres qui s’associent pour la vie entière, sans se connaître parfaitement ? S’il faut s’étonner d’une chose, c’est que les déplorables absurdités accumulées par nos mœurs autour d’un lit nuptial fassent éclore si peu de haines !…
 Mais que l’existence du sage soit un ruisseau paisible, et que celle du prodigue soit un torrent ; que l’enfant dont les mains imprudentes ont effeuillé toutes les roses sur son chemin ne trouve plus que des épines au retour : que l’homme dont la folle jeunesse a dévoré un million ne puisse plus jouir, pendant sa vie, des quarante mille livres de rente que ce million lui eût données, c’est des vérités triviales si l’on songe à la morale, et neuves si l’on pense à la conduite de la plupart des hommes. Voyez-y les images vraies de toutes les Lunes de Miel ; c’est leur histoire, c’est le fait et non pas la cause.
 Mais, que des hommes doués d’une certaine puissance de pensée par une éducation privilégiée, habitués à des combinaisons profondes pour briller, soit en politique, soit en littérature, dans les arts, dans le commerce ou dans la vie privée, se marient tous avec l’intention d’être heureux, de gouverner une femme par l’amour ou [409] par la force, et tombent tous dans le même piége, deviennent des sots après avoir joui d’un certain bonheur pendant un certain temps, il y a certes là un problème dont la solution réside plutôt dans des profondeurs inconnues de l’âme humaine, que dans les espèces de vérités physiques par lesquelles nous avons déjà tâché d’expliquer quelques-uns de ces phénomènes. La périlleuse recherche des lois secrètes, que presque tous les hommes doivent violer à leur insu en cette circonstance, offre encore assez de gloire à celui qui échouerait dans cette entreprise pour que nous tentions l’aventure. Essayons donc.
 Malgré tout ce que les sots ont à dire sur la difficulté qu’ils trouvent à expliquer l’amour, il a des principes aussi infaillibles que ceux de la géométrie ; mais chaque caractère les modifiant à son gré, nous l’accusons des caprices créés par nos innombrables organisations. S’il nous était permis de ne voir que les effets si variés de la lumière, sans en apercevoir le principe, bien des esprits refuseraient de croire à la marche du soleil et à son unité. Aussi, les aveugles peuvent-ils crier à leur aise ; je me vante, comme Socrate, sans être aussi sage que lui, de ne savoir que l’amour ; et, je vais essayer de déduire quelques-uns de ses préceptes, pour éviter aux gens mariés ou à marier la peine de se creuser la cervelle, ils en atteindraient trop promptement le fond.
 Or, toutes nos observations précédentes se résolvent à une seule proposition qui peut être considérée comme le dernier terme ou le premier, si l’on veut, de cette secrète théorie de l’amour, qui finirait par vous ennuyer si nous ne la terminions pas promptement. Ce principe est contenu dans la formule suivante :
-LVIIEntre deux êtres susceptibles d’amour, la durée de la passion est en raison de la résistance primitive de la femme, ou des obstacles que les hasards sociaux mettent à votre bonheur.
+LVII
+Entre deux êtres susceptibles d’amour, la durée de la passion est en raison de la résistance primitive de la femme, ou des obstacles que les hasards sociaux mettent à votre bonheur.
 
 Si l’on ne vous laisse désirer qu’un jour, votre amour ne durera peut-être pas trois nuits. Où faut-il chercher les causes de cette loi ? je ne sais. Si nous voulons porter nos regards autour de nous, les preuves de cette règle abondent : dans le système végétal, les plantes qui restent le plus de temps à croître sont celles auxquelles [410] est promise la plus longue existence ; dans l’ordre moral, les ouvrages faits hier meurent demain ; dans l’ordre physique, le sein qui enfreint les lois de la gestation livre un fruit mort. En tout, une œuvre de durée est long-temps couvée par le temps. Un long avenir demande un long passé. Si l’amour est un enfant, la passion est un homme. Cette loi générale, qui régit la nature, les êtres et les sentiments, est précisément celle que tous les mariages enfreignent, ainsi que nous l’avons démontré. Ce principe a créé les fables amoureuses de notre moyen âge : les Amadis, les Lancelot, les Tristan des fabliaux, dont la constance en amour paraît fabuleuse à juste titre, sont les allégories de cette mythologie nationale que notre imitation de la littérature grecque a tuée dans sa fleur. Ces figures gracieuses dessinées par l’imagination des trouvères consacraient cette vérité.
-LVIIINous ne nous attachons d’une manière durable aux choses que d’après les soins, les travaux ou les désirs qu’elles nous ont coûté.
+LVIII
+Nous ne nous attachons d’une manière durable aux choses que d’après les soins, les travaux ou les désirs qu’elles nous ont coûté.
 
 Tout ce que nos méditations nous ont révélé sur les causes de cette loi primordiale des amours, se réduit à l’axiome suivant, qui en est tout à la fois le principe et la conséquence.
-LIXEn toute chose l’on ne reçoit qu’en raison de ce que l’on donne.
+LIX
+En toute chose l’on ne reçoit qu’en raison de ce que l’on donne.
 
 Ce dernier principe est tellement évident par lui-même, que nous n’essaierons pas de le démontrer. Nous n’y joindrons qu’une seule observation, qui ne nous paraît pas sans importance. Celui qui a dit : Tout est vrai et tout est faux, a proclamé un fait que l’esprit humain naturellement sophistique interprète à sa manière, car il semble vraiment que les choses humaines aient autant de facettes qu’il y a d’esprits qui les considèrent. Ce fait, le voici :
 Il n’existe pas dans la création une loi qui ne soit balancée par une loi contraire : la vie en tout est résolue par l’équilibre de deux forces contendantes. Ainsi, dans le sujet qui nous occupe, en [411] amour, il est certain que si vous donnez trop, vous ne recevrez pas assez. La mère qui laisse voir toute sa tendresse à ses enfants crée en eux l’ingratitude, l’ingratitude vient peut-être de l’impossibilité où l’on est de s’acquitter. La femme qui aime plus qu’elle n’est aimée sera nécessairement tyrannisée. L’amour durable est celui qui tient toujours les forces de deux êtres en équilibre. Or, cet équilibre peut toujours s’établir : celui des deux qui aime le plus doit rester dans la sphère de celui qui aime le moins. Et n’est-ce pas, après tout, le plus doux sacrifice que puisse faire une âme aimante, si tant est que l’amour s’accommode de cette inégalité ?
 Quel sentiment d’admiration ne s’élève-t-il pas dans l’âme du philosophe, en découvrant qu’il n’y a peut-être qu’un seul principe dans le monde comme il n’y a qu’un Dieu, et que nos idées et nos affections sont soumises aux mêmes lois qui font mouvoir le soleil, éclore les fleurs et vivre l’univers !…
 Peut-être faut-il chercher dans cette métaphysique de l’amour les raisons de la proposition suivante, qui jette les plus vives lumières sur la question des Lunes de Miel et des Lunes Rousses.
-THÉORÈMEL’homme va de l’aversion à l’amour ; mais, quand il a commencé par aimer et qu’il arrive à l’aversion, il ne revient jamais à l’amour.
+THÉORÈME
+L’homme va de l’aversion à l’amour ; mais, quand il a commencé par aimer et qu’il arrive à l’aversion, il ne revient jamais à l’amour.
 
 Dans certaines organisations humaines, les sentiments sont incomplets comme la pensée peut l’être dans quelques imaginations stériles. Ainsi de même que les esprits sont doués de la facilité de saisir les rapports existants entre les choses sans en tirer de conclusion ; de la faculté de saisir chaque rapport séparément sans les réunir, de la force de voir, de comparer et d’exprimer ; de même les âmes peuvent concevoir les sentiments d’une manière imparfaite. Le talent, en amour comme en tout autre art, consiste dans la réunion de la puissance de concevoir et de celle d’exécuter. Le monde est plein de gens qui chantent des airs sans ritournelle, qui ont des quarts d’idée comme des quarts de sentiment, et qui ne coordonnent pas plus les mouvements de leurs affections que leurs pensées. C’est, en un mot, des êtres incomplets. Unissez une belle intelligence à une intelligence manquée, vous préparez un malheur ; car il faut que l’équilibre se retrouve en tout.
 [412] Nous laissons aux philosophes de boudoir et aux sages d’arrière-boutique le plaisir de chercher les mille manières par lesquelles les tempéraments, les esprits, les situations sociales et la fortune rompent les équilibres, et nous allons examiner la dernière cause qui influe sur le coucher des Lunes de Miel et le lever des Lunes Rousses.
@@ -586,7 +660,8 @@ Il y a des femmes qui lisent des romans pour se repaître de l’image habilemen
 Elle professera la plus haute estime pour vous. Elle vous dira qu’elle vous aime, comme on aime un frère ; que cette amitié raisonnable est la seule vraie, la seule durable, et que le mariage n’a pour but que de l’établir entre deux époux.
 Elle distinguera fort habilement qu’elle n’a que des devoirs à remplir, et qu’elle peut prétendre à exercer des droits.
 Elle voit avec une froideur que vous seul pouvez calculer tous les détails du bonheur conjugal. Ce bonheur ne lui a peut-être jamais beaucoup plu, et d’ailleurs, pour elle, il est toujours là ; elle le connaît, elle l’a analysé ; et combien de légères mais terribles preuves viennent alors prouver à un mari spirituel que cet être fragile argumente et raisonne au lieu d’être emporté par la fougue de la passion !…
-LXPlus on juge, moins on aime.
+LX
+Plus on juge, moins on aime.
 
 De là jaillissent chez elle et ces plaisanteries dont vous riez le premier, et ces réflexions qui vous surprennent par leur [420] profondeur ; de là viennent ces changements soudains et ces caprices d’un esprit qui flotte. Parfois elle devient tout à coup d’une extrême tendresse comme par repentir de ses pensées et de ses projets ; parfois elle est maussade et indéchiffrable ; enfin, elle accomplit le varium et mutabile fœmina que nous avons eu jusqu’ici la sottise d’attribuer à leur constitution. Diderot, dans le désir d’expliquer ces variations presque atmosphériques de la femme, est même allé jusqu’à les faire provenir de ce qu’il nomme la bête féroce ; mais vous n’observerez jamais ces fréquentes anomalies chez une femme heureuse.
 Ces symptômes, légers comme de la gaze, ressemblent à ces nuages qui nuancent à peine l’azur du ciel et qu’on nomme des fleurs d’orage. Bientôt les couleurs prennent des teintes plus fortes.
@@ -673,7 +748,10 @@ Deuxième partie
 Des moyens de défense à l’intérieur et à l’extérieur
 To be or not be… 
 L’être ou ne pas l’être, voilà toute la question.
-Shakespeare, HAMLET.Méditation X 
+Shakespeare
+, HAMLET.
+
+Méditation X 
 Traité de politique maritale
 Quand un homme arrive à la situation où le place la Première Partie de ce livre, nous supposons que l’idée de savoir sa femme possédée par un autre peut encore faire palpiter son cœur, et que sa passion se rallumera, soit par amour-propre ou par égoïsme, soit par intérêt, car s’il ne tenait plus à sa femme, ce serait l’avant-dernier des hommes, et il mériterait son sort.
 Dans cette longue crise, il est bien difficile à un mari de ne pas commettre de fautes ; car, pour la plupart d’entre eux, l’art de gouverner une femme est encore moins connu que celui de la bien choisir. Cependant la politique maritale ne consiste guère que dans la constante application de trois principes qui doivent être l’âme de votre conduite. Le premier est de ne jamais croire à ce qu’une [436] femme dit ; le second, de toujours chercher l’esprit de ses actions sans vous arrêter à la lettre ; et le troisième, de ne pas oublier qu’une femme n’est jamais si bavarde que quand elle se tait, et n’agit jamais avec plus d’énergie que lorsqu’elle est en repos.
@@ -683,7 +761,8 @@ Or, une femme qui a, sur vous, douze heures dans la journée pour réfléchir et
 Vous devez donc, dans la situation respective des deux parties belligérantes, commencer par affecter envers votre femme cette confiance sans bornes que vous aviez naguère en elle. Si vous cherchez à l’entretenir dans l’erreur par de mielleuses paroles, vous êtes perdu, elle ne vous croira pas ; car elle a sa politique comme vous avez la vôtre. Or, il faut autant de finesse que de bonhomie dans vos actions, pour lui inculquer, à son propre insu, ce précieux sentiment de sécurité qui l’invite à remuer les oreilles, et vous permet de n’user qu’à propos de la bride ou de l’éperon.
 Mais comment oser comparer un cheval, de toutes les créatures la plus candide, à un être que les spasmes de sa pensée et les affections de ses organes rendent par moments plus prudent que le Servite Fra-Paolo, le plus terrible Consulteur que les Dix aient eu à Venise ; plus dissimulé qu’un roi ; plus adroit que Louis XI ; plus profond que Machiavel ; sophistique autant que Hobbes ; fin [437] comme Voltaire ; plus facile que la Fiancée de Mamolin, et qui, dans le monde entier, ne se défie que de vous ?
 Aussi, à cette dissimulation, grâce à laquelle les ressorts de votre conduite doivent devenir aussi invisibles que ceux de l’univers, vous est-il nécessaire de joindre un empire absolu sur vous-même. L’imperturbabilité diplomatique si vantée de monsieur de Talleyrand sera la moindre de vos qualités ; son exquise politesse, la grâce de ses manières respireront dans tous vos discours. Le professeur vous défend ici très-expressément l’usage de la cravache si vous voulez parvenir à ménager votre gentille Andalouse.
-LXIQu’un homme batte sa maîtresse… c’est une blessure ; mais sa femme !… c’est un suicide.
+LXI
+Qu’un homme batte sa maîtresse… c’est une blessure ; mais sa femme !… c’est un suicide.
 
 Comment donc concevoir un gouvernement sans maréchaussée, une action sans force, un pouvoir désarmé ?… Voilà le problème que nous essaierons de résoudre dans nos Méditations futures. Mais il existe encore deux observations préliminaires à vous soumettre. Elles vont nous livrer deux autres théories qui entreront dans l’application de tous les moyens mécaniques desquels nous allons vous proposer l’emploi. Un exemple vivant rafraîchira ces arides et sèches dissertations : ne sera-ce pas quitter le livre pour opérer sur le terrain ?
 L’an 1822, par une belle matinée du mois de janvier, je remontais les boulevards de Paris depuis les paisibles sphères du Marais jusqu’aux élégantes régions de la Chaussée-d’Antin, observant pour la première fois, non sans une joie philosophique, ces singulières dégradations de physionomie et ces variétés de toilette qui, depuis la rue du Pas-de-la-Mule jusqu’à la Madeleine, font de chaque portion du boulevard un monde particulier, et de toute cette zone parisienne un large échantillon de mœurs. N’ayant encore aucune idée des choses de la vie, et ne me doutant guère qu’un jour j’aurais l’outrecuidance de m’ériger en législateur du mariage, j’allais déjeuner chez un de mes amis de collége qui s’était de trop bonne heure, peut-être, affligé d’une femme et de deux enfants. Mon ancien professeur de mathématiques demeurant à peu de distance de la maison qu’habitait mon camarade, [438] je m’étais promis de rendre une visite à ce digne mathématicien, avant de livrer mon estomac à toutes les friandises de l’amitié. Je pénétrai facilement jusqu’au cœur d’un cabinet, où tout était couvert d’une poussière attestant les honorables distractions du savant. Une surprise m’y était réservée. J’aperçus une jolie dame assise sur le bras d’un fauteuil comme si elle eût monté un cheval anglais, elle me fit cette petite grimace de convention réservée par les maîtresses de maison pour les personnes qu’elles ne connaissent pas, mais elle ne déguisa pas assez bien l’air boudeur qui, à mon arrivée, attristait sa figure, pour que je ne devinasse pas l’inopportunité de ma présence. Sans doute occupé d’une équation, mon maître n’avait pas encore levé la tête ; alors, j’agitai ma main droite vers la jeune dame, comme un poisson qui remue sa nageoire, et je me retirai sur la pointe des pieds en lui lançant un mystérieux sourire qui pouvait se traduire par : « Ce ne sera certes pas moi qui vous empêcherai de lui faire faire une infidélité à Uranie. » Elle laissa échapper un de ces gestes de tête dont la gracieuse vivacité ne peut se traduire. – « Eh ! mon bon ami, ne vous en allez pas ! s’écria le géomètre. C’est ma femme ! » Je saluai derechef !… Ô Coulon ! où étais-tu pour applaudir le seul de tes élèves qui comprît alors ton expression d’anacréontique appliquée à une révérence !… L’effet devait en être bien pénétrant ; car madame la professeuse, comme disent les Allemands, rougit et se leva précipitamment pour s’en aller en me faisant un léger salut qui semblait dire : – adorable !… Son mari l’arrêta en lui disant : – « Reste, ma fille. C’est un de mes élèves. » La jeune femme avança la tête vers le savant, comme un oiseau qui, perché sur une branche, tend le cou pour avoir une graine. – « Cela n’est pas possible !… dit le mari en poussant un soupir ; et je vais te le prouver par A plus B. – Eh ! monsieur, laissons cela, je vous prie ! répondit-elle en clignant des yeux et me montrant. (Si ce n’eût été que de l’algèbre, mon maître aurait pu comprendre ce regard, mais c’était pour lui du chinois, et alors il continua.) – Ma fille, vois, je te fais juge ; nous avons dix mille francs de rente… » À ces mots, je me retirai vers la porte comme si j’eusse été pris de passion pour des lavis encadrés que je me mis à examiner. Ma discrétion fut récompensée par une éloquente œillade. Hélas ! elle ne savait pas que j’aurais pu jouer dans Fortunio le rôle de Fine-Oreille qui entend pousser les truffes. – « Les principes de l’économie générale, [439] disait mon maître, veulent qu’on ne mette au prix du logement et aux gages des domestiques que deux dixièmes du revenu ; or, notre appartement et nos gens coûtent ensemble cent louis. Je te donne douze cents francs pour ta toilette. (Là il appuya sur chaque syllabe.) Ta cuisine, reprit-il, consomme quatre mille francs ; nos enfants exigent au moins vingt-cinq louis ; et je ne prends pour moi que huit cents francs. Le blanchissage, le bois, la lumière vont à mille francs environ ; partant, il ne reste, comme tu vois, que six cents francs qui n’ont jamais suffi aux dépenses imprévues. Pour acheter la croix de diamants, il faudrait prendre mille écus sur nos capitaux ; or, une fois cette voie ouverte, ma petite belle, il n’y aurait pas de raison pour ne pas quitter ce Paris, que tu aimes tant, nous ne tarderions pas à être obligés d’aller en province rétablir notre fortune compromise. Les enfants et la dépense croîtront assez ! Allons, sois sage. – Il le faut bien, dit-elle, mais vous serez le seul, dans Paris, qui n’aurez pas donné d’étrennes à votre femme ! » Et elle s’évada comme un écolier qui vient d’achever une pénitence. Mon maître hocha la tête en signe de joie. Quand il vit la porte fermée, il
@@ -806,7 +885,8 @@ Votre fortune donne, sans doute, à votre femme le droit d’exiger un cabinet d
 Si le malheur veut que ce dangereux appartement communique avec celui de votre femme par un escalier dérobé, consultez long-temps votre architecte ; que son génie s’épuise à rendre à cet escalier sinistre, l’innocence de l’escalier primitif, l’échelle du meunier ; que cet escalier, nous vous en conjurons, n’ait aucune cavité perfide ; que ses marches anguleuses et raides ne présentent jamais cette voluptueuse courbure dont se trouvaient si bien Faublas et Justine en attendant que le marquis de B*** fût sorti. Les architectes, aujourd’hui, font des escaliers préférables à des ottomanes. Rétablissez plutôt le vertueux colimaçon de nos ancêtres.
 En ce qui concerne les cheminées de l’appartement de madame, [465] vous aurez soin de placer dans les tuyaux une grille en fer à cinq pieds de hauteur au-dessus du manteau de la cheminée, dût-on la sceller de nouveau à chaque ramonage. Si votre femme trouvait cette précaution ridicule, alléguez les nombreux assassinats commis au moyen des cheminées. Presque toutes les femmes ont peur des voleurs.
 Le lit est un de ces meubles décisifs dont la structure doit être longuement méditée. Là tout est d’un intérêt capital. Voici les résultats d’une longue expérience. Donnez à ce meuble une forme assez originale pour qu’on puisse toujours le regarder sans déplaisir au milieu des modes qui se succèdent avec rapidité en détruisant les créations précédentes du génie de nos décorateurs, car il est essentiel que votre femme ne puisse pas changer à volonté ce théâtre du plaisir conjugal. La base de ce meuble sera pleine, massive, et ne laissera aucun intervalle perfide entre elle et le parquet. Et souvenez-vous bien que la dona Julia de Byron avait caché don Juan sous son oreiller. Mais il serait ridicule de traiter légèrement un sujet si délicat.
-LXIILe lit est tout le mariage.
+LXII
+Le lit est tout le mariage.
 
 Aussi ne tarderons-nous pas à nous occuper de cette admirable création du génie humain, invention que nous devons inscrire dans notre reconnaissance bien plus haut que les navires, que les armes à feu, que le briquet de Fumade, que les voitures et leurs roues, que les machines à vapeur, à simple ou double pression, à siphon ou à détente, plus haut même que les tonneaux et les bouteilles. D’abord, le lit tient de tout cela, pour peu qu’on y réfléchisse ; mais si l’on vient à songer qu’il est notre second père, et que la moitié la plus tranquille et la plus agitée de notre existence s’écoule sous sa couronne protectrice, les paroles manquent pour faire son éloge. (Voyez la Méditation XVII, intitulée : Théorie du lit.)
 Lorsque la guerre, de laquelle nous parlerons dans notre Troisième Partie, éclatera entre vous et madame, vous aurez toujours d’ingénieux prétextes pour fouiller dans ses commodes et dans ses secrétaires ; car si votre femme s’avisait de vous dérober une statue, il est de votre intérêt de savoir où elle l’a cachée. Un gynécée construit d’après ce système vous permettra de reconnaître d’un [466] seul coup d’œil s’il contient deux livres de soie de plus qu’à l’ordinaire. Laissez-y pratiquer une seule armoire, vous êtes perdu ! Accoutumez surtout votre femme, pendant la Lune de Miel, à déployer une excessive recherche dans la tenue des appartements : que rien n’y traîne. Si vous ne l’habituez pas à un soin minutieux, si les mêmes objets ne se retrouvent pas éternellement aux mêmes places, elle vous introduirait un tel désordre, que vous ne pourriez plus voir s’il y a ou non les deux livres de soie de plus ou de moins.
@@ -989,7 +1069,8 @@ Mais ne serait-ce pas une Maintenon aidée par un confesseur, ou plutôt une fem
 Enfin pourquoi ne serait-ce pas un philosophe épouvanté du désenchantement que doit éprouver une femme à l’aspect d’un homme endormi ? Et, celui-là se sera toujours roulé dans sa couverture, sans bonnet sur la tête.
 Auteur inconnu de cette jésuitique méthode, qui que tu sois, au nom du diable, salut et fraternité !… Tu as été la cause de bien des malheurs. Ton œuvre porte le caractère de toutes les demi-mesures ; elle ne satisfait à rien et participe aux inconvénients des deux autres partis sans en donner les bénéfices.
 Comment l’homme du dix-neuvième siècle, comment cette créature souverainement intelligente qui a déployé une puissance surnaturelle, qui a usé les ressources de son génie à déguiser le mécanisme de son existence, à déifier ses besoins pour ne pas les mépriser, allant jusqu’à demander à des feuilles chinoises, à des fèves égyptiennes, à des graines du Mexique, leurs parfums, leurs trésors, leurs âmes ; allant jusqu’à ciseler les cristaux, tourner l’argent, fondre l’or, peindre l’argile, et solliciter enfin tous les arts pour décorer, pour agrandir son bol alimentaire ! comment ce roi, après avoir caché sous les plis de la mousseline, couvert de diamants, parsemé de rubis, enseveli sous le lin, sous les trames du coton, sous les riches couleurs de la soie, sous les dessins de la dentelle, la seconde de ses pauvretés, peut-il venir la faire échouer avec tout ce luxe sur deux bois de lit ?… À quoi bon [492] rendre l’univers entier complice de notre existence, de nos mensonges, de cette poésie ? À quoi bon faire des lois, des morales, des religions, si l’invention d’un tapissier (c’est peut-être un tapissier qui a inventé les lits jumeaux) ôte à notre amour toutes ses illusions, le dépouille de son majestueux cortége et ne lui laisse que ce qu’il a de plus laid et de plus odieux ? car, c’est là toute l’histoire des deux lits.
-LXIIIParaître sublime ou grotesque, voilà l’alternative à laquelle nous réduit un désir.
+LXIII
+Paraître sublime ou grotesque, voilà l’alternative à laquelle nous réduit un désir.
 
 Partagé, notre amour est sublime ; mais couchez dans deux lits jumeaux, et le vôtre sera toujours grotesque. Les contre-sens auxquels cette demi-séparation donne lieu peuvent se réduire à deux situations, qui vont nous révéler les causes de bien des malheurs.
 Vers minuit, une jeune femme met ses papillottes en bâillant. J’ignore si sa mélancolie provient d’une migraine près de fondre sur la droite ou sur la gauche de sa cervelle, ou si elle est dans un de ces moments d’ennui pendant lesquels nous voyons tout en noir ; mais, à l’examiner se coiffant de nuit avec négligence, à la regarder levant languissamment la jambe pour la dépouiller de sa jarretière, il me semble évident qu’elle aimerait mieux se noyer que de ne pas retremper sa vie décolorée dans un sommeil réparateur. Elle est en cet instant sous je ne sais quel degré du pôle nord, au Spitzberg ou au Groënland. Insouciante et froide, elle s’est couchée en pensant peut-être, comme l’eût fait madame Gauthier Shandy, que le lendemain est un jour de maladie, que son mari rentre bien tard, que les œufs à la neige qu’elle a mangés n’étaient pas assez sucrés, qu’elle doit plus de cinq cents francs à sa couturière ; elle pense enfin à tout ce qu’il vous plaira de supposer que pense une femme ennuyée. Arrive, sur ces entrefaites, un gros garçon de mari, qui, à la suite d’un rendez-vous d’affaires, a pris du punch et s’est émancipé. Il se déchausse, il met ses habits sur les fauteuils, laisse ses chaussettes sur une causeuse, son tire-bottes devant la cheminée ; et, tout en achevant de s’affubler la tête d’un madras rouge, sans se donner la peine d’en cacher les coins, il lance à sa femme quelques phrases à points d’interjection, petites douceurs conjugales, qui font quelquefois toute la conversation d’un ménage à ces heures [493] crépusculaires où la raison endormie ne brille presque plus dans notre machine. – Tu es couchée ! – Diable, il fait froid ce soir ! – Tu ne dis rien, mon ange ! – Tu es déjà roulée dans ton lit !… – Sournoise ! tu fais semblant de dormir !… Ces discours sont entrecoupés de bâillements ; et, après une infinité de petits événements qui, selon les habitudes de chaque ménage, doivent diversifier cette préface de la nuit, voilà mon homme qui fait rendre un son grave à son lit en s’y plongeant. Mais voici venir sur la toile fantastique que nous trouvons comme tendue devant nous, en fermant les yeux, voici venir les images séduisantes de quelques jolis minois, de quelques jambes élégantes ; voici les amoureux contours qu’il a vus pendant le jour. Il est assassiné par d’impétueux désirs… Il tourne les yeux vers sa femme. Il aperçoit un charmant visage encadré par les broderies les plus délicates ; tout endormi qu’il puisse être, le feu de son regard semble brûler les ruches de dentelle qui cachent imparfaitement les yeux ; enfin des formes célestes sont accusées par les plis révélateurs du couvre-pied… – Ma Minette ?… – Mais je dors, mon ami… Comment débarquer dans cette Laponie ? Je vous fais jeune, beau, plein d’esprit, séduisant. Comment franchirez-vous le détroit qui sépare le Groënland de l’Italie ? L’espace qui se trouve entre le paradis et l’enfer n’est pas plus immense que la ligne qui empêche vos deux lits de n’en faire qu’un seul ; car votre femme est froide, et vous êtes livré à toute l’ardeur d’un désir. N’y eût-il que l’action technique d’enjamber d’un lit à un autre, ce mouvement place un mari coiffé d’un madras dans la situation la plus disgracieuse du monde. Le danger, le peu de temps, l’occasion, tout, entre amants, embellit les malheurs de ces situations, car l’amour a un manteau de pourpre et d’or qu’il jette sur tout, même sur les fumants décombres d’une ville prise d’assaut ; tandis que, pour ne pas apercevoir des décombres sur les plus riants tapis, sous les plis les plus séduisants de la soie, l’hymen a besoin des prestiges de l’amour. Ne fussiez-vous qu’une seconde à entrer dans les possessions de votre femme, le DEVOIR, cette divinité du mariage, a le temps de lui apparaître dans toute sa laideur.
@@ -1052,7 +1133,8 @@ Qu’elles ont des entêtements vraiment inexplicables ;
 Qu’elles se fâcheraient quelquefois d’une attention ;
 Qu’elles sont sottes, ne comprennent rien, ne valent rien, etc.
 En réponse à toutes ces clameurs nous inscrirons ici cette phrase, qui, mise entre deux lignes blanches, aura peut-être l’air d’une pensée, pour nous servir d’une expression de Beaumarchais.
-[503] LXIVLa femme est pour son mari ce que son mari l’a faite.
+[503] LXIV
+La femme est pour son mari ce que son mari l’a faite.
 
 Avoir un truchement fidèle qui traduise avec une vérité profonde les sentiments d’une femme, la rendre l’espion d’elle-même, se tenir à la hauteur de sa température en amour, ne pas la quitter, pouvoir écouter son sommeil, éviter tous les contre-sens qui perdent tant de mariages, sont les raisons qui doivent faire triompher le lit unique sur les deux autres modes d’organiser la couche nuptiale.
 Comme il n’existe pas de bienfait sans charge, vous êtes tenu de savoir dormir avec élégance, de conserver de la dignité sous le madras, d’être poli, d’avoir le sommeil léger, de ne pas trop tousser, et d’imiter les auteurs modernes, qui font plus de préfaces que de livres.
@@ -1100,23 +1182,40 @@ Méditation XIX
 De l’amant
 Nous offrons les maximes suivantes à vos méditations.
 Il faudrait désespérer de la race humaine si elles n’avaient été faites qu’en 1830 ; mais elles établissent d’une manière si catégorique les rapports et les dissemblances qui existent entre vous, votre femme et un amant ; elles doivent éclairer si brillamment votre politique, et vous accuser si juste les forces de l’ennemi, que le magister a fait toute abnégation d’amour-propre ; et si, par hasard, il s’y trouvait une seule pensée neuve, mettez-la sur le compte du diable qui conseilla l’ouvrage.
-LXVParler d’amour, c’est faire l’amour.
-LXVIChez un amant, le désir le plus vulgaire se produit toujours comme l’élan d’une admiration consciencieuse.
-[509] LXVIIUn amant a toutes les qualités et tous les défauts qu’un mari n’a pas.
-LXVIIIUn amant ne donne pas seulement la vie à tout, il fait aussi oublier la vie : le mari ne donne la vie à rien.
-LXIXToutes les singeries de sensibilité qu’une femme fait abusent toujours un amant ; et, là où un mari hausse nécessairement les épaules, un amant est en extase.
-LXXUn amant ne trahit que par ses manières le degré d’intimité auquel il est arrivé avec une femme mariée.
-LXXIUne femme ne sait pas toujours pourquoi elle aime. Il est rare qu’un homme n’ait pas un intérêt à aimer. Un mari doit trouver cette secrète raison d’égoïsme, car elle sera pour lui le levier d’Archimède.
-LXXIIUn mari de talent ne suppose jamais ouvertement que sa femme a un amant.
-LXXIIIUn amant obéit à tous les caprices d’une femme ; et, comme un homme n’est jamais vil dans les bras de sa maîtresse, il emploiera pour lui plaire des moyens qui souvent répugnent à un mari.
-LXXIVUn amant apprend à une femme tout ce qu’un mari lui a caché.
-LXXVToutes les sensations qu’une femme apporte à son amant, elle les échange ; elles lui reviennent toujours plus fortes ; elles sont aussi riches de ce qu’elles ont donné que de ce qu’elles ont reçu. [510] C’est un commerce où presque tous les maris finissent par faire banqueroute.
-LXXVIUn amant ne parle à une femme que de ce qui peut la grandir ; tandis qu’un mari, même en aimant, ne peut se défendre de donner des conseils, qui ont toujours un air de blâme.
-LXXVIIUn amant procède toujours de sa maîtresse à lui, c’est le contraire chez les maris.
-LXXVIIIUn amant a toujours le désir de paraître aimable. Il y a dans ce sentiment un principe d’exagération qui mène au ridicule, il faut en savoir profiter.
-LXXIXQuand un crime est commis, le juge d’instruction sait (sauf le cas d’un forçat libéré qui assassine au bagne) qu’il n’existe pas plus de cinq personnes auxquelles il puisse attribuer le coup. Il part de là pour établir ses conjectures. Un mari doit raisonner comme le juge : il n’a pas trois personnes à soupçonner dans la société quand il veut chercher quel est l’amant de sa femme.
-LXXXUn amant n’a jamais tort.
-LXXXIL’amant d’une femme mariée vient lui dire : – Madame, vous avez besoin de repos. Vous avez à donner l’exemple de la vertu à vos enfants. Vous avez juré de faire le bonheur d’un mari, qui, à quelques défauts près (et j’en ai plus que lui), mérite votre estime. Eh ! bien, il faut me sacrifier votre famille et votre vie, parce que j’ai vu que vous aviez une jolie jambe. Qu’il ne vous échappe même pas un murmure ; car un regret est une offense que je punirais d’une peine plus sévère que celle de la loi contre les épouses adultères. Pour prix de ces sacrifices, je vous apporte autant de plaisirs que de peines. Chose incroyable, un amant triomphe !… La forme qu’il donne à son discours fait tout passer. [511] Il ne dit jamais qu’un mot : – J’aime. Un amant est un héraut qui proclame ou le mérite, ou la beauté, ou l’esprit d’une femme. Que proclame un mari ?
+LXV
+Parler d’amour, c’est faire l’amour.
+LXVI
+Chez un amant, le désir le plus vulgaire se produit toujours comme l’élan d’une admiration consciencieuse.
+[509] LXVII
+Un amant a toutes les qualités et tous les défauts qu’un mari n’a pas.
+LXVIII
+Un amant ne donne pas seulement la vie à tout, il fait aussi oublier la vie : le mari ne donne la vie à rien.
+LXIX
+Toutes les singeries de sensibilité qu’une femme fait abusent toujours un amant ; et, là où un mari hausse nécessairement les épaules, un amant est en extase.
+LXX
+Un amant ne trahit que par ses manières le degré d’intimité auquel il est arrivé avec une femme mariée.
+LXXI
+Une femme ne sait pas toujours pourquoi elle aime. Il est rare qu’un homme n’ait pas un intérêt à aimer. Un mari doit trouver cette secrète raison d’égoïsme, car elle sera pour lui le levier d’Archimède.
+LXXII
+Un mari de talent ne suppose jamais ouvertement que sa femme a un amant.
+LXXIII
+Un amant obéit à tous les caprices d’une femme ; et, comme un homme n’est jamais vil dans les bras de sa maîtresse, il emploiera pour lui plaire des moyens qui souvent répugnent à un mari.
+LXXIV
+Un amant apprend à une femme tout ce qu’un mari lui a caché.
+LXXV
+Toutes les sensations qu’une femme apporte à son amant, elle les échange ; elles lui reviennent toujours plus fortes ; elles sont aussi riches de ce qu’elles ont donné que de ce qu’elles ont reçu. [510] C’est un commerce où presque tous les maris finissent par faire banqueroute.
+LXXVI
+Un amant ne parle à une femme que de ce qui peut la grandir ; tandis qu’un mari, même en aimant, ne peut se défendre de donner des conseils, qui ont toujours un air de blâme.
+LXXVII
+Un amant procède toujours de sa maîtresse à lui, c’est le contraire chez les maris.
+LXXVIII
+Un amant a toujours le désir de paraître aimable. Il y a dans ce sentiment un principe d’exagération qui mène au ridicule, il faut en savoir profiter.
+LXXIX
+Quand un crime est commis, le juge d’instruction sait (sauf le cas d’un forçat libéré qui assassine au bagne) qu’il n’existe pas plus de cinq personnes auxquelles il puisse attribuer le coup. Il part de là pour établir ses conjectures. Un mari doit raisonner comme le juge : il n’a pas trois personnes à soupçonner dans la société quand il veut chercher quel est l’amant de sa femme.
+LXXX
+Un amant n’a jamais tort.
+LXXXI
+L’amant d’une femme mariée vient lui dire : – Madame, vous avez besoin de repos. Vous avez à donner l’exemple de la vertu à vos enfants. Vous avez juré de faire le bonheur d’un mari, qui, à quelques défauts près (et j’en ai plus que lui), mérite votre estime. Eh ! bien, il faut me sacrifier votre famille et votre vie, parce que j’ai vu que vous aviez une jolie jambe. Qu’il ne vous échappe même pas un murmure ; car un regret est une offense que je punirais d’une peine plus sévère que celle de la loi contre les épouses adultères. Pour prix de ces sacrifices, je vous apporte autant de plaisirs que de peines. Chose incroyable, un amant triomphe !… La forme qu’il donne à son discours fait tout passer. [511] Il ne dit jamais qu’un mot : – J’aime. Un amant est un héraut qui proclame ou le mérite, ou la beauté, ou l’esprit d’une femme. Que proclame un mari ?
 Somme toute, l’amour qu’une femme mariée inspire ou celui qu’elle ressent est le sentiment le moins flatteur qu’il y ait au monde : chez elle, c’est une immense vanité ; chez son amant, c’est égoïsme. L’amant d’une femme mariée contracte trop d’obligations pour qu’il se rencontre trois hommes par siècle qui daignent s’acquitter ; il devrait consacrer toute sa vie à sa maîtresse, qu’il finit toujours par abandonner : l’un et l’autre le savent, et depuis que les sociétés existent, l’une a toujours été aussi sublime que l’autre a été ingrat. Une grande passion excite quelquefois la pitié des juges qui la condamnent ; mais où voyez-vous des passions vraies et durables ? Quelle puissance ne faut-il pas à un mari pour lutter avec succès contre un homme dont les prestiges amènent une femme à se soumettre à de tels malheurs !
 
 Nous estimons que, règle générale, un mari peut, en sachant bien employer les moyens de défense que nous avons déjà développés, amener sa femme jusqu’à l’âge de vingt-sept ans, non pas sans qu’elle ait choisi d’amant, mais sans qu’elle ait commis le grand crime. Il se rencontre bien çà et là des hommes qui, doués d’un profond génie conjugal, peuvent conserver leurs femmes pour eux seuls, corps et âme, jusqu’à trente ou trente-cinq ans ; mais ces exceptions causent une sorte de scandale et d’effroi. Ce phénomène n’arrive guère qu’en province, où la vie étant diaphane et les maisons vitrifiées, un homme s’y trouve armé d’un immense pouvoir. Cette miraculeuse assistance donnée à un mari par les hommes et par les choses s’évanouit toujours au milieu d’une ville dont la population monte à deux cent cinquante mille âmes.
@@ -1197,6 +1296,7 @@ Un jeune avocat auquel une passion frénétique révéla quelques-uns [518] des 
 Adolphe était un jeune homme de vingt-cinq ans environ, d’une jolie figure, aimant à s’amuser comme tous les célibataires possibles. Il était économe, propre, avait un cœur excellent, montait bien à cheval, parlait spirituellement, tenait de fort beaux cheveux noirs toujours frisés, et sa mise ne manquait pas d’élégance. Bref, il aurait fait honneur et profit à une duchesse. L’avocat était laid, petit, trapu, carré, chafouin et mari. Anna, belle et grande, avait des yeux fendus en amande, le teint blanc, et les traits délicats. Elle était tout amour, et la passion animait son regard d’une expression magique. Elle appartenait à une famille pauvre, maître Lebrun avait douze mille livres de rente. Tout est expliqué. Un soir, Lebrun rentre chez lui d’un air visiblement abattu. Il passe dans son cabinet pour y travailler ; mais il revient aussitôt chez sa femme en grelottant ; car il a la fièvre, et ne tarde pas à se mettre au lit. Il gémit, déplore ses clients, et surtout une pauvre veuve dont il devait, le lendemain même, sauver la fortune par une transaction. Le rendez-vous était pris avec les gens d’affaires, et il se sentait hors d’état d’y aller. Après avoir sommeillé un quart d’heure, il se réveille, et, d’une voix faible, prie sa femme d’écrire à l’un de ses amis intimes de le remplacer dans la conférence qui a lieu le lendemain. Il dicte une longue lettre, et suit du regard l’espace que prennent ses phrases sur le papier. Quand il fallut commencer le recto du second feuillet, l’avocat était en train de peindre à son confrère la joie que sa cliente aurait si la transaction était signée, et le fatal recto commençait par ces mots :
 Mon bon ami, allez, ah ! allez aussitôt chez madame de Vernon ; vous y serez attendu bien impatiemment. Elle demeure rue du Sentier, n. 7. Pardonnez-moi de vous en dire si peu, mais je compte sur votre admirable sens pour deviner ce que je ne puis expliquer.
 Tout à vous.
+
 – Donnez-moi la lettre, dit l’avocat, pour que je voie s’il n’y a pas de faute avant de la signer. L’infortunée, dont la prudence avait [519] été endormie par la nature de cette épître hérissée presque tout entière des termes les plus barbares de la langue judiciaire, livre la lettre. Aussitôt que Lebrun possède le fallacieux écrit, il se plaint, se tortille, et réclame je ne sais quel bon office de sa femme. Madame s’absente deux minutes, pendant lesquelles l’avocat saute hors du lit, ploie un papier en forme de lettre, et cache la missive écrite par sa femme. Quand Anna revient, l’habile mari cachète le papier blanc, le fait adresser, par elle, à celui de ses amis auquel la lettre soustraite semblait destinée, et la pauvre créature remet le candide message à un domestique. Lebrun paraît se calmer insensiblement ; il s’endort, ou fait semblant, et le lendemain matin il affecte encore d’avoir de vagues douleurs. Deux jours après, il enlève le premier feuillet de la lettre, met un e au mot tout, dans cette phrase, tout à vous ; il plie mystérieusement le papier innocemment faussaire, le cachète, sort de la chambre conjugale, appelle la soubrette et lui dit : – Madame vous prie de porter cela chez monsieur Adolphe ; courez… Il voit partir la femme de chambre ; et aussitôt après il prétexte une affaire, et s’en va rue du Sentier, à l’adresse indiquée. Il attend paisiblement son rival chez l’ami qui s’était prêté à son dessein. L’amant, ivre de bonheur, accourt, demande madame de Vernon ; il est introduit, et se trouve face à face avec maître Lebrun qui lui montre un visage pâle, mais froid, des yeux tranquilles, mais implacables. – Monsieur, dit-il d’une voix émue au jeune commis dont le cœur palpita de terreur, vous aimez ma femme, vous essayez de lui plaire ; je ne saurais vous en vouloir, puisqu’à votre place et à votre âge j’en eusse fait tout autant. Mais Anna est au désespoir ; vous avez troublé sa félicité, l’enfer est dans son cœur. Aussi m’a-t-elle tout confié. Une querelle facilement apaisée l’avait poussée à vous écrire le billet que vous avez reçu, elle m’a envoyé ici à sa place. Je ne vous dirai pas, monsieur, qu’en persistant dans vos projets de séduction vous feriez le malheur de celle que vous aimez, que vous la priveriez de mon estime, et un jour de la vôtre ; que vous signeriez votre crime jusque dans l’avenir en préparant peut-être des chagrins à mes enfants ; je ne vous parle même pas de l’amertume que vous jetteriez dans ma vie ; – malheureusement, c’est des chansons !… Mais je vous déclare, monsieur, que la moindre démarche de votre part serait le signal d’un crime ; car je ne me fierais pas à un duel pour vous percer le cœur !… Là, les yeux de l’avocat distillèrent la [520] mort. – Eh ! monsieur, reprit-il d’une voix plus douce, vous êtes jeune, vous avez le cœur généreux ; faites un sacrifice au bonheur à venir de celle que vous aimez ? abandonnez-la, ne la revoyez jamais. Et s’il vous faut absolument quelqu’un de la famille, j’ai une jeune tante que personne n’a pu fixer ; elle est charmante, pleine d’esprit et riche, entreprenez sa conversion, et laissez en repos une femme vertueuse. Ce mélange de plaisanterie et de terreur, la fixité du regard et le son de voix profond du mari firent une incroyable impression sur l’amant. Il resta deux minutes interdit, comme les gens trop passionnés auxquels la violence d’un choc enlève toute présence d’esprit. Si Anna eut des amants (pure hypothèse), ce ne fut certes pas Adolphe.
 Ce fait peut servir à vous faire comprendre que la correspondance est un poignard à deux tranchants qui profite autant à la défense du mari qu’à l’inconséquence de la femme. Vous favoriserez donc la correspondance, par la même raison que monsieur le préfet de police fait allumer soigneusement les réverbères de Paris.
 
@@ -1252,7 +1352,8 @@ Ainsi votre femme parle-t-elle d’économie, ses discours équivaudront aux var
 Si, n’appréciant pas cet excès de confiance, votre femme dissipait un jour une forte partie de la fortune, d’abord, il serait difficile que cette prodigalité atteignît au tiers des revenus gardés par vous depuis dix ans ; mais ensuite, la Méditation sur les Péripéties vous apprendra qu’il y a dans la crise même amenée par les folies de votre femme d’immenses ressources pour tuer le Minotaure.
 Enfin le secret du trésor entassé par vos soins ne doit être connu qu’à votre mort ; et si vous aviez besoin d’y puiser pour venir au secours de votre femme, vous serez censé toujours avoir joué avec bonheur, ou avoir emprunté à un ami.
 Tels sont les vrais principes en fait de budget conjugal.
-_______La police conjugale a son martyrologe. Nous ne citerons qu’un seul fait, parce qu’il pourra faire comprendre la nécessité où sont les maris qui prennent des mesures si acerbes de veiller sur eux-mêmes autant que sur leurs femmes.
+_______
+La police conjugale a son martyrologe. Nous ne citerons qu’un seul fait, parce qu’il pourra faire comprendre la nécessité où sont les maris qui prennent des mesures si acerbes de veiller sur eux-mêmes autant que sur leurs femmes.
 Un vieil avare, demeurant à T…, ville de plaisir, si jamais il en fut, avait épousé une jeune et jolie femme ; et il en était tellement [527] épris et jaloux que l’amour triompha de l’usure ; car il quitta le commerce pour pouvoir mieux garder sa femme, ne faisant ainsi que changer d’avarice. J’avoue que je dois la plus grande partie des observations contenues dans cet essai, sans doute imparfait encore, à la personne qui a pu jadis étudier cet admirable phénomène conjugal ; et, pour le peindre, il suffira d’un seul trait. Quand il allait à la campagne, ce mari ne se couchait jamais sans avoir secrètement ratissé les allées de son parc dans un sens mystérieux, et il avait un râteau particulier pour le sable de ses terrasses. Il avait fait une étude particulière des vestiges laissés par les pieds des différentes personnes de sa maison ; et dès le matin, il en allait reconnaître les empreintes. – Tout ceci est de haute futaie, disait-il à la personne dont j’ai parlé, en lui montrant son parc, car on ne voit rien dans les taillis… Sa femme aimait un des plus charmants jeunes gens de la ville. Depuis neuf ans cette passion vivait, brillante et féconde, au cœur des deux amants qui s’étaient devinés d’un seul regard, au milieu d’un bal ; et, en dansant, leurs doigts tremblants leur avaient révélé, à travers la peau parfumée de leurs gants, l’étendue de leur amour. Depuis ce jour, ils avaient trouvé l’un et l’autre d’immenses ressources dans les riens dédaignés par les amants heureux. Un jour le jeune homme amena son seul confident d’un air mystérieux dans un boudoir où, sur une table et sous des globes de verre, il conservait, avec plus de soin qu’il n’en aurait eu pour les plus belles pierreries du monde, des fleurs tombées de la coiffure de sa maîtresse, grâce à l’emportement de la danse, des brimborions arrachés à des arbres qu’elle avait touchés dans son parc. Il y avait là jusqu’à l’étroite empreinte laissée sur une terre argileuse par le pied de cette femme. – J’entendais, me dit plus tard ce confident, les fortes et sourdes palpitations de son cœur sonner au milieu du silence que nous gardâmes devant les richesses de ce musée d’amour. Je levai les yeux au plafond comme pour confier au ciel un sentiment que je n’osais exprimer. – Pauvre humanité !… pensais-je… – Madame de… m’a dit qu’un soir, au bal, on vous avait trouvé presque évanoui dans son salon de jeu ?… lui demandai-je. – Je crois bien, dit-il en voilant le feu de son regard ; je lui avais baisé le bras !… – Mais, ajouta-t-il en me serrant la main et me lançant un de ces regards qui semblent presser le cœur, son mari a dans ce moment-ci la goutte bien près de [528] l’estomac… Quelque temps après, le vieil avare revint à la vie, et parut avoir fait un nouveau bail ; mais, au milieu de sa convalescence, il se mit au lit un matin, et mourut subitement. Des symptômes de poison éclatèrent si violemment sur le corps du défunt, que la justice informa, et les deux amants furent arrêtés. Alors il se passa, devant la cour d’assises, la scène la plus déchirante qui jamais ait remué le cœur d’un jury. Dans l’instruction du procès, chacun des deux amants avait sans détour avoué le crime, et, par une même pensée, s’en était seul chargé, pour sauver, l’une son amant, l’autre sa maîtresse. Il se trouva deux coupables là où la justice n’en cherchait qu’un seul. Les débats ne furent que des démentis qu’ils se donnèrent l’un à l’autre avec toute la fureur du dévouement de l’amour. Ils étaient réunis pour la première fois, mais sur le banc des criminels, et séparés par un gendarme. Ils furent condamnés à l’unanimité par des jurés en pleurs. Personne, parmi ceux qui eurent le courage barbare de les voir conduire à l’échafaud, ne peut aujourd’hui parler d’eux sans frissonner. La religion leur avait arraché le repentir du crime, mais non l’abjuration de leur amour. L’échafaud fut leur lit nuptial, et ils s’y couchèrent ensemble dans la longue nuit de la mort.
 
 
@@ -1316,7 +1417,8 @@ Nous supposerons donc que la femme dont le portrait orne notre première Médita
 La péripétie conjugale peut éclater partout, et mille incidents indéfinissables la feront naître. Tantôt ce sera un mouchoir, comme dans le More de Venise ; ou une paire de pantoufles, comme dans Don Juan ; tantôt ce sera l’erreur de votre femme qui s’écriera : – Cher Alphonse ! pour – cher Adolphe ! Enfin souvent un mari, s’apercevant que sa femme est endettée, ira trouver le plus fort créancier, et l’amènera fortuitement chez lui un matin, pour y préparer une péripétie.
 – Monsieur Josse, vous êtes orfévre, et la passion que vous avez de vendre des bijoux n’est égalée que par celle d’en être payé. Madame la comtesse vous doit trente mille francs. Si vous voulez les recevoir demain (il faut toujours aller voir l’industriel à une fin de mois), venez chez elle à midi. Son mari sera dans la chambre ; n’écoutez aucun des signes qu’elle pourra faire pour vous engager à garder le silence. Parlez hardiment. – Je paierai.
 Enfin la péripétie est, dans la science du mariage, ce que sont les chiffres en arithmétique.
-_______Tous les principes de haute philosophie conjugale qui animent les moyens de défense indiqués par cette Seconde Partie de notre livre sont pris dans la nature des sentiments humains, nous les avons trouvés épars dans le grand livre du monde. En effet, de même que les personnes d’esprit appliquent instinctivement les lois du goût, quoiqu’elles seraient souvent fort embarrassées d’en déduire les principes ; de même, nous avons vu nombre de gens passionnés employant avec un rare bonheur les enseignements que nous venons de développer, et chez aucun d’eux il n’y avait de plan fixe. [540] Le sentiment de leur situation ne leur révélait que des fragments incomplets d’un vaste système ; semblables en cela à ces savants du seizième siècle, dont les microscopes n’étaient pas encore assez perfectionnés pour leur permettre d’apercevoir tous les êtres dont l’existence leur était démontrée par leur patient génie.
+_______
+Tous les principes de haute philosophie conjugale qui animent les moyens de défense indiqués par cette Seconde Partie de notre livre sont pris dans la nature des sentiments humains, nous les avons trouvés épars dans le grand livre du monde. En effet, de même que les personnes d’esprit appliquent instinctivement les lois du goût, quoiqu’elles seraient souvent fort embarrassées d’en déduire les principes ; de même, nous avons vu nombre de gens passionnés employant avec un rare bonheur les enseignements que nous venons de développer, et chez aucun d’eux il n’y avait de plan fixe. [540] Le sentiment de leur situation ne leur révélait que des fragments incomplets d’un vaste système ; semblables en cela à ces savants du seizième siècle, dont les microscopes n’étaient pas encore assez perfectionnés pour leur permettre d’apercevoir tous les êtres dont l’existence leur était démontrée par leur patient génie.
 Nous espérons que les observations déjà présentées dans ce livre et celles qui doivent leur succéder seront de nature à détruire l’opinion qui fait regarder, par des hommes frivoles, le mariage comme une sinécure. D’après nous, un mari qui s’ennuie est un hérétique, mieux que cela même, c’est un homme nécessairement en dehors de la vie conjugale et qui ne la conçoit pas. Sous ce rapport, peut-être, ces Méditations dénonceront-elles à bien des ignorants les mystères d’un monde devant lequel ils restaient les yeux ouverts sans le voir.
 Espérons encore que ces principes sagement appliqués pourront opérer bien des conversions, et qu’entre les feuilles presque blanches qui séparent cette Seconde Partie de la GUERRE CIVILE, il y aura bien des larmes et bien des repentirs.
 Oui, sur les quatre cent mille femmes honnêtes que nous avons si soigneusement élues au sein de toutes les nations européennes, aimons à croire qu’il n’y en aura qu’un certain nombre, trois cent mille, par exemple, qui seront assez perverses, assez charmantes, assez adorables, assez belliqueuses, pour lever l’étendard de la GUERRE CIVILE.
@@ -1326,20 +1428,32 @@ Oui, sur les quatre cent mille femmes honnêtes que nous avons si soigneusement 
 Troisième partie 
 De la guerre civile
 Belles comme les Séraphins de Klopstock, terribles comme les diables de Milton.
-DIDEROT.Méditation XXIII 
+DIDEROT.
+
+Méditation XXIII 
 Des manifestes
 Les préceptes préliminaires par lesquels la science peut armer ici un mari sont en petit nombre, il s’agit bien moins en effet de savoir s’il ne succombera pas, que d’examiner s’il peut résister.
 [541] Cependant nous placerons ici quelques fanaux pour éclairer cette arène où bientôt un mari va se trouver seul avec la religion et la loi, contre sa femme, soutenue par la ruse et la société tout entière.
-LXXXIIOn peut tout attendre et tout supposer d’une femme amoureuse.
-LXXXIIILes actions d’une femme qui veut tromper son mari seront presque toujours étudiées, mais elles ne seront jamais raisonnées.
-LXXXIVLa majeure partie des femmes procède comme la puce, par sauts et par bonds sans suite. Elles échappent par la hauteur ou la profondeur de leurs premières idées, et les interruptions de leurs plans les favorisent. Mais elles ne s’exercent que dans un espace qu’il est facile à un mari de circonscrire ; et, s’il est de sang-froid, il peut finir par éteindre ce salpêtre organisé.
-LXXXVUn mari ne doit jamais se permettre une seule parole hostile contre sa femme, en présence d’un tiers.
-LXXXVIAu moment où une femme se décide à trahir la foi conjugale, elle compte son mari pour tout ou pour rien. On peut partir de là.
-LXXXVIILa vie de la femme est dans la tête, dans le cœur ou dans la passion. À l’âge où sa femme a jugé la vie, un mari doit savoir si la cause première de l’infidélité qu’elle médite procède de la vanité, du sentiment ou du tempérament. Le tempérament est une maladie à guérir ; le sentiment offre à un mari de grandes chances de succès ; mais la vanité est incurable. La femme qui vit de la tête est un épouvantable fléau. Elle réunira les défauts de la femme passionnée et de la femme aimante, sans en avoir les excuses. Elle est sans pitié, sans amour, sans vertu, sans sexe.
-[542] LXXXVIIIUne femme qui vit de la tête, tâchera d’inspirer à un mari de l’indifférence ; la femme qui vit du cœur, de la haine ; la femme passionnée, du dégoût.
-LXXXIXUn mari ne risque jamais rien de faire croire à la fidélité de sa femme, et de garder un air patient ou le silence. Le silence surtout inquiète prodigieusement les femmes.
-XCParaître instruit de la passion de sa femme est d’un sot ; mais feindre d’ignorer tout, est d’un homme d’esprit, et il n’y a guère que ce parti à prendre. Aussi dit-on qu’en France tout le monde est spirituel.
-XCILe grand écueil est le ridicule. – Au moins aimons-nous en public ! doit être l’axiome d’un ménage. C’est trop perdre, que de perdre tous deux l’honneur, l’estime, la considération, le respect, tout comme il vous plaira de nommer ce je ne sais quoi social.
+LXXXII
+On peut tout attendre et tout supposer d’une femme amoureuse.
+LXXXIII
+Les actions d’une femme qui veut tromper son mari seront presque toujours étudiées, mais elles ne seront jamais raisonnées.
+LXXXIV
+La majeure partie des femmes procède comme la puce, par sauts et par bonds sans suite. Elles échappent par la hauteur ou la profondeur de leurs premières idées, et les interruptions de leurs plans les favorisent. Mais elles ne s’exercent que dans un espace qu’il est facile à un mari de circonscrire ; et, s’il est de sang-froid, il peut finir par éteindre ce salpêtre organisé.
+LXXXV
+Un mari ne doit jamais se permettre une seule parole hostile contre sa femme, en présence d’un tiers.
+LXXXVI
+Au moment où une femme se décide à trahir la foi conjugale, elle compte son mari pour tout ou pour rien. On peut partir de là.
+LXXXVII
+La vie de la femme est dans la tête, dans le cœur ou dans la passion. À l’âge où sa femme a jugé la vie, un mari doit savoir si la cause première de l’infidélité qu’elle médite procède de la vanité, du sentiment ou du tempérament. Le tempérament est une maladie à guérir ; le sentiment offre à un mari de grandes chances de succès ; mais la vanité est incurable. La femme qui vit de la tête est un épouvantable fléau. Elle réunira les défauts de la femme passionnée et de la femme aimante, sans en avoir les excuses. Elle est sans pitié, sans amour, sans vertu, sans sexe.
+[542] LXXXVIII
+Une femme qui vit de la tête, tâchera d’inspirer à un mari de l’indifférence ; la femme qui vit du cœur, de la haine ; la femme passionnée, du dégoût.
+LXXXIX
+Un mari ne risque jamais rien de faire croire à la fidélité de sa femme, et de garder un air patient ou le silence. Le silence surtout inquiète prodigieusement les femmes.
+XC
+Paraître instruit de la passion de sa femme est d’un sot ; mais feindre d’ignorer tout, est d’un homme d’esprit, et il n’y a guère que ce parti à prendre. Aussi dit-on qu’en France tout le monde est spirituel.
+XCI
+Le grand écueil est le ridicule. – Au moins aimons-nous en public ! doit être l’axiome d’un ménage. C’est trop perdre, que de perdre tous deux l’honneur, l’estime, la considération, le respect, tout comme il vous plaira de nommer ce je ne sais quoi social.
 Ces axiomes ne concernent encore que la lutte. Quant à la catastrophe, elle aura les siens.
 
 Nous avons nommé cette crise guerre civile par deux raisons : jamais guerre ne fut plus intestine et en même temps plus polie que celle-là. Mais où et comment éclatera-t-elle cette fatale guerre ?
@@ -1608,7 +1722,8 @@ Ainsi l’erreur de Rousseau a été l’erreur de son siècle. Il a expliqué l
 C’est au moyen des rigueurs de ce système qu’elle essaiera de vous chasser du lit conjugal. Madame Shandy n’entendait pas malice en prévenant le père de Tristram de remonter la pendule, tandis que votre femme éprouvera du plaisir à vous interrompre par les questions les plus positives. Là, où naguère était le mouvement et la vie, là est le repos et la mort. Une scène d’amour devient une transaction long-temps débattue et presque notariée. Mais ailleurs, nous avons assez prouvé que nous ne nous refusions pas à saisir le comique de certaines crises conjugales, pour qu’il nous soit permis de dédaigner ici les plaisantes ressources que la muse des Verville et des Martial pourrait trouver dans la perfidie des manœuvres féminines, dans l’insultante audace des discours, dans le cynisme de quelques situations. Il serait trop triste de rire, et trop plaisant de s’attrister. Quand une femme en arrive à de telles extrémités, il y a des mondes entre elle et son mari. Cependant, il existe certaines femmes à qui le ciel a fait le don d’agréer en tout, qui savent, dit-on, mettre une certaine grâce spirituelle et comique à ces débats, et qui ont un bec si bien affilé, selon l’expression de Sully, qu’elles obtiennent le pardon de leurs caprices, de leurs moqueries, et ne s’aliènent pas le cœur de leurs maris.
 Quelle est l’âme assez robuste, l’homme assez fortement amoureux, pour, après dix ans de mariage, persister dans sa passion, en présence d’une femme qui ne l’aime plus, qui le lui prouve à toute heure, qui le rebute, qui se fait à dessein aigre, caustique, malade, capricieuse, et qui abjurera ses vœux d’élégance et de propreté, plutôt que de ne pas voir apostasier son mari ; devant une femme qui spéculera enfin sur l’horreur causée par l’indécence ?
 Tout ceci, mon cher monsieur, est d’autant plus horrible que :
-XCIILes amants ignorent la pudeur.
+XCII
+Les amants ignorent la pudeur.
 
 Ici nous sommes parvenus au dernier cercle infernal de la divine comédie du mariage, nous sommes au fond de l’enfer.
 Il y a je ne sais quoi de terrible dans la situation où parvient [590] une femme mariée, alors qu’un amour illégitime l’enlève à ses devoirs de mère et d’épouse. Comme l’a fort bien exprimé Diderot, l’infidélité est chez la femme comme l’incrédulité chez un prêtre, le dernier terme des forfaitures humaines ; c’est pour elle le plus grand crime social, car pour elle il implique tous les autres. En effet, ou la femme profane son amour en continuant d’appartenir à son mari, ou elle rompt tous les liens qui l’attachent à sa famille en s’abandonnant tout entière à son amant. Elle doit opter, car la seule excuse possible est dans l’excès de son amour.
@@ -1622,35 +1737,57 @@ Des derniers symptômes
 L’auteur de ce livre a rencontré, dans le monde, tant de gens possédés d’une sorte de fanatisme pour la connaissance du temps vrai, du temps moyen, pour les montres à seconde, et pour l’exactitude de leur existence, qu’il a jugé cette Méditation trop nécessaire à la tranquillité d’une grande quantité de maris pour l’omettre. Il eût été cruel de laisser les hommes qui ont la passion de l’heure, sans boussole pour apprécier les dernières variations du zodiaque matrimonial et le moment précis où le signe du minotaure apparaît sur l’horizon.
 La connaissance du temps conjugal demanderait peut-être un livre tout entier, tant elle exige d’observations fines et délicates. Le magister avoue que sa jeunesse ne lui a permis de recueillir encore que très-peu de symptômes ; mais il éprouve un juste orgueil en arrivant au terme de sa difficile entreprise, de pouvoir faire observer qu’il laisse à ses successeurs un nouveau sujet de recherches ; et que, dans une matière en apparence si usée, non-seulement tout n’était pas dit, mais qu’il restera bien des points à éclaircir. Il donne donc ici, sans ordre et sans liaison, les éléments informes qu’il a pu rassembler jusqu’à ce jour, espérant avoir le loisir de les coordonner plus tard et de les réduire en un système complet. S’il était prévenu dans cette entreprise éminemment nationale, il croit devoir indiquer ici, sans pour cela être taxé de vanité, la division naturelle de ces symptômes. Ils sont nécessairement de deux sortes : les unicornes et les bicornes. Le minotaure unicorne est le moins malfaisant, les deux coupables s’en tiennent à l’amour platonique, ou du moins leur passion ne laisse point de traces visibles dans la postérité ; tandis que le minotaure bicorne est le malheur avec tous ses fruits.
 Nous avons marqué d’un astérisque les symptômes qui nous ont paru concerner ce dernier genre.
-OBSERVATIONS MINOTAURIQUESI* Quand, après être restée long-temps séparée de son mari, une femme lui fait des agaceries un peu trop fortes, afin de l’induire en [592] amour, elle agit d’après cet axiome du droit maritime : Le pavillon couvre la marchandise.
-IIUne femme est au bal, une de ses amies arrive auprès d’elle et lui dit : – Votre mari a bien de l’esprit. – Vous trouvez ?…
-IIIVotre femme trouve qu’il est temps de mettre en pension votre enfant, de qui, naguères, elle ne voulait jamais se séparer.
-IV* Dans le procès en divorce de milord Abergaveny, le valet de chambre déposa que : Madame la vicomtesse avait une telle répugnance pour tout ce qui appartenait à milord, qu’il l’avait très-souvent vue brûlant jusqu’à des brimborions de papier qu’il avait touchés chez elle.
-VSi une femme indolente devient active, si une femme, qui avait horreur de l’étude, apprend une langue étrangère ; enfin tout changement complet opéré dans son caractère, est un symptôme décisif.
-VILa femme très-heureuse par le cœur ne va plus dans le monde.
-VIIUne femme qui a un amant devient très-indulgente.
-VIII* Un mari donne cent écus par mois à sa femme pour sa toilette ; et, tout bien considéré, elle dépense au moins cinq cents francs sans faire un sou de dette ; le mari est volé, nuitamment, à main armée, par escalade, mais… sans effraction.
-IX* Deux époux couchaient dans le même lit, madame était constamment malade ; ils couchent séparément, elle n’a plus de [593] migraine, et sa santé devient plus brillante que jamais : symptôme effrayant !
-XUne femme qui ne prenait aucun soin d’elle-même passe subitement à une recherche extrême dans sa toilette. Il y a du minotaure !
-XI– Ah ! ma chère, je ne connais pas de plus grand supplice que de ne pas être comprise.
+OBSERVATIONS MINOTAURIQUES
+I
+* Quand, après être restée long-temps séparée de son mari, une femme lui fait des agaceries un peu trop fortes, afin de l’induire en [592] amour, elle agit d’après cet axiome du droit maritime : Le pavillon couvre la marchandise.
+II
+Une femme est au bal, une de ses amies arrive auprès d’elle et lui dit : – Votre mari a bien de l’esprit. – Vous trouvez ?…
+III
+Votre femme trouve qu’il est temps de mettre en pension votre enfant, de qui, naguères, elle ne voulait jamais se séparer.
+IV
+* Dans le procès en divorce de milord Abergaveny, le valet de chambre déposa que : Madame la vicomtesse avait une telle répugnance pour tout ce qui appartenait à milord, qu’il l’avait très-souvent vue brûlant jusqu’à des brimborions de papier qu’il avait touchés chez elle.
+V
+Si une femme indolente devient active, si une femme, qui avait horreur de l’étude, apprend une langue étrangère ; enfin tout changement complet opéré dans son caractère, est un symptôme décisif.
+VI
+La femme très-heureuse par le cœur ne va plus dans le monde.
+VII
+Une femme qui a un amant devient très-indulgente.
+VIII
+* Un mari donne cent écus par mois à sa femme pour sa toilette ; et, tout bien considéré, elle dépense au moins cinq cents francs sans faire un sou de dette ; le mari est volé, nuitamment, à main armée, par escalade, mais… sans effraction.
+IX
+* Deux époux couchaient dans le même lit, madame était constamment malade ; ils couchent séparément, elle n’a plus de [593] migraine, et sa santé devient plus brillante que jamais : symptôme effrayant !
+X
+Une femme qui ne prenait aucun soin d’elle-même passe subitement à une recherche extrême dans sa toilette. Il y a du minotaure !
+XI
+– Ah ! ma chère, je ne connais pas de plus grand supplice que de ne pas être comprise.
 – Oui, ma chère, mais quand on l’est !…
 – Oh ! cela n’arrive presque jamais.
 – Je conviens que c’est bien rare. Ah ! c’est un grand bonheur, mais il n’est pas deux êtres au monde qui sachent vous comprendre.
-XII* Le jour où une femme a des procédés pour son mari… Tout est dit.
-XIIIJe lui demande : – D’où venez-vous, Jeanne ? – Je viens de chez votre compère quérir votre vaisselle que vous laissâtes. – Ho ! da ? tout est encore à moi ! fis-je. L’an suivant, je réitère la même question, en même posture. – Je viens de quérir notre vaisselle. – Ha ! ha ! nous y avons encore part ! fis-je. Mais après si je l’interroge, elle me dira bien autrement : – Vous voulez tout savoir comme les grands, et vous n’avez pas trois chemises. Je viens de quérir ma vaisselle chez mon compère où j’ai soupé. – Voilà qui est un point grabelé ! fis-je.
-XIVMéfiez-vous d’une femme qui parle de sa vertu.
-[594] XVOn dit à la duchesse de Chaulnes, dont l’état donnait de grandes inquiétudes : – Monsieur le duc de Chaulnes voudrait vous revoir.
+XII
+* Le jour où une femme a des procédés pour son mari… Tout est dit.
+XIII
+Je lui demande : – D’où venez-vous, Jeanne ? – Je viens de chez votre compère quérir votre vaisselle que vous laissâtes. – Ho ! da ? tout est encore à moi ! fis-je. L’an suivant, je réitère la même question, en même posture. – Je viens de quérir notre vaisselle. – Ha ! ha ! nous y avons encore part ! fis-je. Mais après si je l’interroge, elle me dira bien autrement : – Vous voulez tout savoir comme les grands, et vous n’avez pas trois chemises. Je viens de quérir ma vaisselle chez mon compère où j’ai soupé. – Voilà qui est un point grabelé ! fis-je.
+XIV
+Méfiez-vous d’une femme qui parle de sa vertu.
+[594] XV
+On dit à la duchesse de Chaulnes, dont l’état donnait de grandes inquiétudes : – Monsieur le duc de Chaulnes voudrait vous revoir.
 – Est-il là ?…
 – Oui.
 – Qu’il attende… il entrera avec les sacrements.
 Cette anecdote minotaurique a été recueillie par Champfort, mais elle devait se trouver ici comme type.
-XVI* Il y a des femmes qui essaient de persuader à leurs maris qu’ils ont des devoirs à remplir envers certaines personnes.
+XVI
+* Il y a des femmes qui essaient de persuader à leurs maris qu’ils ont des devoirs à remplir envers certaines personnes.
 – Je vous assure que vous devez faire une visite à monsieur un tel… – Nous ne pouvons pas nous dispenser d’inviter à dîner monsieur un tel…
-XVII– Allons, mon fils, tenez-vous donc droit ; essayez donc de prendre les bonnes manières ? Enfin, regarde monsieur un tel ?… vois comme il marche ? examine comment il se met ?…
-XVIIIQuand une femme ne prononce le nom d’un homme que deux fois par jour, il y a peut-être incertitude sur la nature du sentiment qu’elle lui porte ; mais trois ?… Oh ! oh !
-XIXQuand une femme reconduit un homme qui n’est ni avocat, ni ministre, jusqu’à la porte de son appartement, elle est bien imprudente.
-XXC’est un terrible jour que celui où un mari ne peut pas parvenir à s’expliquer le motif d’une action de sa femme.
-XXI* La femme qui se laisse surprendre mérite son sort.
+XVII
+– Allons, mon fils, tenez-vous donc droit ; essayez donc de prendre les bonnes manières ? Enfin, regarde monsieur un tel ?… vois comme il marche ? examine comment il se met ?…
+XVIII
+Quand une femme ne prononce le nom d’un homme que deux fois par jour, il y a peut-être incertitude sur la nature du sentiment qu’elle lui porte ; mais trois ?… Oh ! oh !
+XIX
+Quand une femme reconduit un homme qui n’est ni avocat, ni ministre, jusqu’à la porte de son appartement, elle est bien imprudente.
+XX
+C’est un terrible jour que celui où un mari ne peut pas parvenir à s’expliquer le motif d’une action de sa femme.
+XXI
+* La femme qui se laisse surprendre mérite son sort.
 
 [595] Quelle doit être la conduite d’un mari, en s’apercevant d’un dernier symptôme qui ne lui laisse aucun doute sur l’infidélité de sa femme ? Cette question est facile à résoudre. Il n’existe que deux partis à prendre : celui de la résignation, ou celui de la vengeance ; mais il n’y a aucun terme entre ces deux extrêmes. Si l’on opte pour la vengeance, elle doit être complète. L’époux qui ne se sépare pas à jamais de sa femme est un véritable niais. Si un mari et une femme se jugent dignes d’être encore liés par l’amitié qui unit deux hommes l’un à l’autre, il y a quelque chose d’odieux à faire sentir à sa femme l’avantage qu’on peut avoir sur elle.
 Voici quelques anecdotes dont plusieurs sont inédites, et qui marquent assez bien, à mon sens, les différentes nuances de la conduite qu’un mari doit tenir en pareil cas.
@@ -1664,8 +1801,11 @@ Il y a de la grandeur d’âme.
 Il y a noblesse.
 Le sublime du genre est le bonnet carré posé sur le pied du lit par le magistrat pendant le sommeil des deux coupables.
 Il y a de bien belles vengeances. Mirabeau a peint admirablement, dans un de ces livres qu’il fit pour gagner sa vie, la sombre résignation de cette Italienne, condamnée par son mari à périr avec lui dans les Maremmes.
-[596] DERNIERS AXIOMESXCIIICe n’est pas se venger que de surprendre sa femme et son amant et de les tuer dans les bras l’un de l’autre ; c’est le plus immense service qu’on puisse leur rendre.
-XCIVJamais un mari ne sera si bien vengé que par l’amant de sa femme.
+[596] DERNIERS AXIOMES
+XCIII
+Ce n’est pas se venger que de surprendre sa femme et son amant et de les tuer dans les bras l’un de l’autre ; c’est le plus immense service qu’on puisse leur rendre.
+XCIV
+Jamais un mari ne sera si bien vengé que par l’amant de sa femme.
 
 
 Méditation XXVIII 
@@ -1760,7 +1900,8 @@ Qu’un mari a au moins le tiers de son revenu hypothéqué sur l’inconstance 
 Je sais bien que vous ouvrez déjà la bouche pour me parler de mœurs, de politique, de bien et de mal… mais, mon cher minotaurisé, le bonheur n’est-il pas la fin que doivent se proposer toutes les sociétés ?… N’est-ce pas cet axiome qui fait que ces pauvres rois se donnent tant de mal après leurs peuples ? Eh ! bien, la femme honnête n’a pas, comme eux, il est vrai, des trônes, des gendarmes, des tribunaux, elle n’a qu’un lit à offrir ; mais si nos quatre cent mille femmes rendent heureux, par cette ingénieuse machine, un million de célibataires, et par-dessus le marché leurs quatre cent mille maris, n’atteignent-elles pas mystérieusement et sans faste au but qu’un gouvernement a en vue, c’est-à-dire de donner la plus grande somme possible de bonheur à la masse ?
 – Oui, mais les chagrins, les enfants, les malheurs…
 – Ah ! permettez-moi de mettre en lumière le mot consolateur par lequel l’un de nos plus spirituels caricaturistes termine une de ses charges : – L’homme n’est pas parfait ! Il suffit donc que nos institutions n’aient pas plus d’inconvénients que d’avantages pour qu’elles soient excellentes ; car le genre humain n’est pas placé, socialement parlant, entre le bien et le mal, mais entre le mal et le pire. Or, si l’ouvrage que nous avons actuellement accompli a eu pour but de diminuer la pire des institutions matrimoniales, en dévoilant les erreurs et les contre-sens auxquels donnent lieu nos mœurs et nos préjugés, il sera certes un des plus beaux titres qu’un homme puisse présenter pour être placé parmi les bienfaiteurs de l’humanité. L’auteur n’a-t-il pas cherché, en armant les maris, à donner plus de retenue aux femmes, par conséquent plus de violence aux passions, plus d’argent au fisc, plus de vie au commerce et à l’agriculture ? Grâce à cette dernière Méditation, il peut se flatter d’avoir complétement obéi au vœu d’éclectisme qu’il a formé en entreprenant cet ouvrage, et il espère avoir rapporté, comme un avocat-général, toutes les pièces du procès, mais sans donner ses conclusions. En effet, que vous importe de trouver ici un axiome ? Voulez-vous que ce livre soit le développement de la dernière opinion qu’ait eue Tronchet, qui, sur la fin de ses jours, pensait que le législateur avait considéré, dans le mariage, bien [616] moins les époux que les enfants ? Je le veux bien. Souhaitez-vous plutôt que ce livre serve de preuve à la péroraison de ce capucin qui, prêchant devant Anne d’Autriche et voyant la reine ainsi que les dames fort courroucées de ses arguments trop victorieux sur leur fragilité, leur dit en descendant de la chaire de vérité : – Mais vous êtes toutes d’honnêtes femmes, et c’est nous autres qui sommes malheureusement des fils de Samaritaines… Soit encore. Permis à vous d’en extraire telle conséquence qu’il vous plaira ; car je pense qu’il est fort difficile de ne pas rassembler deux idées contraires sur ce sujet qui n’aient quelque justesse. Mais le livre n’a pas été fait pour ou contre le mariage, et il ne vous en devait que la plus exacte description. Si l’examen de la machine peut nous amener à perfectionner un rouage ; si en nettoyant une pièce rouillée nous avons donné du ressort à ce mécanisme, accordez un salaire à l’ouvrier. Si l’auteur a eu l’impertinence de dire des vérités trop dures, s’il a trop souvent généralisé des faits particuliers, et s’il a trop négligé les lieux communs dont on se sert pour encenser les femmes depuis un temps immémorial, oh ! qu’il soit crucifié ! Mais ne lui prêtez pas d’intentions hostiles contre l’institution en elle-même : il n’en veut qu’aux femmes et aux hommes. Il sait que, du moment où le mariage n’a pas renversé le mariage, il est inattaquable ; et, après tout, s’il existe tant de plaintes contre cette institution, c’est peut-être parce que l’homme n’a de mémoire que pour ses maux, et qu’il accuse sa femme comme il accuse la vie, car le mariage est une vie dans la vie. Cependant, les personnes qui ont l’habitude de se faire une opinion en lisant un journal médiraient peut-être d’un livre qui pousserait trop loin la manie de l’éclectisme ; alors, s’il leur faut absolument quelque chose qui ait l’air d’une péroraison, il n’est pas impossible de leur en trouver une. Et puisque des paroles de Napoléon servirent de début à ce livre, pourquoi ne finirait-il pas ainsi qu’il a commencé ? En plein Conseil-d’État donc, le premier consul prononça cette phrase foudroyante, qui fait, tout à la fois, l’éloge et la satire du mariage, et le résumé de ce livre : – Si l’homme ne vieillissait pas, je ne lui voudrais pas de femme !
-[617] POST-SCRIPTUM– Et, vous marierez-vous ?… demanda la duchesse à qui l’auteur venait de lire son manuscrit.
+[617] POST-SCRIPTUM
+– Et, vous marierez-vous ?… demanda la duchesse à qui l’auteur venait de lire son manuscrit.
 (C’était l’une des deux dames à la sagacité desquelles l’auteur a déjà rendu hommage dans l’introduction de son livre.)
 – Certainement, madame, répondit-il. Rencontrer une femme assez hardie pour vouloir de moi sera désormais la plus chère de toutes mes espérances.
 – Est-ce résignation ou fatuité ?…
@@ -1774,5 +1915,7 @@ Elle sourit malicieusement et reprit en ces termes : – Un philosophe avait c
             releva honteuse, et, prenant la clef qu’elle avait à sa ceinture, elle la présenta au jaloux ; mais au moment où il se disposait à ouvrir le coffre, la malicieuse Arabe partit d’un grand éclat de rire. Faroun s’arrêta tout interdit, et regarda sa femme avec une sorte d’inquiétude. – Enfin j’aurai ma belle chaîne d’or ! s’écria-t-elle en sautant de joie, donnez-la-moi, vous avez perdu le Diadesté. Une autre fois ayez plus de mémoire. Le mari, stupéfait, laissa tomber la clef, et présenta la prestigieuse chaîne d’or à genoux, en offrant à sa chère Fatmé de lui apporter tous les bijoux des caravanes qui passeraient dans l’année, si elle voulait renoncer à employer des ruses si cruelles pour gagner le [620]Diadesté. Puis, comme c’était un Arabe, et qu’il n’aimait pas à perdre une chaîne d’or, bien qu’elle dût appartenir à sa femme, il remonta sur son coursier et partit, allant grommeler à son aise dans le désert, car il aimait trop Fatmé pour lui montrer des regrets. La jeune femme, tirant alors le philosophe plus mort que vif du coffre où il gisait, lui dit gravement : – Monsieur le docteur, n’oubliez pas ce tour-là dans votre recueil.
 – Madame, dis-je à la duchesse, je comprends ! Si je me marie, je dois succomber à quelque diablerie inconnue ; mais, j’offrirai, dans ce cas, soyez-en certaine, un ménage modèle à l’admiration de mes contemporains.
 Paris, 1824-1829.
+
+
 
 
