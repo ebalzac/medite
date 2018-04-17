@@ -473,7 +473,7 @@ Un homme ne peut se flatter de connaître sa femme et de la rendre heureuse que 
 C’était à toute la troupe ignorante de nos prédestinés, à nos légions de catarrheux, de fumeurs, de priseurs, de vieillards, de grondeurs, etc., que Sterne adressait la lettre écrite, dans le Tristram Shandy, par Gauthier Shandy à son frère Tobie, quand ce dernier se proposait d’épouser la veuve de Wadman.
 Les célèbres instructions que le plus original des écrivains anglais a consignées dans cette lettre pouvant, à quelques exceptions près, compléter nos observations sur la manière de se conduire auprès des femmes, nous l’offrons textuellement aux réflexions des prédestinés en les priant de la méditer comme un des plus substantiels chefs-d’œuvre de l’esprit humain.
 Lettre de M. Shandy au capitaine Tobie Shandy.
-MON CHER FRÈRE TOBIE, 
+MON CHER FRÈRE TOBIE,
 
 Ce que je vais te dire a rapport à la nature des femmes et à la manière de leur faire l’amour. Et peut-être est-il heureux pour [392] toi (quoiqu’il ne le soit pas autant pour moi) que l’occasion se soit offerte, et que je me sois trouvé capable de t’écrire quelques instructions sur ce sujet.
 Si c’eût été le bon plaisir de celui qui distribue nos lots de te départir plus de connaissances qu’à moi, j’aurais été charmé que tu te fusses assis à ma place, et que cette plume fût entre tes mains ; mais puisque c’est à moi à t’instruire, et que madame Shandy est là auprès de moi, se disposant à se mettre au lit, je vais jeter ensemble et sans ordre sur le papier des idées et des préceptes concernant le mariage, tels qu’ils me viendront à l’esprit, et que je croirai qu’ils pourront être d’usage pour toi ; voulant en cela te donner un gage de mon amitié, et ne doutant pas, mon cher Tobie, de la reconnaissance avec laquelle tu la recevras.
@@ -1243,7 +1243,7 @@ MARI A. (Piqué.) Vous conviendrez, au moins, madame, qu’ils ne sont guère ai
 FEMME B. (Vivement.) Qui vous l’a dit ?
 MARI A. (Souriant.) Ne vous écrasent-ils pas à toute heure de leur supériorité ? La vanité est si puissante dans leurs âmes, qu’entre vous et eux il doit y avoir double emploi…
 LA MAÎTRESSE de la maison. (À part à la FEMME A.) Tu l’as bien mérité, ma chère… (La femme A lève les épaules.)
-MARI A. (Continuant toujours.) Puis l’habitude qu’ils ont de combiner des idées leur révélant le mécanisme des sentiments, [514]pour eux l’amour devient purement physique, et l’on sait qu’ils ne brillent pas…
+MARI A. (Continuant toujours.) Puis l’habitude qu’ils ont de combiner des idées leur révélant le mécanisme des sentiments, [514] pour eux l’amour devient purement physique, et l’on sait qu’ils ne brillent pas…
 FEMME B. (Se pinçant les lèvres et interrompant.) Il me semble, monsieur, que nous sommes seules juges de ce procès-là. Mais, je conçois que les gens du monde n’aiment pas les gens de lettres !… Allez, il vous est plus facile de les critiquer que de leur ressembler.
 MARI A. (Dédaigneusement.) Oh ! madame, les gens du monde peuvent attaquer les auteurs du temps présent sans être taxés d’envie. Il y a tel homme de salon qui, s’il écrivait…
 FEMME B. (Avec chaleur.) Malheureusement pour vous, monsieur, quelques-uns de vos amis de la Chambre ont écrit des romans, avez-vous pu les lire ?… Mais vraiment, aujourd’hui, il faut faire des recherches historiques pour la moindre conception, il faut…
