@@ -22,7 +22,7 @@
             <xsl:value-of select="translate(., $smallcase, $uppercase)"/>
         </xsl:template>
         
-        <xsl:template match="tei:hi|tei:num|tei:sup|tei:figure|tei:graphic|tei:stage">
+        <xsl:template match="tei:hi|tei:num|tei:sup|tei:figure|tei:graphic|tei:stage|tei:title">
             <xsl:apply-templates/>
         </xsl:template>
         

@@ -12,21 +12,20 @@
         <html>
             <head><meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
                 <link href="medite.css" rel="stylesheet" type="text/css" title="style par défaut"/>
-                <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"/> 
-                <style type="text/css"> a:link{text-decoration:none}
-                    #txt_window_2{
-                    float:left;
-                    overflow:auto;
-                    height: 550px;
-                    padding: 20px 20px 20px 20px;
-                    }
-                    #txt_window{
-                    float:left;
-                    overflow:auto;
-                    height: 550px;
-                    padding: 20px 20px 20px 20px;
-                    }
-                </style>
+                <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"/>
+                <title><xsl:value-of select="//titleStmt/title[@type='orig']"/> : <xsl:value-of select="//titleStmt/title[@type='reg']"/></title>
+                    <link rel="stylesheet" href="css/style.css" type="text/css" />
+                    <script type='text/javascript' src='js/jquery-min.js'></script>
+                    <script type='text/javascript' src='js/easing-min.js'></script>		
+                    <script type='text/javascript' src='js/scrollto-min.js'></script>
+                    <script type='text/javascript' src='js/localscroll-min.js'></script>
+                    <script type='text/javascript' src='js/carousel-min.js'></script>	
+                    <script type="text/javascript" src="js/mousewheel-min.js"></script>
+                    <script type="text/javascript" src="js/modal-min.js"></script>
+                    <script type="text/javascript" src="js/modal-init.js"></script>
+                    <script type="text/javascript" src="js/buttons-min.js"></script>
+                    <script type="text/javascript" src="js/scrolls-min.js"></script>
+                    <script type="text/javascript" src="js/jump-fn.js"></script>
                 <script>
                     function align(a){
                     document.getElementById(a).click()}
@@ -170,85 +169,6 @@
                 
                                     </article>
                                 </article>
-                <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-                <script src="/js/front.js"></script>
-                
-                <script type="text/javascript" src="/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
-                <script type="text/javascript" src="/bower_components/js-cookie/src/js.cookie.js"></script>
-                <script type="text/javascript">
-                    
-                    function toggle_modifications(){
-                    $('#modifications').toggleClass('active');
-                    Cookies.set('panneau-modifications', $('#modifications').hasClass('active'));
-                    }
-                    
-                    $(document).ready(function(){
-                    $('#rempl_ins_supp > div > h4, #depl > div > h4').on('click touch', function(){
-                    $parent = $(this).parent();
-                    $('.liste-visible').not($parent).removeClass('liste-visible');
-                    $parent.toggleClass('liste-visible');
-                    });
-                    
-                    var scroll_options = {
-                    interrupt: true
-                    };
-                    
-                    $('#txt_title_1').html( $('#version_base').val() );
-                    $('#txt_title_2').html( $('#version_destination').val() );
-                    $('#txt_title_1, #txt_title_2').on('click touch', function(){
-                    var $titre = $(this);
-                    $titre.parents('#windows').toggleClass('large');
-                    $('body > section').scrollTo( $titre, 250, {});
-                    });
-                    
-                    $('.comparaison-html [id*="txt_window"]').each(function(){
-                    var $bloc_texte = $(this);
-                    var $bloc_texte_opposee = $(this).parent().siblings().find('[id*="txt_window"]');
-                    $('.span_c', $bloc_texte).each(function(){
-                    var $span   = $(this);
-                    var attr_id = $span.attr('id');
-                    var lettre  = attr_id.substr(0,1) == 'c'
-                    ? 'b'
-                    : 'c';
-                    var cible   = '#' + lettre + attr_id.substr(1);
-                    $span.attr('data-cible', cible);
-                    });
-                    $('.span_c', $bloc_texte).on('mouseenter', function(){
-                    var $span   = $(this);
-                    var $cible  = $( $span.attr('data-cible') );
-                    $cible.addClass('survol-cible');
-                    });
-                    $('.span_c', $bloc_texte).on('mouseleave', function(){
-                    var $span   = $(this);
-                    var $cible  = $( $span.attr('data-cible') );
-                    $cible.removeClass('survol-cible');
-                    });
-                    $('.span_c', $bloc_texte).on('click touch', function(){
-                    var $span   = $(this);
-                    var $cible  = $( $span.attr('data-cible') );
-                    $bloc_texte_opposee.scrollTo( $cible, 250, scroll_options );
-                    $bloc_texte.scrollTo( $span, 250, scroll_options );
-                    });
-                    });
-                    
-                    if ( Cookies.get('panneau-modifications') == 'true' ){
-                    $('#modifications').addClass('active');
-                    }
-                    
-                    setTimeout(function(){
-                    if ( typeof(Cookies.get('panneau-modifications')) == 'undefined' ){
-                    $('#modifications').addClass('active');
-                    setTimeout(function(){
-                    $('#modifications').removeClass('active');
-                    },3000)
-                    }
-                    $(".svg-loader").addClass('hidden');
-                    $(".comparaison-html").show();
-                    $(".hamburger-modifications").show();
-                    });
-                    
-                    });
-                </script>
             </body>
         </html>
     </xsl:template>
@@ -398,21 +318,19 @@
         </xsl:template>
     
     <xsl:template match="span" mode="text2">
-        <xsl:element name="a">
-            <xsl:attribute name="href"><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
-            <xsl:attribute name="id"><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
-            <xsl:attribute name="class">para</xsl:attribute>
-            <xsl:attribute name="onclick">align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para')</xsl:text></xsl:attribute>
+        <xsl:element name="span">
+            <xsl:attribute name="id"><xsl:text>b_</xsl:text><xsl:value-of select="count(preceding::span)"/></xsl:attribute>
+            <xsl:attribute name="class">span_c</xsl:attribute>
+            <xsl:attribute name="data-cible"><xsl:text>#c_</xsl:text><xsl:value-of select="count(preceding::span)"/></xsl:attribute>
             <xsl:apply-templates mode="text2"/>
         </xsl:element>
     </xsl:template>
     
     <xsl:template match="span" mode="text1">
-        <xsl:element name="a">
-            <xsl:attribute name="href"><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
-            <xsl:attribute name="id"><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para</xsl:text></xsl:attribute>
-            <xsl:attribute name="class">para</xsl:attribute>
-            <xsl:attribute name="onclick">align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::span)"/><xsl:text>para')</xsl:text></xsl:attribute>
+        <xsl:element name="span">
+            <xsl:attribute name="id"><xsl:text>c_</xsl:text><xsl:value-of select="count(preceding::span)"/></xsl:attribute>
+            <xsl:attribute name="class">span_c</xsl:attribute>
+            <xsl:attribute name="data-cible"><xsl:text>#b_</xsl:text><xsl:value-of select="count(preceding::span)"/></xsl:attribute>
             <xsl:apply-templates mode="text1"/>
         </xsl:element>
     </xsl:template>
