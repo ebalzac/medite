@@ -38,7 +38,7 @@ text-decoration: none;
 a:focus{text-decoration: none;}
  a.note span, a.note2 span{
                  position:absolute;
-                 /*width:40%;*/
+                 width:30%;
                  margin-left:0 auto;
                  margin-right:0 auto;
                  color:black;
@@ -61,15 +61,19 @@ font-size: 19px;
                 opacity:1;
                text-decoration: none;
             }
+.regorig{
+display: block;
+width: inherit}
 
-
-span.preg{
+.preg{
 display:inline;
 background: #44ac20;
-color: #FFF;}
-span.porig{
+color: #FFF;
+padding: 2px}
+.porig{
 display:inline;
-background: #e78888; color: #FFF;
+background: #e78888 ; color: #FFF;
+padding: 2px;
 }
 
 body {position: absolute;
@@ -81,7 +85,7 @@ color: #2A2B2F;
 }
 
 .dedication{
-margin: 1em 0 3em 0;
+margin: 1em 1em 3em 1em;
 text-align: center;
 font-style: normal;
 font-size: 1.2em;
@@ -160,7 +164,7 @@ margin-right: 3%;
 margin-left: 3%;
 
 }
-.comparaison-html #windows>div>div:last-child .span_c:hover,.comparaison-html #windows>div>div:last-child .survol-cible{background:#EEE;cursor:pointer}
+.span_c:hover, .survol-cible{background:#EEE;cursor:pointer}
  
 .deplacement{background: #e5d30a; color: #FFF;}
 .insertion{background: #44ac20; color: #FFF;}
@@ -169,8 +173,9 @@ margin-left: 3%;
 
 span.sc{font-variant: small-caps;
 font-style: normal;
+padding: 0 5px
 }
-/*em{padding: 0 5px}*/
+em{padding: 0 5px}
 em.reg{
 text-decoration:underline;
 }
@@ -183,14 +188,10 @@ text-decoration: none;
 
  }
 
-
+.apercu-visible{transform:translateX(0);-webkit-transform:-webkit-translateX(0)}
 div#txt_title1, div#txt_title2{
 font-size: 2em;
 padding: 10px 20px;}
-.right{
-float:right}
-.left{
-float:left}
 p.label{
 text-align: center;
 font-size: 110%;
@@ -204,12 +205,13 @@ div.poem{
 margin: 2em 0 2em 2em;}
 div.press{
 margin: 1em 0 1em 2em;}
-p.autofirst{
+p.noindent{
 text-indent: 0 !important; }
 p.center{
 text-align: center;}
 .txt_container{
-width: 40%}
+width: 43%;
+float: left;}
 div.legal, div.treatise, div.press{
 margin: 1em 0 1em 2em;}
 .letter{
@@ -228,14 +230,20 @@ flex:1 1 auto;
 -webkit-flex:1 1 auto;
 padding:0;
 position:relative;
-top:40px;
-float:right;
-bottom:40px;
-}.
-comparaison-html #modifications.active
-{transform:translateX(0%)
+/*top:40px;*/
+float:left;
+/*bottom:40px;*/
+width: 14%;
 }
-
+/*comparaison-html #modifications.active
+{transform:translateX(0%)
+}*/
+span.light{
+color:#AAA;
+}
+span.separator{
+font-size: 0.5em;
+color:#AAA;}
 @media (max-width: 1000px)
 {.comparaison-html #modifications
 {right:40px;left:40px}
@@ -244,18 +252,17 @@ comparaison-html #modifications.active
 {.comparaison-html #modifications
 {right:0px;left:0px}
 }
-
 .comparaison-html #rempl_ins_supp,.comparaison-html #depl
 {pointer-events:auto}
 .comparaison-html #rempl_ins_supp>div>h4,.comparaison-html #depl>div>h4{background:#EEE;padding:5px 10px;cursor:pointer}
 .comparaison-html #rempl_ins_supp>div>h4 .nbr_occurences,.comparaison-html #depl>div>h4 .nbr_occurences
 {color:#AAA}
-.comparaison-html #rempl_ins_supp>div>h4:hover,.comparaison-html #depl>div>h4:hover{color:#FFF; height: 30px, overflow-y:scroll;}
+.comparaison-html #rempl_ins_supp>div>h4:hover,.comparaison-html #depl>div>h4:hover{color:#FFF; height: 30px, overflow-y:auto; overflow-x:hidden;}
 .comparaison-html #rempl_ins_supp>div>h4:hover .nbr_occurences,.comparaison-html #depl>div>h4:hover .nbr_occurences
 {color:#FFF}
 .comparaison-html #rempl_ins_supp>div>h4 img,.comparaison-html #depl>div>h4 img{display:none}
 .comparaison-html #rempl_ins_supp>div>ul,.comparaison-html #depl>div>ul
-{background:#FFF;max-height:130px;overflow-y:auto;overflow-x:hidden;transition:all .5s ease 0s;margin:0;list-style:none;text-align:left;padding:0 5px; display: block;}
+{background:#FFF;max-height:100px;overflow-y:auto; overflow-x:hidden; transition:all .5s ease 0s;margin:0;list-style:none;text-align:left;padding:0 5px; display: block;}
 .comparaison-html #rempl_ins_supp>div>ul>li,.comparaison-html #depl>div>ul>li{display:flex;display:-webkit-flex}
 .comparaison-html #rempl_ins_supp>div>ul>li span:first-child,.comparaison-html #depl>div>ul>li span:first-child
 {color:#AAA;padding-right:5px}
@@ -264,7 +271,7 @@ comparaison-html #modifications.active
 .comparaison-html #rempl_ins_supp>div>ul>li span:last-child a,.comparaison-html #depl>div>ul>li span:last-child a
 {width:100%;display:block;text-decoration:none;background-color:inherit;}
 .comparaison-html #rempl_ins_supp>div>ul>li:hover,.comparaison-html #depl>div>ul>li:hover{background:#F5F5F5}
-.comparaison-html #rempl_ins_supp>div.liste-visible>ul,.comparaison-html #depl>div.liste-visible>ul{max-height:50vh;overflow:auto}
+.comparaison-html #rempl_ins_supp>div.liste-visible>ul,.comparaison-html #depl>div.liste-visible>ul{max-height:50vh;overflow-y:auto; overflow-x:hidden;}
 .comparaison-html #remplacements h4:hover
 {background:#0ac0e5}
 .comparaison-html #insertions h4:hover
