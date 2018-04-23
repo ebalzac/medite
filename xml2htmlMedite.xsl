@@ -170,10 +170,10 @@
                                                                         <xsl:element name="a">
                                                                             <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
                                                                             <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
-                                                                            <xsl:attribute name="title"><xsl:value-of select="translate(descendant::*,' ', $esp)"/></xsl:attribute>
+                                                                            <xsl:attribute name="title"><xsl:value-of select="translate(descendant::*[text()],' ', $esp)"/></xsl:attribute>
                                                                             
-                                                                            <xsl:value-of select="translate(substring(descendant::*,0,10),' ', $esp)"/>
-                                                                            <xsl:if test="string-length(substring(descendant::*, 10)) > 0"><xsl:element name="span">
+                                                                            <xsl:value-of select="translate(substring(descendant::*[text()],0,10),' ', $esp)"/>
+                                                                            <xsl:if test="string-length(substring(descendant::*[text()], 10)) > 0"><xsl:element name="span">
                                                                                 <xsl:attribute name="class">light</xsl:attribute>
                                                                                 <xsl:text>...</xsl:text>
                                                                             </xsl:element>
