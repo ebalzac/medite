@@ -876,6 +876,5 @@
         </xsl:element>
     </xsl:template>-->
     
-        <xsl:template match="*"/>
     </xsl:stylesheet>
         
