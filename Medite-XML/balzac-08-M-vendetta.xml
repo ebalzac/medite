@@ -54,26 +54,24 @@
                 <publisher>LIP6 (Université Paris VI)</publisher>
                 <date when="2018"/>
                 <availability status="restricted">
-                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p> Copyright © 2017 Université Charles-de-Gaulle Lille 3,
-                                agissant pour le projet ANR « Projet d’hypertexte de l’œuvre de
-                                Balzac par l’utilisation de similarités » (ci-après dénommé ANR
-                                Phœbus). </p><p> Cette ressource
-                                électronique protégée par le code de la propriété intellectuelle sur
-                                les bases de données (L341-1) est mise à disposition de la
-                                communauté scientifique internationale par l’ANR Phœbus, selon les
-                                termes de la licence Creative Commons : « Attribution - Pas
-                                d’Utilisation Commerciale - Pas de Modification 3.0 France (CC
-                                BY-NC-ND 3.0 FR) ». </p><p> Attribution :
-                                afin de référencer la source, toute utilisation ou publication
-                                dérivée de cette ressource électroniques comportera le nom de l’ANR
-                                Phœbus et surtout l’adresse Internet de la ressource.
-                                </p><p> Pas d’Utilisation Commerciale :
-                                dans l’intérêt de la communauté scientifique, toute utilisation
-                                commerciale est interdite. </p><p> Pas de
-                                Modification : l’ANR Phœbus s’engage à améliorer et à corriger cette
-                                ressource électronique, notamment en intégrant toutes les
-                                contributions extérieures, la diffusion de versions modifiées de
-                                cette ressource n’est pas souhaitable. </p></licence>
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"><p>
+                            Copyright © 2017 Université Charles-de-Gaulle Lille 3, agissant pour le
+                            projet ANR « Projet d’hypertexte de l’œuvre de Balzac par l’utilisation
+                            de similarités » (ci-après dénommé ANR Phœbus). </p><p> Cette ressource
+                            électronique protégée par le code de la propriété intellectuelle sur les
+                            bases de données (L341-1) est mise à disposition de la communauté
+                            scientifique internationale par l’ANR Phœbus, selon les termes de la
+                            licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale
+                            - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ». </p><p>
+                            Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’ANR Phœbus et surtout l’adresse Internet de la ressource. </p><p>
+                            Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite. </p><p> Pas
+                            de Modification : l’ANR Phœbus s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable. </p></licence>
                 </availability>
                 <idno>https://www.ebalzac.com/edition/08-vendetta/medite</idno>
             </publicationStmt>
@@ -87,13 +85,14 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <p>Les textes comparés ont été édités dans le cadre du projet eBalzac
-                    et sont accessibles à la lecture à l'adresse www.ebalzac.com/edition. Les
-                    variantes sont signalées à l'aide de l'élément <hi rend="i"
-                    >choice</hi> dont l'attribut <hi rend="i">ana</hi> indique le type de modification (remplacement, suppression,
-                    insertion, déplacement). L'élément <hi rend="i">orig</hi> se réfère à la version Furne et <hi rend="i">reg</hi> à celle du Furne corrigé. Les changements structurels (ajout de
-                    saut de ligne, de style de caractère) sont traduits par l'ajout de l'attribut
-                    <hi rend="i">resp</hi> à l'élément concerné.</p>
+            <p>Les textes comparés ont été édités dans le cadre du projet eBalzac et sont
+                accessibles à la lecture à l'adresse www.ebalzac.com/edition. Les variantes sont
+                signalées à l'aide de l'élément <hi rend="i">choice</hi> dont l'attribut <hi
+                    rend="i">ana</hi> indique le type de modification (remplacement, suppression,
+                insertion, déplacement). L'élément <hi rend="i">orig</hi> se réfère à la version
+                Furne et <hi rend="i">reg</hi> à celle du Furne corrigé. Les changements structurels
+                (ajout de saut de ligne, de style de caractère) sont traduits par l'ajout de
+                l'attribut <hi rend="i">resp</hi> à l'élément concerné.</p>
         </encodingDesc>
         <profileDesc>
             <creation><date when="1842">1842</date></creation>
@@ -458,8 +457,8 @@
                         <orig>qu’elle alla placer</orig>
                         <reg>pour le replacer</reg>
                     </choice> à une assez grande distance du noble groupe, près d’une cloison
-                    grossière qui séparait l’atelier d’un cabinet obscur où l’on 
-                    </choice><choice ana="remplacement">
+                    grossière qui séparait l’atelier d’un cabinet obscur où l’on <choice
+                        ana="remplacement">
                         <orig>jetait</orig>
                         <reg>mettait</reg>
                     </choice> les plâtres brisés, les toiles condamnées par le professeur, et
@@ -1476,12 +1475,12 @@
                     n’en était pas moins résulté un bien grand mal : Ginevra vivait avec son père et
                     sa mère sur le pied d’une égalité toujours funeste. Pour achever de faire
                     connaître tous les changements survenus chez ces trois personnages depuis leur
-                    arrivée à Paris, Piombo et sa femme, gens sans instruction, avaient
-                        laissé Ginevra étudier à sa fantaisie. Au gré de ses caprices de jeune fille,
-                    elle avait tout appris et tout quitté, reprenant et laissant chaque pensée tour
-                    à tour, jusqu’à ce que la peinture fût devenue sa passion dominante ; elle eût
-                    été parfaite, si sa<pb n="200" xml:id="p200"/>mère avait été capable de diriger
-                    ses études, de l’éclairer et de mettre en harmonie les dons de la nature : ses
+                    arrivée à Paris, Piombo et sa femme, gens sans instruction, avaient laissé
+                    Ginevra étudier à sa fantaisie. Au gré de ses caprices de jeune fille, elle
+                    avait tout appris et tout quitté, reprenant et laissant chaque pensée tour à
+                    tour, jusqu’à ce que la peinture fût devenue sa passion dominante ; elle eût été
+                    parfaite, si sa<pb n="200" xml:id="p200"/>mère avait été capable de diriger ses
+                    études, de l’éclairer et de mettre en harmonie les dons de la nature : ses
                     défauts provenaient de la funeste éducation que le vieux Corse avait pris
                     plaisir à lui donner.</p>
                 <p>Après avoir pendant long-temps fait crier sous ses pas les feuilles du parquet,
@@ -2353,8 +2352,7 @@
                     imprimaient déjà quelques rides. <choice ana="suppression">
                         <orig>Des larmes roulèrent dans les yeux de la jeune femme. </orig>
                     </choice></p>
-                <p>– C’est pour moi qu’il passe les nuits à écrire, dit-elle<choice
-                        ana="insertion">
+                <p>– C’est pour moi qu’il passe les nuits à écrire, dit-elle<choice ana="insertion">
                         <reg> en pleurant</reg>
                     </choice>.</p>
                 <p>Une pensée sécha ses larmes. Elle songeait à imiter Luigi. Le jour même, elle
