@@ -1,5 +1,5 @@
 #txt_window_2, #txt_window{
-height: 600px;
+height: 75vh;
 overflow-y: scroll;}
 	 
 a{
@@ -8,7 +8,7 @@ color:inherit;
 }
 a.pb{
 	 color:inherit;
-     background-color:#b4ffb4;
+     background-color:#EEE;
  }
 a.para{
 background-color: white;}
@@ -77,9 +77,9 @@ padding: 2px;
 }
 
 body {position: absolute;
-        border-left: 30px solid #CEF6E3;
-    border-bottom: 30px solid #CEF6E3;
-     border-top: 30px solid #CEF6E3;
+        /*border-left: 30px solid #CEF6E3;*/
+    border-bottom: 30px solid #b3f0fc;
+     border-top: 30px solid #b3f0fc;
 font-family: 'Playfair Display', sans-serif;
 color: #2A2B2F;
 }
@@ -130,7 +130,7 @@ text-indent: 0;
 a.pb{
 padding: 2px 5px;
 color: #2A2B2F;
-background: #CEF6E3;;
+background: #b3f0fc;;
 font-size: 12px;
 font-style: normal;
 text-indent: 0;
@@ -210,8 +210,8 @@ text-indent: 0 !important; }
 p.center{
 text-align: center;}
 .txt_container{
-width: 43%;
-float: left;}
+width: 37.5%;
+}
 div.legal, div.treatise, div.press{
 margin: 1em 0 1em 2em;}
 .letter{
@@ -231,9 +231,8 @@ flex:1 1 auto;
 padding:0;
 position:relative;
 /*top:40px;*/
-float:left;
 /*bottom:40px;*/
-width: 14%;
+width: 10%;
 }
 /*comparaison-html #modifications.active
 {transform:translateX(0%)
@@ -288,6 +287,8 @@ color:#AAA;}
 {display:none}
 @media (max-width: 600px){
 .comparaison-html
-{display:block;height:100%}
+{display:block;height:95%}
 .comparaison-html #modifications
-{display:block;height:33%;padding:0}
+{display:block;padding:0}
+    
+   
