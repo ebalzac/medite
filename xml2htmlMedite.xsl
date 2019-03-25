@@ -158,29 +158,32 @@
                                             </div>
                                             <div id="depl">
                                                 <div id="deplacements">
-                                                    <h4><img src="img/grey_dot.png" alt=""/> Déplacements <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='deplacement']) div 2"/>]</span></h4>
+                                                    <h4><img src="img/grey_dot.png" alt=""/> Déplacements <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='deplacement' and child::orig])"/>]</span></h4>
                                                     <ul id="suppressions_carousel">
                                                         
-                                                        <xsl:for-each select="//choice[@ana='deplacement']">
-                                                            <xsl:choose>
-                                                                <xsl:when test=". =preceding::choice[@ana='deplacement']"></xsl:when>
-                                                                <xsl:otherwise><li style="text-align:justify;">
-                                                                    <span class="counter">[<xsl:value-of select="(count(preceding::choice[@ana='deplacement']) div 2)+1"/>]</span>
+                                                        <xsl:for-each select="//choice[@ana='deplacement' and child::orig]">
+                                                           <li style="text-align:justify;">
+                                                                    <span class="counter">[<xsl:value-of select="count(preceding::choice[@ana='deplacement' and child::orig])+1"/>]</span>
                                                                     <span class="entries d_highlight">
                                                                         <xsl:element name="a">
-                                                                            <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-                                                                            <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
-                                                                            <xsl:attribute name="title"><xsl:value-of select="translate(descendant::*[text()],' ', $esp)"/></xsl:attribute>
+                                                                            <xsl:attribute name="href"><xsl:choose>
+                                                                                <xsl:when test="@corresp"><xsl:value-of select="@corresp"/></xsl:when>
+                                                                                <xsl:otherwise><xsl:text>#</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                                                                            </xsl:choose></xsl:attribute>
+                                                                            <xsl:attribute name="onclick"><xsl:choose><xsl:when test="@corresp">align('<xsl:value-of select="substring(@corresp, 2)"/>')</xsl:when>
+                                                                                <xsl:otherwise>align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
+                                                            </xsl:choose></xsl:attribute>
+                                                                            <xsl:attribute name="title"><xsl:value-of select="translate(child::*/text()[1],' ', $esp)"/></xsl:attribute>
                                                                             
-                                                                            <xsl:value-of select="translate(substring(descendant::*[text()],0,10),' ', $esp)"/>
-                                                                            <xsl:if test="string-length(substring(descendant::*[text()], 10)) > 0"><xsl:element name="span">
+                                                                            <xsl:value-of select="translate(substring(child::*/text()[1],0,10),' ', $esp)"/>
+                                                                            <xsl:if test="string-length(substring(child::*/text()[1], 10)) > 0"><xsl:element name="span">
                                                                                 <xsl:attribute name="class">light</xsl:attribute>
                                                                                 <xsl:text>...</xsl:text>
                                                                             </xsl:element>
                                                                             </xsl:if></xsl:element>
                                                                     </span> 
-                                                                </li></xsl:otherwise>
-                                                            </xsl:choose>
+                                                                </li>
+                                                            
                                                             
                                                         </xsl:for-each>
                                                     </ul></div>
@@ -296,16 +299,35 @@
         <xsl:element name="article"><xsl:attribute name="class">text</xsl:attribute><xsl:apply-templates mode="text2"/></xsl:element>
     </xsl:template>
     <xsl:template match="front | body | docTitle" mode="text1">
-        <xsl:element name="section"><xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute><xsl:apply-templates mode="text1"/></xsl:element>
+        <xsl:element name="section"><xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute><!--<xsl:if test="div[not(@type='dedication')]/@resp[.='reg']"><xsl:apply-templates select="div" mode="orig"/></xsl:if>-->
+            <xsl:apply-templates mode="text1"/>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="front | body | docTitle" mode="text2">
-        <xsl:element name="section"><xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute><xsl:apply-templates mode="text2"/></xsl:element>
+        <xsl:element name="section"><xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
+<!--            <xsl:if test="div[1 and not(@type='dedication')]/@resp[.='orig']"><xsl:apply-templates select="div[1]" mode="reg"/></xsl:if>-->
+            <xsl:apply-templates mode="text2"/>
+        </xsl:element>
     </xsl:template>
     
     <xsl:template match="titlePart" mode="text1">
         <xsl:element name="div">
             <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
             <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="body//title" mode="text1">
+        <xsl:element name="cite">
+            <xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
+            <xsl:apply-templates mode="text2"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="body//title" mode="text2">
+        <xsl:element name="cite">
+            <xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
+            <xsl:apply-templates mode="text2"/>
         </xsl:element>
     </xsl:template>
     
@@ -327,43 +349,43 @@
             <xsl:apply-templates mode="text2"/>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="div[@type='dedication']" mode="text1">
+    <xsl:template match="div[@type='dedication'][not(@resp='reg')]" mode="text1">
         <xsl:element name="div">
             <xsl:attribute name="class">dedication level2</xsl:attribute>
             <xsl:apply-templates mode="text1"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="div[@type='dedication']" mode="text2">
+    <xsl:template match="div[@type='dedication'][not(@resp='orig')]" mode="text2">
         <xsl:element name="div">
             <xsl:attribute name="class">dedication level2</xsl:attribute>
             <xsl:apply-templates mode="text2"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="salute" mode="text1">
+    <xsl:template match="salute[not(@resp='reg')]" mode="text1">
         <xsl:element name="div">
             <xsl:attribute name="class">salute</xsl:attribute>
             <xsl:apply-templates mode="text1"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="salute" mode="text2">
+    <xsl:template match="salute[not(@resp='orig')]" mode="text2">
         <xsl:element name="div">
             <xsl:attribute name="class">salute</xsl:attribute>
             <xsl:apply-templates mode="text2"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="body/div" mode="text1">
+    <!--<xsl:template match="body/div[not(@resp='reg')]" mode="text1">
         <xsl:element name="section">
             <xsl:attribute name="class">div level2</xsl:attribute>
             <xsl:apply-templates mode="text1"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
-    <xsl:template match="body/div" mode="text2">
+    <xsl:template match="body/div[not(@resp='orig')]" mode="text2">
         <xsl:element name="section">
             <xsl:attribute name="class">div level2</xsl:attribute>
             <xsl:apply-templates mode="text2"></xsl:apply-templates>
         </xsl:element>
-    </xsl:template>
-    <xsl:template match="body/div/div" mode="text1">
+    </xsl:template>-->
+    <!--<xsl:template match="body/div/div" mode="text1">
         <xsl:element name="section">
             <xsl:attribute name="class">div level3</xsl:attribute>
             <xsl:apply-templates mode="text1"></xsl:apply-templates>
@@ -386,7 +408,7 @@
             <xsl:attribute name="class">div level4</xsl:attribute>
             <xsl:apply-templates mode="text2"></xsl:apply-templates>
         </xsl:element>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="signed" mode="text1">
         <xsl:element name="div">
             <xsl:attribute name="class">signed</xsl:attribute>
@@ -401,14 +423,14 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="head" mode="text1">
+    <xsl:template match="head[not(@resp='reg')]" mode="text1">
         <xsl:element name="h2">
             <xsl:attribute name="class">head</xsl:attribute>
             <xsl:apply-templates mode="text1"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="head" mode="text2">
+    <xsl:template match="head[not(@resp='orig')]" mode="text2">
         <xsl:element name="h2">
             <xsl:attribute name="class">head</xsl:attribute>
             <xsl:apply-templates mode="text2"></xsl:apply-templates>
@@ -422,16 +444,26 @@
     <xsl:template match="q"></xsl:template>
         
         <xsl:template match="reg" mode="text2">
-                <xsl:element name="a">
-                    <xsl:attribute name="href"><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-                    <xsl:attribute name="id"><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-                    <xsl:attribute name="class"><xsl:apply-templates select="parent::choice" mode="name"/></xsl:attribute>
-                    <xsl:attribute name="onclick">align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/><xsl:text>')</xsl:text></xsl:attribute>
+            <xsl:element name="a">
+                <xsl:attribute name="href"><xsl:choose>
+                            <xsl:when test="parent::choice/@corresp"><xsl:value-of select="parent::choice/@corresp"/></xsl:when>
+                            <xsl:otherwise><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                        </xsl:choose></xsl:attribute>
+                        <xsl:attribute name="id"><xsl:choose>
+                            <xsl:when test="parent::choice/@xml:id"><xsl:value-of select="parent::choice/@xml:id"/></xsl:when>
+                            <xsl:otherwise><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                        </xsl:choose></xsl:attribute>
+                        <xsl:attribute name="class"><xsl:apply-templates select="parent::choice" mode="name"/></xsl:attribute>
+                        <xsl:attribute name="onclick"><xsl:choose>
+                            <xsl:when test="parent::choice/@corresp">align('<xsl:value-of select="substring(parent::choice/@corresp, 2)"/>')</xsl:when>
+                            <xsl:otherwise>align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
+                        </xsl:choose></xsl:attribute>
                     <xsl:apply-templates mode="text2"/>
                     <xsl:if test=".=' '">
                         <xsl:text> </xsl:text>
                     </xsl:if>
                 </xsl:element>
+                
         </xsl:template>
     
     <xsl:template match="span" mode="text2">
@@ -454,10 +486,19 @@
         
         <xsl:template match="orig" mode="text1">
                 <xsl:element name="a">
-                    <xsl:attribute name="href"><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-                    <xsl:attribute name="id"><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
+                    <xsl:attribute name="href"><xsl:choose>
+                        <xsl:when test="parent::choice/@corresp"><xsl:value-of select="parent::choice/@corresp"/></xsl:when>
+                        <xsl:otherwise><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
+                    <xsl:attribute name="id"><xsl:choose>
+                        <xsl:when test="parent::choice/@xml:id"><xsl:value-of select="parent::choice/@xml:id"/></xsl:when>
+                        <xsl:otherwise><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
                     <xsl:attribute name="class"><xsl:apply-templates select="parent::choice" mode="name"/></xsl:attribute>
-                    <xsl:attribute name="onclick">align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
+                    <xsl:attribute name="onclick"><xsl:choose>
+                        <xsl:when test="parent::choice/@corresp">align('<xsl:value-of select="substring(parent::choice/@corresp, 2)"/>')</xsl:when>
+                        <xsl:otherwise>align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
                 <xsl:apply-templates mode="text1"/>
                     <xsl:if test=".=' '">
                         <xsl:text> </xsl:text>
@@ -482,21 +523,37 @@
         </xsl:template>
     
         <xsl:template match="choice[descendant::orig and not(descendant::reg)]" mode="text2">
-                    <xsl:element name="a">
-                        <xsl:attribute name="href"><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-                        <xsl:attribute name="id"><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-                        <xsl:attribute name="class"><xsl:value-of select="@ana"/></xsl:attribute>
-                        <xsl:attribute name="onclick">align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
-                    </xsl:element>
+            <xsl:element name="a">
+                <xsl:attribute name="href"><xsl:choose>
+                    <xsl:when test="@corresp"></xsl:when>
+                    <xsl:otherwise><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                </xsl:choose></xsl:attribute>
+                <xsl:attribute name="id"><xsl:choose>
+                    <xsl:when test="@xml:id"></xsl:when>
+                    <xsl:otherwise><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                </xsl:choose></xsl:attribute>
+                <xsl:attribute name="class"><xsl:apply-templates select="parent::choice" mode="name"/></xsl:attribute>
+                <xsl:attribute name="onclick"><xsl:choose>
+                    <xsl:when test="@corresp"></xsl:when>
+                    <xsl:otherwise>align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
+                </xsl:choose></xsl:attribute></xsl:element>
         </xsl:template>
         
     <xsl:template match="choice[descendant::reg and not(descendant::orig)]" mode="text1">
         <xsl:element name="a">
-                <xsl:attribute name="href"><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-            <xsl:attribute name="id"><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
-                <xsl:attribute name="class"><xsl:value-of select="@ana"/></xsl:attribute>
-            <xsl:attribute name="onclick">align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
-            </xsl:element>
+            <xsl:attribute name="href"><xsl:choose>
+                <xsl:when test="@corresp"></xsl:when>
+                <xsl:otherwise><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+            </xsl:choose></xsl:attribute>
+            <xsl:attribute name="id"><xsl:choose>
+                <xsl:when test="@xml:id"></xsl:when>
+                <xsl:otherwise><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+            </xsl:choose></xsl:attribute>
+            <xsl:attribute name="class"><xsl:apply-templates select="parent::choice" mode="name"/></xsl:attribute>
+            <xsl:attribute name="onclick"><xsl:choose>
+                <xsl:when test="@corresp"></xsl:when>
+                <xsl:otherwise>align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
+            </xsl:choose></xsl:attribute></xsl:element>
     </xsl:template>
      
    <!-- <xsl:template match="*" mode="orig">
@@ -559,7 +616,7 @@
     
     <xsl:template match="p[not(@resp='reg')]" mode="text1">
         <xsl:choose>
-            <xsl:when test="not(following-sibling::p[1][@resp='reg'])">
+            <xsl:when test="not(following::p[1][@resp='reg'])">
                 <xsl:element name="p">
                     <xsl:if test="@rend"><xsl:attribute name="class"><xsl:value-of select="@rend"/></xsl:attribute>
                     </xsl:if>
@@ -574,7 +631,7 @@
                     <xsl:apply-templates mode="text1"/>
                 </xsl:element>
             </xsl:when>
-            <xsl:when test="following-sibling::p[1][@resp='reg']">
+            <xsl:when test="following::p[1][@resp='reg']">
                 <xsl:element name="p">
                     <xsl:apply-templates mode="text1"/>
                     <xsl:element name="a">
@@ -583,7 +640,7 @@
                         <xsl:attribute name="href">#reg<xsl:value-of select="count(preceding::p[@resp])"/></xsl:attribute>
                         <xsl:attribute name="onclick">align('reg<xsl:value-of select="count(preceding::p[@resp])"/>')</xsl:attribute>
                     </xsl:element>
-                    <xsl:apply-templates select="following-sibling::p[1][@resp='reg']" mode="orig"/>
+                    <xsl:apply-templates select="following::p[1][@resp='reg']" mode="orig"/>
                 </xsl:element>
             </xsl:when>
         </xsl:choose>
@@ -591,7 +648,7 @@
     
     <xsl:template match="p[@resp='reg']" mode="orig">
         <xsl:apply-templates mode="text1"/>
-        <xsl:if test="following-sibling::p[1][@resp='reg']">
+        <xsl:if test="following::p[1][@resp='reg']">
             <xsl:element name="a">
                 <xsl:attribute name="class">porig</xsl:attribute>
                 <xsl:attribute name="id">orig<xsl:value-of select="count(preceding::p[@resp])"/></xsl:attribute>
@@ -599,7 +656,7 @@
                 <xsl:attribute name="onclick">align('reg<xsl:value-of select="count(preceding::p[@resp])"/>')</xsl:attribute>
                 <xsl:value-of select="$esp"/>
             </xsl:element>
-            <xsl:apply-templates select="following-sibling::p[1][@resp='reg']" mode="orig"/>
+            <xsl:apply-templates select="following::p[1][@resp='reg']" mode="orig"/>
         </xsl:if>
     </xsl:template>
     
@@ -631,7 +688,7 @@
                         <xsl:attribute name="onclick">align('orig<xsl:value-of select="count(preceding::p[@resp])"/>')</xsl:attribute>
                         <xsl:value-of select="$esp"/>
                     </xsl:element>
-                    <xsl:apply-templates select="following-sibling::p[1][@resp='orig']" mode="reg"/>
+                    <xsl:apply-templates select="following::p[1][@resp='orig']" mode="reg"/>
                 </xsl:element>
             </xsl:when>
         </xsl:choose>
@@ -639,7 +696,7 @@
     
     <xsl:template match="p[@resp='orig']" mode="reg">
         <xsl:apply-templates mode="text2"/>
-        <xsl:if test="following-sibling::p[1][@resp='orig']">
+        <xsl:if test="following::p[1][@resp='orig']">
             <xsl:element name="a">
                 <xsl:attribute name="class">preg</xsl:attribute>
                 <xsl:attribute name="id">reg<xsl:value-of select="count(preceding::p[@resp])"/></xsl:attribute>
@@ -647,12 +704,80 @@
                 <xsl:attribute name="onclick">align('orig<xsl:value-of select="count(preceding::p[@resp])"/>')</xsl:attribute>
                 <xsl:value-of select="$esp"/>
             </xsl:element>
-            <xsl:apply-templates select="following-sibling::p[1][@resp='orig']" mode="reg"/>
+            <xsl:apply-templates select="following::p[@resp='orig'][1]" mode="reg"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template match="p[@resp='reg']" mode="text1"/>
     <xsl:template match="p[@resp='orig']" mode="text2"/>
+    
+    <xsl:template match="div[not(@resp='reg')]" mode="text1">
+        <xsl:choose>
+            <xsl:when test="not(following-sibling::div[1][@resp='reg'])">
+                <xsl:element name="section">
+                    <xsl:attribute name="id">body-<xsl:value-of select="count(preceding::div)+1"/></xsl:attribute>
+                    <xsl:attribute name="class">div level<xsl:value-of select="count(ancestor::div)+count(ancestor::body)+1"/></xsl:attribute>
+                    <xsl:apply-templates mode="text1"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:when test="following-sibling::div[1][@resp='reg']">
+                <xsl:element name="section">
+                    <xsl:attribute name="id">body-<xsl:value-of select="count(preceding::div)+1"/></xsl:attribute>
+                    <xsl:attribute name="class">div level<xsl:value-of select="count(ancestor::div)+count(ancestor::body)+1"/></xsl:attribute>
+                    <xsl:apply-templates mode="text1"/>
+                    <xsl:apply-templates select="following-sibling::div[1][@resp='reg']" mode="orig"/>
+                </xsl:element>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="div[@resp='reg']" mode="orig">
+        <xsl:choose>
+            <xsl:when test="child::p[1]/@resp[.='reg']"><xsl:apply-templates select="child::p[1]" mode="orig"/></xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates mode="text1"/></xsl:otherwise>
+        </xsl:choose>
+        <xsl:if test="following-sibling::div[1][@resp='reg']">
+            
+            <xsl:apply-templates select="following-sibling::div[1][@resp='reg']" mode="orig"/>
+        </xsl:if>
+    </xsl:template>
+    
+    
+    <xsl:template match="div[not(@resp='orig')]" mode="text2">
+        <xsl:choose>
+            <xsl:when test="not(following-sibling::div[1][@resp='orig'])">
+                <xsl:element name="section">
+                    <xsl:attribute name="id">body-<xsl:value-of select="count(preceding::div)+1"/></xsl:attribute>
+                    <xsl:attribute name="class">div level<xsl:value-of select="count(ancestor::div)+count(ancestor::body)+1"/></xsl:attribute>
+                    <xsl:apply-templates mode="text2"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:when test="following-sibling::div[@resp='orig'][1]">
+                <xsl:element name="section">
+                    <xsl:attribute name="id">body-<xsl:value-of select="count(preceding::div)+1"/></xsl:attribute>
+                    <xsl:attribute name="class">div level<xsl:value-of select="count(ancestor::div)+count(ancestor::body)+1"/></xsl:attribute>
+                    <xsl:apply-templates mode="text2"/>
+                    <xsl:apply-templates select="following-sibling::div[1][@resp='orig']" mode="reg"/>
+                </xsl:element>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="div[@resp='orig']" mode="reg">
+        <xsl:if test="child::p[1]/@resp[.='orig']"><xsl:apply-templates select="child::p[1]" mode="reg"/></xsl:if>
+        <xsl:apply-templates mode="text2"/>
+        
+        <xsl:if test="following-sibling::div[1][@resp='orig']">
+            
+            <xsl:apply-templates select="following-sibling::div[1][@resp='orig']" mode="reg"/>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="div[@resp='reg']" mode="text1"/>
+    
+    <xsl:template match="div[@resp='orig']" mode="text2"/>
+     
     
     <xsl:template match="hi[@resp='orig']" mode="text1">
         <xsl:if test="@rend ='i'">
@@ -665,6 +790,10 @@
         </xsl:if>
         <xsl:if test="@rend ='b'">
             <xsl:element name="strong"><xsl:attribute name="class">orig</xsl:attribute>
+                <xsl:apply-templates mode="text1"/></xsl:element>
+        </xsl:if>
+        <xsl:if test="@rend ='sup'">
+            <xsl:element name="sup"><xsl:attribute name="class">orig</xsl:attribute>
                 <xsl:apply-templates mode="text1"/></xsl:element>
         </xsl:if>
     </xsl:template>
@@ -682,9 +811,13 @@
             <xsl:element name="strong"><xsl:attribute name="class">reg</xsl:attribute>
                 <xsl:apply-templates mode="text2"/></xsl:element>
         </xsl:if>
+        <xsl:if test="@rend ='sup'">
+            <xsl:element name="sup"><xsl:attribute name="class">reg</xsl:attribute>
+                <xsl:apply-templates mode="text2"/></xsl:element>
+        </xsl:if>
     </xsl:template>
-    <xsl:template match="hi[@resp='orig']" mode="text2"/>
-    <xsl:template match="hi[@resp='reg']" mode="text1"/>
+    <xsl:template match="hi[@resp='orig']" mode="text2"><xsl:apply-templates mode="text2"/></xsl:template>
+    <xsl:template match="hi[@resp='reg']" mode="text1"><xsl:apply-templates mode="text1"></xsl:apply-templates></xsl:template>
     
     <xsl:template match="hi" mode="text2">
         <xsl:if test="@rend ='i'">
@@ -697,6 +830,11 @@
         </xsl:if>
         <xsl:if test="@rend ='b'">
             <xsl:element name="strong">
+                <xsl:apply-templates mode="text2"/></xsl:element>
+            
+        </xsl:if>
+        <xsl:if test="@rend ='sup'">
+            <xsl:element name="sup">
                 <xsl:apply-templates mode="text2"/></xsl:element>
         </xsl:if>
     </xsl:template>
@@ -712,6 +850,10 @@
         </xsl:if>
         <xsl:if test="@rend ='b'">
             <xsl:element name="strong">
+                <xsl:apply-templates mode="text1"/></xsl:element>
+        </xsl:if>
+        <xsl:if test="@rend ='sup'">
+            <xsl:element name="sup">
                 <xsl:apply-templates mode="text1"/></xsl:element>
         </xsl:if>
     </xsl:template>
@@ -749,7 +891,7 @@
                     <xsl:attribute name="class">pb_orig</xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
-                    <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/>
+                    <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
                 </xsl:element>
             </xsl:when>
             <xsl:otherwise><xsl:text> </xsl:text>
@@ -766,6 +908,7 @@
     
     <xsl:template match="pb" mode="text2">
         <xsl:choose>
+            <xsl:when test="@resp='orig'"></xsl:when>
             <xsl:when test="@resp='reg'">
                 <xsl:text> </xsl:text>
                 <xsl:element name="a">
@@ -818,7 +961,7 @@
         </xsl:element>
     </xsl:template>
    
-   <xsl:template match="closer | postscript | opener |l|lg" mode="text1">
+   <xsl:template match="closer | postscript | opener |l|lg | bibl" mode="text1">
        <xsl:element name="div">
            <xsl:attribute name="class"><xsl:value-of select="local-name()"/><xsl:if test="@rend"><xsl:text> </xsl:text><xsl:value-of select="@rend"/></xsl:if></xsl:attribute>
            <xsl:apply-templates mode="text1"></xsl:apply-templates>
@@ -832,19 +975,21 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="quote" mode="text1">
+    <xsl:template match="quote | epigraph" mode="text1">
         <xsl:element name="blockquote">
             <xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
             <xsl:apply-templates mode="text1"/>
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="quote" mode="text2">
+    <xsl:template match="quote | epigraph" mode="text2">
         <xsl:element name="blockquote">
             <xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
             <xsl:apply-templates mode="text2"/>
         </xsl:element>
     </xsl:template>
+    
+   
     
     <xsl:template match="label" mode="text1">
         <xsl:element name="p">
@@ -860,6 +1005,81 @@
                 <xsl:apply-templates mode="text2"/>
             </xsl:element>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="sp" mode="text1">
+        <xsl:element name="div">
+            <xsl:attribute name="class">sp</xsl:attribute>
+            <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="sp" mode="text2">
+        <xsl:element name="div">
+            <xsl:attribute name="class">sp</xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="speaker" mode="text1">
+        <xsl:element name="p">
+            <xsl:attribute name="class">speaker</xsl:attribute>
+            <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="speaker" mode="text2">
+        <xsl:element name="p">
+            <xsl:attribute name="class">speaker</xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="stage" mode="text1">
+        <xsl:element name="em">
+            <xsl:attribute name="class">stage</xsl:attribute>
+            <xsl:apply-templates mode="text1"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="stage" mode="text2">
+        <xsl:element name="em">
+            <xsl:attribute name="class">stage</xsl:attribute>
+            <xsl:apply-templates mode="text2"></xsl:apply-templates>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="figure" mode="text1">
+        <xsl:element name="figure">
+            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="class">figure</xsl:attribute>
+            <xsl:apply-templates mode="text1"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="figure" mode="text2">
+        <xsl:element name="figure">
+            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="class">figure</xsl:attribute>
+            <xsl:apply-templates mode="text2"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="graphic" mode="text1">
+        <xsl:element name="img">
+            <xsl:attribute name="id"><xsl:text>img</xsl:text><xsl:value-of select="count(preceding::graphic)+1"/></xsl:attribute>
+            <xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute>
+            <xsl:attribute name="class">figure</xsl:attribute>
+            <xsl:apply-templates mode="text1"/>
+        </xsl:element>
+    </xsl:template>
+        <xsl:template match="graphic" mode="text2">
+            <xsl:element name="img">
+                <xsl:attribute name="id"><xsl:text>img</xsl:text><xsl:value-of select="count(preceding::graphic)+1"/></xsl:attribute>
+                <xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute>
+                <xsl:attribute name="class">figure</xsl:attribute>
+                <xsl:apply-templates mode="text2"/>
+            </xsl:element>
     </xsl:template>
     
     <!--<xsl:template match="p[@rend]" mode="text1">

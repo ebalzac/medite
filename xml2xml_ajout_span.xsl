@@ -34,7 +34,8 @@
         tei:stage | 
         tei:titlePart|
         tei:l |
-        tei:lg">
+        tei:lg |
+        tei:div">
         
         <xsl:element name="{local-name()}">
             <xsl:for-each select="@*">
@@ -51,7 +52,20 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:pb|tei:choice" mode="para">
+    <xsl:template match="tei:pb[not(ancestor::tei:choice)]|tei:choice" mode="para">
+        <xsl:element name="{local-name()}">
+            <xsl:for-each select="@*">
+                <xsl:choose>
+                    <xsl:when test="ends-with(local-name(), 'id')"><xsl:attribute name="xml:id"><xsl:value-of select="."/></xsl:attribute></xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="{local-name()}"><xsl:value-of select="."/></xsl:attribute></xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:pb[ancestor::tei:choice]">
         <xsl:element name="{local-name()}">
             <xsl:for-each select="@*">
                 <xsl:choose>
