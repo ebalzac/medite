@@ -305,8 +305,12 @@
     </xsl:template>
     <xsl:template match="front | body | docTitle" mode="text2">
         <xsl:element name="section"><xsl:attribute name="class"><xsl:value-of select="local-name()"/></xsl:attribute>
-<!--            <xsl:if test="div[1 and not(@type='dedication')]/@resp[.='orig']"><xsl:apply-templates select="div[1]" mode="reg"/></xsl:if>-->
+            <!--<xsl:choose>
+                <xsl:when test="div[not(@type='dedication')]/@resp[.='orig']"><xsl:apply-templates mode="reg"/></xsl:when>
+                <xsl:otherwise><xsl:apply-templates mode="text2"/></xsl:otherwise>
+            </xsl:choose>-->
             <xsl:apply-templates mode="text2"/>
+           
         </xsl:element>
     </xsl:template>
     
@@ -753,7 +757,7 @@
                     <xsl:apply-templates mode="text2"/>
                 </xsl:element>
             </xsl:when>
-            <xsl:when test="following-sibling::div[@resp='orig'][1]">
+            <xsl:when test="following-sibling::div[1][@resp='orig']">
                 <xsl:element name="section">
                     <xsl:attribute name="id">body-<xsl:value-of select="count(preceding::div)+1"/></xsl:attribute>
                     <xsl:attribute name="class">div level<xsl:value-of select="count(ancestor::div)+count(ancestor::body)+1"/></xsl:attribute>
@@ -765,19 +769,21 @@
     </xsl:template>
     
     <xsl:template match="div[@resp='orig']" mode="reg">
-        <xsl:if test="child::p[1]/@resp[.='orig']"><xsl:apply-templates select="child::p[1]" mode="reg"/></xsl:if>
-        <xsl:apply-templates mode="text2"/>
-        
+        <xsl:choose>
+            <xsl:when test="child::p[1]/@resp[.='orig']"><xsl:apply-templates select="child::p[1]" mode="reg"/></xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates mode="text2"/></xsl:otherwise>
+        </xsl:choose>
         <xsl:if test="following-sibling::div[1][@resp='orig']">
             
             <xsl:apply-templates select="following-sibling::div[1][@resp='orig']" mode="reg"/>
         </xsl:if>
     </xsl:template>
     
-    <xsl:template match="div[@resp='reg']" mode="text1"/>
+    <!--<xsl:template match="div[@resp='reg']" mode="text1"/>
     
     <xsl:template match="div[@resp='orig']" mode="text2"/>
-     
+     -->
     
     <xsl:template match="hi[@resp='orig']" mode="text1">
         <xsl:if test="@rend ='i'">
@@ -882,7 +888,7 @@
         </xsl:choose>
         
     </xsl:template>
-    <xsl:template match="pb" mode="text1">
+    <xsl:template match="pb" mode="text1 orig">
         <xsl:choose>
             <xsl:when test="@resp='reg'"/>
             <xsl:when test="@resp='orig'"><xsl:text> </xsl:text>
@@ -906,7 +912,7 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="pb" mode="text2">
+    <xsl:template match="pb" mode="text2 reg">
         <xsl:choose>
             <xsl:when test="@resp='orig'"></xsl:when>
             <xsl:when test="@resp='reg'">
