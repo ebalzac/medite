@@ -491,8 +491,29 @@
     <xsl:template match="q"></xsl:template>
         
         <xsl:template match="reg" mode="text2">
-            <xsl:element name="a">
-                <xsl:attribute name="href"><xsl:choose>
+            <xsl:choose>
+                <xsl:when test="descendant::pb">
+                    <xsl:apply-templates select="descendant::pb" mode="text2"/>
+                    <xsl:element name="a">
+                    <xsl:attribute name="href"><xsl:choose>
+                        <xsl:when test="parent::choice/@corresp"><xsl:value-of select="parent::choice/@corresp"/></xsl:when>
+                        <xsl:otherwise><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
+                    <xsl:attribute name="id"><xsl:choose>
+                        <xsl:when test="parent::choice/@xml:id"><xsl:value-of select="parent::choice/@xml:id"/></xsl:when>
+                        <xsl:otherwise><xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
+                    <xsl:attribute name="class"><xsl:apply-templates select="parent::choice" mode="name"/></xsl:attribute>
+                    <xsl:attribute name="onclick"><xsl:choose>
+                        <xsl:when test="parent::choice/@corresp">align('<xsl:value-of select="substring(parent::choice/@corresp, 2)"/>')</xsl:when>
+                        <xsl:otherwise>align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
+                        <xsl:apply-templates select="*[not(pb)]"mode="text2"></xsl:apply-templates>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:element name="a">
+                        <xsl:attribute name="href"><xsl:choose>
                             <xsl:when test="parent::choice/@corresp"><xsl:value-of select="parent::choice/@corresp"/></xsl:when>
                             <xsl:otherwise><xsl:text>#g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
                         </xsl:choose></xsl:attribute>
@@ -505,12 +526,13 @@
                             <xsl:when test="parent::choice/@corresp">align('<xsl:value-of select="substring(parent::choice/@corresp, 2)"/>')</xsl:when>
                             <xsl:otherwise>align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
                         </xsl:choose></xsl:attribute>
-                    <xsl:apply-templates mode="text2"/>
-                    <xsl:if test=".=' '">
-                        <xsl:text> </xsl:text>
-                    </xsl:if>
-                </xsl:element>
-                
+                        <xsl:apply-templates mode="text2"/>
+                        <xsl:if test=".=' '">
+                            <xsl:text> </xsl:text>
+                        </xsl:if>
+                    </xsl:element>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:template>
     
     <xsl:template match="span" mode="text2">
@@ -532,6 +554,8 @@
     </xsl:template>
         
         <xsl:template match="orig" mode="text1">
+            <xsl:choose><xsl:when test="descendant::pb">
+                <xsl:apply-templates select="descendant::pb" mode="text1"/>
                 <xsl:element name="a">
                     <xsl:attribute name="href"><xsl:choose>
                         <xsl:when test="parent::choice/@corresp"><xsl:value-of select="parent::choice/@corresp"/></xsl:when>
@@ -546,11 +570,31 @@
                         <xsl:when test="parent::choice/@corresp">align('<xsl:value-of select="substring(parent::choice/@corresp, 2)"/>')</xsl:when>
                         <xsl:otherwise>align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
                     </xsl:choose></xsl:attribute>
-                <xsl:apply-templates mode="text1"/>
+                    <xsl:apply-templates select="*[not(pb)]" mode="text1"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="a">
+                    <xsl:attribute name="href"><xsl:choose>
+                        <xsl:when test="parent::choice/@corresp"><xsl:value-of select="parent::choice/@corresp"/></xsl:when>
+                        <xsl:otherwise><xsl:text>#d</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
+                    <xsl:attribute name="id"><xsl:choose>
+                        <xsl:when test="parent::choice/@xml:id"><xsl:value-of select="parent::choice/@xml:id"/></xsl:when>
+                        <xsl:otherwise><xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/></xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
+                    <xsl:attribute name="class"><xsl:apply-templates select="parent::choice" mode="name"/></xsl:attribute>
+                    <xsl:attribute name="onclick"><xsl:choose>
+                        <xsl:when test="parent::choice/@corresp">align('<xsl:value-of select="substring(parent::choice/@corresp, 2)"/>')</xsl:when>
+                        <xsl:otherwise>align('<xsl:text>d</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
+                    </xsl:choose></xsl:attribute>
+                    <xsl:apply-templates mode="text1"/>
                     <xsl:if test=".=' '">
                         <xsl:text> </xsl:text>
                     </xsl:if>
                 </xsl:element>
+            </xsl:otherwise></xsl:choose>
+                
         </xsl:template>
         
         <xsl:template match="choice[descendant::orig and descendant::reg]" mode="text1">
@@ -937,7 +981,7 @@
             <xsl:when test="@resp='orig'"><xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb_orig</xsl:attribute>
+                    <xsl:attribute name="class">pb_orig<xsl:if test="@facs"> facs</xsl:if></xsl:attribute></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
@@ -945,7 +989,7 @@
             </xsl:when>            <xsl:otherwise><xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb</xsl:attribute>
+                    <xsl:attribute name="class">pb<xsl:if test="@facs"> facs</xsl:if></xsl:attribute></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
@@ -961,7 +1005,7 @@
                 <xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb_reg</xsl:attribute>
+                    <xsl:attribute name="class">pb_reg<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>p. </xsl:text><xsl:value-of select="@n"/>
@@ -970,7 +1014,7 @@
                 <xsl:otherwise><xsl:text> </xsl:text>
                     <xsl:element name="a">
                         <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                        <xsl:attribute name="class">pb</xsl:attribute>
+                        <xsl:attribute name="class">pb<xsl:if test="@facs"> facs</xsl:if></xsl:attribute></xsl:attribute>
                         <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                         <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                         <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
