@@ -9,34 +9,17 @@
     
     <xsl:variable name="esp">&#160;</xsl:variable>
     <xsl:template match="/">
-        <html>
-            <head>
-                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-                    <link href="medite.css" rel="stylesheet" type="text/css" title="style par défaut"/>
-                        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"/>
-                <title><xsl:value-of select="//titleStmt/title[@type='orig']"/> : <xsl:value-of select="//titleStmt/title[@type='reg']"/></title>
-                            <link rel="stylesheet" href="css/style.css" type="text/css"/>
-                <script type="text/javascript" src="js/jquery-min.js"/>
-                                <script type="text/javascript" src="js/js.cookie.js"></script><script type="text/javascript" src="js/easing-min.js"/><script type="text/javascript" src="js/jquery.scrollTo-min.js"/>
-                                
-                                <script>function align(a){
-                                    document.getElementById(a).click()}</script></head>
-            <body>
-                                <article class="comparaison-html">
-                                    <article id="windows">
-                                        
-                                        <article class="txt_container left">
-                                            <div id="txt_title1"><xsl:value-of select="//titleStmt/title[@type='orig']"/></div>
-                                            <article id="txt_window">
-                                                <xsl:apply-templates select="//text" mode="text1"/>
-                                                <!--</form>--></article>
-                                        </article>
-                                        <article class="txt_container right">
-                                            <div id="txt_title2"><xsl:value-of select="//titleStmt/title[@type='reg']"/></div>
-                                            <article id="txt_window_2">
+        <article id="windows">
+            <article class="txt_container left">
+                <article id="txt_window">
+                    <xsl:apply-templates select="//text" mode="text1"/>
+                    <!--</form>--></article>
+            </article>
+            <article class="txt_container right">
+                <article id="txt_window_2">
                     <xsl:apply-templates select="//text" mode="text2"/>
-                <!--</form>--></article>
-                                        </article>
+                    <!--</form>--></article>
+            </article>
                                         <div id="modifications">
                                             <div id="rempl_ins_supp">
                                                 <div id="remplacements"><h4><img src="img/blue_dot.png" alt=""/> Remplacements <span class="nbr_occurences">[<xsl:value-of select="count(//choice[@ana='remplacement'])"/>]</span></h4>
@@ -58,7 +41,7 @@
                                                                         </xsl:if>
                                                                         <xsl:element name="span">
                                                                             <xsl:attribute name="class">light</xsl:attribute>
-                                                                            <xsl:text>→</xsl:text>
+                                                                            <xsl:text>&#9679;</xsl:text>
                                                                         </xsl:element>
                                                                         <xsl:value-of select="translate(substring(reg,0,10),' ', $esp)"/>
                                                                         <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
@@ -104,11 +87,10 @@
                                                                         <xsl:attribute name="href">#reg<xsl:value-of select="count(preceding::p[@resp])"/></xsl:attribute>
                                                                         <xsl:attribute name="onclick">align('orig<xsl:value-of select="count(preceding::p[@resp])"/>')</xsl:attribute>
                                                                         <xsl:attribute name="title"><xsl:value-of select="count(preceding::p[@resp='reg'])+1"/></xsl:attribute>
-                                                                        <xsl:value-of select="count(preceding::p[@resp='reg'])+1"/>
+                                                                        <xsl:text>[</xsl:text><xsl:value-of select="count(preceding::p[@resp='reg'])+1"/><xsl:text>] &#9679; </xsl:text>
                                                                     </xsl:element>
                                                                 </li>
                                                                 
-                                                                <span class="separator">⚫</span>
                                                             </xsl:for-each>
                                                         </li>
                                                     </ul>
@@ -145,10 +127,9 @@
                                                                         <xsl:attribute name="href">#orig<xsl:value-of select="count(preceding::p[@resp])"/></xsl:attribute>
                                                                         <xsl:attribute name="onclick">align('reg<xsl:value-of select="count(preceding::p[@resp])"/>')</xsl:attribute>
                                                                         <xsl:attribute name="title"><xsl:value-of select="count(preceding::p[@resp='orig'])+1"/></xsl:attribute>
-                                                                        <xsl:value-of select="count(preceding::p[@resp='orig'])+1"/>
+                                                                        <xsl:text>[</xsl:text><xsl:value-of select="count(preceding::p[@resp='orig'])+1"/><xsl:text>] &#9679; </xsl:text>
                                                                     </xsl:element>
                                                                 </li>
-                                                                <span class="separator">⚫</span>
                                                             </xsl:for-each>
                                                         </li>
                                                     </ul>
@@ -193,104 +174,6 @@
                                                 <div class="deplacements_next_btn"><a>Suivant</a></div></div>
                                         </div>
                                     </article>
-                                </article>
-                <script>
-                    function toggle_modifications(){
-                    $('#modifications').toggleClass('active');
-                    Cookies.set('panneau-modifications', $('#modifications').hasClass('active'));
-                    }
-                    
-                    $(document).ready(function(){
-                    $('#rempl_ins_supp > div > h4, #depl > div > h4').on('click touch', function(){
-                    $parent = $(this).parent();
-                    $('.liste-visible').not($parent).removeClass('liste-visible');
-                    $parent.toggleClass('liste-visible');
-                    });
-                    
-                    var scroll_options = {
-                    interrupt: true
-                    };
-                    
-                    $('#txt_title_1').html( $('#version_base').val() );
-                    $('#txt_title_2').html( $('#version_destination').val() );
-                    $('#txt_title_1, #txt_title_2').on('click touch', function(){
-                    var $titre = $(this);
-                    $titre.parents('#windows').toggleClass('large');
-                    $('body > section').scrollTo( $titre, 250, {});
-                    });
-                    
-                    $('.comparaison-html [id*="txt_window"]').each(function(){
-                    var $bloc_texte = $(this);
-                    var $bloc_texte_opposee = $(this).parent().siblings().find('[id*="txt_window"]');
-                    $('.span_c', $bloc_texte).each(function(){
-                    var $span   = $(this);
-                    var attr_id = $span.attr('id');
-                    var lettre  = attr_id.substr(0,1) == 'c'
-                    ? 'b'
-                    : 'c';
-                    var cible   = '#' + lettre + attr_id.substr(1);
-                    $span.attr('data-cible', cible);
-                    });
-                    $('.span_c', $bloc_texte).on('mouseenter', function(){
-                    var $span   = $(this);
-                    var $cible  = $( $span.attr('data-cible') );
-                    $cible.addClass('survol-cible');
-                    });
-                    $('.span_c', $bloc_texte).on('mouseleave', function(){
-                    var $span   = $(this);
-                    var $cible  = $( $span.attr('data-cible') );
-                    $cible.removeClass('survol-cible');
-                    });
-                    $('.span_c', $bloc_texte).on('click touch', function(){
-                    var $span   = $(this);
-                    var $cible  = $( $span.attr('data-cible') );
-                    $bloc_texte_opposee.scrollTo( $cible, 250, scroll_options );
-                    $bloc_texte.scrollTo( $span, 250, scroll_options );
-                    });
-                    });
-                    
-                    if ( Cookies.get('panneau-modifications') == 'true' ){
-                    $('#modifications').addClass('active');
-                    }
-                    
-                    setTimeout(function(){
-                    if ( typeof(Cookies.get('panneau-modifications')) == 'undefined' ){
-                    $('#modifications').addClass('active');
-                    setTimeout(function(){
-                    $('#modifications').removeClass('active');
-                    },3000)
-                    }
-                    $(".svg-loader").addClass('hidden');
-                    $(".comparaison-html").show();
-                    $(".hamburger-modifications").show();
-                    });
-                    
-                    });
-                    
-                    $('.pb').each(function(){
-                    var $lien     = $(this);
-                    var url_image;
-                    if ( $lien.hasClass('facs') ){
-                    url_image = $lien.attr('href');
-                    }else{
-                    url_image = 'https://www.ebalzac.com/romans/' + version + '/furne-corrige/scans/' + $lien.attr('id') + '.jpg';
-                    }
-                    
-                    var identifiant = $lien.attr('id');
-                    $lien.attr( 'href', url_image );
-                    $lien.attr('title', 'Page n°' + identifiant.substr(1) );
-                    $lien.attr('data-caption', 'Page n°' + identifiant.substr(1) + '<br />' + '<a href="' + url_image + '" target="_blank">Voir l’image</a>' );
-                    $lien.attr('target', '_blank');
-                    $lien.html( $lien.html().replace(/\{|\}/g,'') );
-                    $lien.on('click touch', function(e){
-                    $('.apercu-page > img').attr('src', url_image );
-                    $('.apercu-page').addClass('apercu-visible');
-                    e.stopPropagation();
-                    e.preventDefault();
-                    });
-                    });</script>
-            </body>
-        </html>
     </xsl:template>
         <xsl:template match="text" mode="text1">
             <xsl:element name="article"><xsl:attribute name="class">text</xsl:attribute><xsl:apply-templates mode="text1"/></xsl:element>
@@ -508,7 +391,7 @@
                         <xsl:when test="parent::choice/@corresp">align('<xsl:value-of select="substring(parent::choice/@corresp, 2)"/>')</xsl:when>
                         <xsl:otherwise>align('<xsl:text>g</xsl:text><xsl:value-of select="count(preceding::choice)"/>')</xsl:otherwise>
                     </xsl:choose></xsl:attribute>
-                        <xsl:apply-templates select="*[not(pb)]"mode="text2"></xsl:apply-templates>
+                        <xsl:apply-templates select="*[not(pb)]" mode="text2"></xsl:apply-templates>
                     </xsl:element>
                 </xsl:when>
                 <xsl:otherwise>
@@ -981,7 +864,7 @@
             <xsl:when test="@resp='orig'"><xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb_orig<xsl:if test="@facs"> facs</xsl:if></xsl:attribute></xsl:attribute>
+                    <xsl:attribute name="class">pb_orig<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
@@ -989,7 +872,7 @@
             </xsl:when>            <xsl:otherwise><xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb<xsl:if test="@facs"> facs</xsl:if></xsl:attribute></xsl:attribute>
+                    <xsl:attribute name="class">pb<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
@@ -1014,7 +897,7 @@
                 <xsl:otherwise><xsl:text> </xsl:text>
                     <xsl:element name="a">
                         <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                        <xsl:attribute name="class">pb<xsl:if test="@facs"> facs</xsl:if></xsl:attribute></xsl:attribute>
+                        <xsl:attribute name="class">pb<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                         <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                         <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                         <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>

@@ -31,7 +31,7 @@ font-size: 1.5em;
 font-weight: lighter;
 margin: 0.5em 0 0.5em 0;}
  a:hover{
-background:#ddf7d4;
+opacity:0.5;
 text-decoration: none;
 }
             
@@ -65,6 +65,32 @@ font-size: 19px;
 display: block;
 width: inherit}
 
+
+                                         .menu-compar{
+         left:0; background: #EEE; width: 13%
+    }
+  .liste-romans {
+    text-align: left;
+                                        margin-top: 25%;
+                                        padding: 10px;}
+.liste-romans ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em
+}
+.liste-romans ul li>span {
+    display: block;
+    padding: 5px;
+    font-weight: bold
+    
+}
+    #windows{display: inline-flex}
+       .apercu-page{display:block;position:absolute;top:0;left:-3%;right:auto;bottom:0;width:50%;transform:translateX(-100%);-webkit-transform:-webkit-translateX(-100%);overflow:auto;background:#ddf7d4;z-index:2;transition:all .25s ease 0s;-webkit-transition:all .25s ease 0s}
+        .apercu-page.apercu-visible{transform:translateX(0);-webkit-transform:-webkit-translateX(0);left:0; }
+        .scan-page{width:100%;height:auto;display:block;text-align:center}
+        .apercu-page button{position:absolute;top:0px;right:0px;height:40px;width:40px;background:none;border:0px none;padding:4px;margin:0;cursor:pointer}
+        .apercu-page button:hover{background:#2A2B2F}.apercu-page button img{height:100%;width:100%}
 .preg{
 display:inline;
 background: #44ac20;
@@ -94,35 +120,20 @@ div.dedication p{
 font-style: italic;
     text-indent: 1em;
     margin: 0;
-}}
-p a.pb_orig{
-padding: 2px 5px;
-color: #2A2B2F;
-background: #e78888;
-font-size: 12px;
-font-style: normal;
-text-indent: 0;
 }
 a.pb_orig{
 padding: 2px 5px;
 color: #2A2B2F;
-background: #e78888;
+background: #AF7AC5;
 font-size: 12px;
 font-style: normal;
 text-indent: 0;
 }
-p a.pb_reg{
-padding: 2px 5px;
-color: #2A2B2F;
-background: #44ac20;
-font-size: 12px;
-font-style: normal;
-text-indent: 0;
-}
+
 a.pb_reg{
 padding: 2px 5px;
 color: #2A2B2F;
-background: #44ac20;
+background: #16A085;
 font-size: 12px;
 font-style: normal;
 text-indent: 0;
