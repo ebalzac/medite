@@ -48,7 +48,7 @@
                                                                     <xsl:element name="a">
                                                                         <xsl:attribute name="href">#d<xsl:value-of select="count(preceding::choice)"/></xsl:attribute>
                                                                         <xsl:attribute name="onclick">align('g<xsl:value-of select="count(preceding::choice)"/>')</xsl:attribute>
-                                                                        <xsl:attribute name="title"><xsl:value-of select="translate(descendant::orig,' ', $esp)"/><xsl:text>→</xsl:text><xsl:value-of select="translate(descendant::reg,' ', '&#160;')"/></xsl:attribute>
+                                                                        <xsl:attribute name="title"><xsl:value-of select="translate(descendant::orig,' ', $esp)"/><xsl:text>&#x2192;</xsl:text><xsl:value-of select="translate(descendant::reg,' ', '&#160;')"/></xsl:attribute>
                                                                         
                                                                         <xsl:value-of select="translate(substring(orig,0,10),' ', $esp)"/>
                                                                         <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
@@ -58,7 +58,7 @@
                                                                         </xsl:if>
                                                                         <xsl:element name="span">
                                                                             <xsl:attribute name="class">light</xsl:attribute>
-                                                                            <xsl:text>→</xsl:text>
+                                                                            <xsl:text>&#x2192;</xsl:text>
                                                                         </xsl:element>
                                                                         <xsl:value-of select="translate(substring(reg,0,10),' ', $esp)"/>
                                                                         <xsl:if test="string-length(substring(orig, 10)) > 0"><xsl:element name="span">
@@ -108,7 +108,7 @@
                                                                     </xsl:element>
                                                                 </li>
                                                                 
-                                                                <span class="separator">⚫</span>
+                                                                <span class="separator"> | </span>
                                                             </xsl:for-each>
                                                         </li>
                                                     </ul>
@@ -145,10 +145,10 @@
                                                                         <xsl:attribute name="href">#orig<xsl:value-of select="count(preceding::p[@resp])"/></xsl:attribute>
                                                                         <xsl:attribute name="onclick">align('reg<xsl:value-of select="count(preceding::p[@resp])"/>')</xsl:attribute>
                                                                         <xsl:attribute name="title"><xsl:value-of select="count(preceding::p[@resp='orig'])+1"/></xsl:attribute>
-                                                                        <xsl:value-of select="count(preceding::p[@resp='orig'])+1"/>
+                                                                       <xsl:value-of select="count(preceding::p[@resp='orig'])+1"/>
                                                                     </xsl:element>
                                                                 </li>
-                                                                <span class="separator">⚫</span>
+                                                                <span class="separator"> | </span>
                                                             </xsl:for-each>
                                                         </li>
                                                     </ul>
@@ -937,7 +937,7 @@
             <xsl:when test="@resp='orig'"><xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb_orig</xsl:attribute>
+                    <xsl:attribute name="class">pb_orig<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
@@ -945,7 +945,7 @@
             </xsl:when>            <xsl:otherwise><xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb</xsl:attribute>
+                    <xsl:attribute name="class">pb_orig<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
@@ -961,7 +961,7 @@
                 <xsl:text> </xsl:text>
                 <xsl:element name="a">
                     <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                    <xsl:attribute name="class">pb_reg</xsl:attribute>
+                    <xsl:attribute name="class">pb_reg<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                     <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                     <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                     <xsl:text>p. </xsl:text><xsl:value-of select="@n"/>
@@ -970,7 +970,7 @@
                 <xsl:otherwise><xsl:text> </xsl:text>
                     <xsl:element name="a">
                         <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                        <xsl:attribute name="class">pb</xsl:attribute>
+                        <xsl:attribute name="class">pb_reg<xsl:if test="@facs"> facs</xsl:if></xsl:attribute>
                         <xsl:if test="@facs"><xsl:attribute name="href"><xsl:value-of select="@facs"/></xsl:attribute></xsl:if>
                         <xsl:attribute name="title">Page n°<xsl:value-of select="@n"/></xsl:attribute>
                         <xsl:text>[p.</xsl:text><xsl:value-of select="$esp"/><xsl:value-of select="@n"/><xsl:text>]</xsl:text>
